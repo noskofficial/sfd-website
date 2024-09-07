@@ -1,0 +1,15 @@
+{
+  "name": "sfd-website",
+  "version": "1.0.0",
+  "description": "Website for NOSK Software Freedom Day, featuring event details, schedules, open-source project exhibitions, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i css/input.css -o css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
