@@ -4,17 +4,22 @@
 
 @layer components {
   .bg-grid {
-    background-color: #F6F6FF;
-    background-image:
-      linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    background-color: #f6f6ff;
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+      ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
-  
+
     background-size: 50px 50px;
   }
 
-
-  
-  
+  .sec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 45%));
+    grid-template-rows: repeat(1, (0, 55%));
+  }
 }
 
 @font-face {
