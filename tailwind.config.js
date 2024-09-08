@@ -11,7 +11,7 @@ module.exports = {
         bahnschrift: ["Bahnschrift", "sans-serif"],
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/timer/timer_bg.svg')",
+        'hero-pattern': "url('../assets/timer/timer_bg.svg')",
         
       },
     },
