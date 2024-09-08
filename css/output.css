@@ -830,7 +830,7 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('/assets/timer/timer_bg.svg');
+  background-image: url('../assets/timer/timer_bg.svg');
 }
 
 .bg-cover {
@@ -938,6 +938,10 @@ video {
   font-weight: 300;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -989,12 +993,21 @@ video {
   src: url(../fonts/Bahnschrift.ttf);
 }
 
+.\*\:text-black > * {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
 
 .hover\:border-2:hover {
   border-width: 2px;
+}
+
+.hover\:border-b-2:hover {
+  border-bottom-width: 2px;
 }
 
 .hover\:border-solid:hover {
