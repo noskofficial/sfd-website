@@ -6,18 +6,17 @@
     <link rel="stylesheet" href="./../css/output.css" />
     <title>Document</title>
   </head>
-  <body class="bg-grid font-bahnschrift" id="body">
-    
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
     <section
       id="hero"
-      class="w-dvwpx-[10%] flex h-[calc(100dvh-7.5rem)] items-center justify-center p-3 pt-0"
+      class="flex h-[calc(100vh-7.5rem)] w-full items-center justify-center p-3 pt-0"
     >
-      <div id="holder" class="grid grid-cols-2 grid-rows-1">
+      <div id="holder" class="grid max-w-full grid-cols-2 grid-rows-1">
         <div>
           <div class="mb-2 text-[44px] font-bold">
             <p>
-              <span class="text-black">Celebrate </span
-              ><span class="text-[#FFC700]"> Software<br />Freedom Day</span>
+              <span class="text-black">Celebrate </span>
+              <span class="text-[#FFC700]"> Software<br />Freedom Day</span>
               <span class="text-[#E4554E]">2024</span> with
               <span class="text-[#208820]"><br />Nepal Open Source Klub</span>
             </p>
@@ -50,19 +49,78 @@
             </button>
           </div>
           <div class="mt-2 flex flex-row">
-            <img src="../assets/sfd_horizontal.svg" alt="SFD Horizontal" />
-            <img src="../assets/nosk_logo.svg" alt="Nosk Logo" />
+            <img
+              src="../assets/shared/sfd_horizontal.svg"
+              alt="SFD Horizontal"
+              class="max-w-full"
+            />
+            <img
+              src="../assets/shared/nosk_logo.svg"
+              alt="Nosk Logo"
+              class="max-w-full"
+            />
           </div>
         </div>
-        <div class="">
+        <div>
           <img
-            src="../assets/intro.svg"
+            src="../assets/hero/intro.svg"
             alt="Candle Ceremony NOSK"
-            class="z-10"
+            class="z-10 max-w-full"
           />
         </div>
       </div>
     </section>
+
+    <section
+      class="flex h-[460px] w-full  content-center items-center justify-center bg-hero-pattern bg-cover gap-56"
+    >
+      <div class="flex flex-col justify-center  text-[16px] text-white">
+        <span class="text-2xl font-bold"
+          >Be a Part of The Celebration<br />Mark your Calenders<br
+        /></span>
+        <br>
+        <span
+          >Event Date: <span class="font-extralight">21st September, 2024</span
+          ><br
+        /></span>
+        <span
+          >Venue:
+          <span class="font-extralight"
+            >Nepal College of Information Technology</span
+          ><br
+        /></span>
+        <span
+          >Location: <span class="font-extralight">Balkumari, Lalitpur</span
+          ><br
+        /></span>
+        <span>Time: <span class="font-extralight">10:00 AM</span></span>
+      </div>
+ <div>
+        <div id="timer" class="flex items-center justify-center text-white">
+          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
+              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
+              <div class="row-span-2 font-bold text-6xl w-full text-center" id="days">0</div>
+              <div class="w-full text-center font-light text-base">Days</div>
+          </div>
+          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
+              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
+              <div class="row-span-2 font-bold text-6xl w-full text-center" id="hours">0</div>
+              <div class="w-full text-center font-light text-base">Hours</div>
+          </div>
+          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
+              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
+              <div class="row-span-2 font-bold text-6xl w-full text-center" id="minutes">0</div>
+              <div class="w-full text-center font-light text-base">Minutes</div>
+          </div>
+          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 ">
+              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
+              <div class="row-span-2 font-bold text-6xl w-full text-center" id="seconds">0</div>
+              <div class="w-full text-center font-light text-base">Seconds</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="../js/navbar.js"></script>
   </body>
 </html>

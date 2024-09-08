@@ -1,5 +1,5 @@
-const navCode = `<nav class="flex flex-row mb-4 w-dvw justify-between px-[1%] md:px-[5%] lg:px-[10%] mt-7 h-[4.75rem]">
-    <a href="/html"><img class="h-[4.75rem] w-auto hover:cursor-pointer" src="../assets/nosk_sfd.svg"
+const navCode = `<nav class="flex flex-row mb-4 w-full justify-between px-[1%] md:px-[5%] lg:px-[10%] mt-7 h-[4.75rem]">
+    <a href="/html"><img class="h-[4.75rem] w-auto hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="navlist"
         class="list-none flex flex-row xl:gap-20 sm:gap-4 md:gap-6 lg:gap-8 my-auto text-xl font-semibold items-center *:hover:cursor-pointer font-bahnschrift h-[4.75rem]">
@@ -78,3 +78,42 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 })
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const sfdDate = new Date("2024-09-21T10:00:00");
+    const daysElem = document.getElementById("days");
+    const hoursElem = document.getElementById("hours");
+    const minutesElem = document.getElementById("minutes");
+    const secondsElem = document.getElementById("seconds");
+
+    function pad(num) {
+        return num.toString().padStart(2, '0');
+    }
+
+    function updateTimer() {
+        const currDate = new Date();
+        let diff = sfdDate - currDate;
+
+        if (diff < 0) {
+            daysElem.innerText = "00";
+            hoursElem.innerText = "00";
+            minutesElem.innerText = "00";
+            secondsElem.innerText = "00";
+            clearInterval(inter); // Stop the interval when the countdown is finished
+            return;
+        }
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+        daysElem.innerText = pad(days);
+        hoursElem.innerText = pad(hours);
+        minutesElem.innerText = pad(minutes);
+        secondsElem.innerText = pad(seconds);
+    }
+
+    const inter = setInterval(updateTimer, 1000);
+});
