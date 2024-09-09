@@ -790,10 +790,6 @@ video {
   height: 8.5rem;
 }
 
-.h-\[calc\(100vh-7\.5rem\)\] {
-  height: calc(100vh - 7.5rem);
-}
-
 .h-full {
   height: 100%;
 }
@@ -870,12 +866,12 @@ video {
   width: 66rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-full {

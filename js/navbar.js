@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navList = document.getElementById("nav-list")
     hamMenu.addEventListener("click", () => {
         let srcNow = hamMenu.getAttribute("src")
-        if (srcNow == "./assets/navbar/hamMenu.svg") {
+        if (srcNow == "../assets/navbar/hamMenu.svg") {
             hamMenu.setAttribute("src", "../assets/navbar/closeMenu.svg")
         } else {
             hamMenu.setAttribute("src", "../assets/navbar/hamMenu.svg")
@@ -113,42 +113,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 })
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    const sfdDate = new Date("2024-09-21T10:00:00");
-    const daysElem = document.getElementById("days");
-    const hoursElem = document.getElementById("hours");
-    const minutesElem = document.getElementById("minutes");
-    const secondsElem = document.getElementById("seconds");
-
-    function pad(num) {
-        return num.toString().padStart(2, '0');
-    }
-
-    function updateTimer() {
-        const currDate = new Date();
-        let diff = sfdDate - currDate;
-
-        if (diff < 0) {
-            daysElem.innerText = "00";
-            hoursElem.innerText = "00";
-            minutesElem.innerText = "00";
-            secondsElem.innerText = "00";
-            clearInterval(inter); // Stop the interval when the countdown is finished
-            return;
-        }
-
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-        daysElem.innerText = pad(days);
-        hoursElem.innerText = pad(hours);
-        minutesElem.innerText = pad(minutes);
-        secondsElem.innerText = pad(seconds);
-    }
-
-    const inter = setInterval(updateTimer, 1000);
-});
