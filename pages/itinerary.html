@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSK SFD 2024 Event Schedule</title>
+    <link rel="stylesheet" href="./../css/output.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #schedule {
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1rem;
+            padding: 2rem 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .thread-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            background-color: #4caf50;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .card {
+            background-color: #1f2937d8;
+            color: #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            grid-column: span 5;
+        }
+
+        #intro {
+            position: relative;
+            background: linear-gradient(to bottom right, #208820, #FFDD50);
+            color: #fff;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+
+        #intro h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        #intro p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        #scroll-down {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            padding: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #scroll-down svg {
+            width: 1rem;
+            height: 1rem;
+            stroke: #fff;
+            stroke-width: 2;
+        }
+
+        @media (max-width: 1024px) {
+            #schedule {
+                grid-template-columns: repeat(6, 1fr);
+                padding: 1rem;
+                margin: 0 2rem;
+            }
+
+            .card {
+                grid-column: span 6;
+            }
+
+            .thread-line {
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            #schedule {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+                margin: 0 1rem;
+            }
+
+            .card {
+                grid-column: span 1;
+            }
+
+            .thread-line {
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+
+        @media (max-width: 480px) {
+            #intro h1 {
+                font-size: 2rem;
+            }
+
+            #intro p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-white font-bahnschrift max-w-screen max-h-screen" id="body">
+
+    <section id="intro">
+        <div>
+            <h1 class="text-4xl font-bold">Celebrate Software Freedom Day 2024</h1>
+            <p class="text-lg">Join us for an exciting day of innovation and collaboration. Discover the schedule below
+                to plan your visit.</p>
+            <div id="scroll-down" onclick="document.getElementById('schedule').scrollIntoView();">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="relative">
+
+        <!-- Event entries will be dynamically inserted here -->
+
+    </section>
+
+    <div class="mt-10">
+        <h3 class="text-2xl font-bold text-center mb-4">Sponsors:</h3>
+        <div class="flex justify-center space-x-4 mb-8">
+            <img src="https://lms.ncit.edu.np/ncit_logo.jpg" alt="NCIT College" class="w-16">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tWpLTCIS9LfzjUuA1lshDqiF8eNr2SHy3A&s"
+                alt="GitHub Education" class="w-16">
+            <img src="https://cdn.esewa.com.np/ui/images/logos/esewa-icon-large.png" alt="eSewa Ltd." class="w-16">
+        </div>
+    </div>
+
+    <div class="text-center mb-8">
+        <a href="#"
+            class="bg-[#208820] text-white py-2 px-6 rounded-full hover:bg-[#156515] transition duration-200">Register
+            Now</a>
+    </div>
+
+    <div class="h-5">
+        <!-- Footer Goes Here -->
+    </div>
+
+    <script src="../js/schedule.js"></script>
+    <script src="../js/navbar.js"></script>
+</body>
+
+</html>

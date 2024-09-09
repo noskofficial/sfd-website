@@ -1,0 +1,134 @@
+[
+    {
+        "time": "09:00 - 09:30",
+        "title": "Opening Remarks",
+        "speaker": {
+            "name": "Er. Niranjan Khakurel",
+            "title": "Principal, NCIT & NOSK Well-Wisher",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Opening",
+        "link": "https://example.com/introduction-hello"
+    },
+    {
+        "time": "09:30 - 10:30",
+        "title": "Keynote Speaker",
+        "speaker": {
+            "name": "Dr. Hempal Shrestha",
+            "title": "Founding Member, FOSS NEPAL",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Keynote",
+        "link": "https://example.com/keynote-speaker"
+    },
+    {
+        "time": "10:30 - 11:30",
+        "title": "Capture the Flag (CTF) Competition",
+        "speaker": {
+            "name": "Bikram Kharal, Rajan Kshedal",
+            "title": "Cybersecurity Enthusiasts",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Competition",
+        "link": "https://example.com/capture-the-flag"
+    },
+    {
+        "time": "11:30 - 12:30",
+        "title": "Linux Distro & Open Source Projects Demo",
+        "speaker": {
+            "name": "NOSK & Open Source Contributors",
+            "title": "Linux & Open Source Specialists",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Demo",
+        "link": "https://example.com/distro-demo"
+    },
+    {
+        "time": "12:30 - 13:00",
+        "title": "Lunch Break",
+        "speaker": {
+            "name": "Break Time",
+            "title": "",
+            "image": ""
+        },
+        "date": "Break",
+        "link": "N/A"
+    },
+    {
+        "time": "13:00 - 14:30",
+        "title": "Open Source Project Exhibition",
+        "speaker": {
+            "name": "Various Exhibitors",
+            "title": "Open Source Contributors",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Exhibition",
+        "link": "https://example.com/open-source-exhibition"
+    },
+    {
+        "time": "14:30 - 15:30",
+        "title": "NOSKODE 5.0",
+        "speaker": {
+            "name": "Bishal Poudel, Abhilekh Gautam",
+            "title": "NOSKODE Host, NOSK Contributors",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Competition",
+        "link": "https://example.com/noskode"
+    },
+    {
+        "time": "15:30 - 16:15",
+        "title": "Breakout / Discussion Rooms",
+        "speaker": {
+            "name": "Various Moderators",
+            "title": "Discussion Leaders",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Talks",
+        "link": "https://example.com/breakout-discussion"
+    },
+    {
+        "time": "16:15 - 17:00",
+        "title": "Photo and Memory Shoot",
+        "speaker": {
+            "name": "Event Team",
+            "title": "Event Coordinators",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "PhotoShoot",
+        "link": "N/A"
+    },
+    {
+        "time": "17:00 - 17:45",
+        "title": "Opensource and ChitChats / Open Floor Discussion",
+        "speaker": {
+            "name": "Community Leaders",
+            "title": "Open Floor Moderators",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Open-Floor",
+        "link": "https://example.com/opensource-chitchats"
+    },
+    {
+        "time": "17:45 - 18:15",
+        "title": "Alumni Meetup and Cake Cutting",
+        "speaker": {
+            "name": "NOSK Alumns",
+            "title": "Open Source Enthusiasts",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Celebration",
+        "link": "https://example.com/alumni-meetup-cake-cutting"
+    },
+    {
+        "time": "18:15 - 18:45",
+        "title": "Candle Light Celebration & Good Night!",
+        "speaker": {
+            "name": "Event Team & Alumns",
+            "title": "Event Facilitators and NOSK Alumns",
+            "image": "https://via.placeholder.com/50"
+        },
+        "date": "Celebration",
+        "link": "https://example.com/candle-light-celebration"
+    }
+]
