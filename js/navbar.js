@@ -1,5 +1,5 @@
 const navCode = `<nav class="flex flex-row mb-4 w-full justify-between px-[1%] md:px-[5%] lg:px-[10%] mt-7 h-[4.75rem]">
-    <a href="/html"><img class="h-[4.75rem] w-auto hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
+    <a href="/pages"><img class="h-[4.75rem] w-auto hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="navlist"
         class="list-none flex flex-row xl:gap-20 sm:gap-4 md:gap-6 lg:gap-8 my-auto text-xl font-semibold items-center *:hover:cursor-pointer font-bahnschrift h-[4.75rem]">
@@ -18,7 +18,7 @@ const navCode = `<nav class="flex flex-row mb-4 w-full justify-between px-[1%] m
                 class="hidden absolute *:text-black group-hover/about:block bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a href="/html/aboutsfd.html" class="text-sm hover:bg-gray-100 block px-4 py-2">About
+                        <a href="/pages/aboutsfd.html" class="text-sm hover:bg-gray-100 block px-4 py-2">About
                             SFD</a>
                     </li>
                     <li>
@@ -33,8 +33,8 @@ const navCode = `<nav class="flex flex-row mb-4 w-full justify-between px-[1%] m
                 </ul>
             </div>
         </span>
-        <span id="itinerary" class="hover:border-b-2"><a href="/html/itinerary.html">Itinerary</a></span>
-        <span id="team" class="hover:border-b-2"><a href="/html/ourteam.html">Our Team</a></span>
+        <span id="itinerary" class="hover:border-b-2"><a href="/pages/itinerary.html">Itinerary</a></span>
+        <span id="team" class="hover:border-b-2"><a href="/pages/ourteam.html">Our Team</a></span>
         <span class="group/activities" id="activities">
             <button
                 class="md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Activities
@@ -58,8 +58,8 @@ const navCode = `<nav class="flex flex-row mb-4 w-full justify-between px-[1%] m
                 </ul>
             </div>
         </span>
-        <span id="faqs" class="hover:border-b-2"><a href="/html/faqs.html">FAQs</a></span>
-        <span id="contact" class="hover:border-b-2"><a href="/html/contactus.html">Contact Us</a></span>
+        <span id="faqs" class="hover:border-b-2"><a href="/pages/faqs.html">FAQs</a></span>
+        <span id="contact" class="hover:border-b-2"><a href="/pages/contactus.html">Contact Us</a></span>
     </div>
 </nav>
 `
