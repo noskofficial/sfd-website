@@ -7,143 +7,195 @@
     <title>NOSK SFD 2024 Event Schedule</title>
     <link rel="stylesheet" href="./../css/output.css" />
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
+       html {
+    scroll-behavior: smooth;
+}
 
-        #schedule {
-            position: relative;
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 1rem;
-            padding: 2rem 0;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+#schedule {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+}
 
-        .thread-line {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 2px;
-            background-color: #4caf50;
-            height: 100%;
-            z-index: 1;
-        }
+.thread-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: #FFDD50; /* Dark Yellow */
+    height: 100%;
+    z-index: 1;
+}
 
-        .card {
-            background-color: #1f2937d8;
-            color: #e5e7eb;
-            border-radius: 0.5rem;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: relative;
-            width: 100%;
-            grid-column: span 5;
-        }
+.card {
+    background-color: #016F01; /* Dark Green Background */
+    color: #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    grid-column: span 5;
+}
 
-        #intro {
-            position: relative;
-            background: linear-gradient(to bottom right, #208820, #FFDD50);
-            color: #fff;
-            text-align: center;
-            padding: 5rem 2rem;
-        }
+#intro {
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
 
-        #intro h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
+#intro h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
 
-        #intro p {
-            font-size: 1.25rem;
-            margin-bottom: 2rem;
-        }
+#intro .lines-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
 
-        #scroll-down {
-            position: absolute;
-            bottom: 2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            cursor: pointer;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            padding: 0.5rem;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+#intro .line {
+    position: absolute;
+    height: 4px;
+    transition: width 0.3s;
+}
 
-        #scroll-down svg {
-            width: 1rem;
-            height: 1rem;
-            stroke: #fff;
-            stroke-width: 2;
-        }
+#intro .line.first {
+    background-color: #FFCD29; 
+    width: 180px;
+    top: 0;
+}
 
-        @media (max-width: 1024px) {
-            #schedule {
-                grid-template-columns: repeat(6, 1fr);
-                padding: 1rem;
-                margin: 0 2rem;
-            }
+#intro .line.middle {
+    background-color: #208820; 
+    width: 220px;
+    top: 8px;
+}
 
-            .card {
-                grid-column: span 6;
-            }
+#intro .line.last {
+    background-color: #E4554E; 
+    width: 180px;
+    top: 16px;
+}
 
-            .thread-line {
-                left: 0;
-                transform: translateX(0);
-            }
-        }
+.thread-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: #DAA520; /* Dark Yellow */
+    height: 100%;
+    z-index: 1;
+}
 
-        @media (max-width: 768px) {
-            #schedule {
-                grid-template-columns: 1fr;
-                padding: 1rem;
-                margin: 0 1rem;
-            }
+.card {
+    background-color: #016F01; /* Dark Green Background */
+    color: #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    grid-column: span 5;
+}
 
-            .card {
-                grid-column: span 1;
-            }
+@media (max-width: 1024px) {
+    #schedule {
+        grid-template-columns: repeat(6, 1fr);
+        padding: 1rem;
+        margin: 0 2rem;
+    }
 
-            .thread-line {
-                left: 0;
-                transform: translateX(0);
-            }
-        }
+    .card {
+        grid-column: span 6;
+    }
 
-        @media (max-width: 480px) {
-            #intro h1 {
-                font-size: 2rem;
-            }
+    .thread-line {
+        left: 0;
+        transform: translateX(0);
+    }
+}
 
-            #intro p {
-                font-size: 1rem;
-            }
-        }
+@media (max-width: 768px) {
+    #schedule {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+
+    .card {
+        grid-column: span 1;
+    }
+
+    .thread-line {
+        left: 0;
+        transform: translateX(0);
+    }
+}
+
+
+@media (max-width: 480px) {
+    #intro h1 {
+        font-size: 2rem;
+    }
+
+    #intro p {
+        font-size: 1rem;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1.71rem;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.btn-register-now {
+    background-color: #FFDD50;
+    color: #000;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-register-now:hover {
+    background-color: transparent;
+    border-color: #FFDD50;
+    color: #000;
+}
+
     </style>
 </head>
 
-<body class="bg-white font-bahnschrift max-w-screen max-h-screen" id="body">
+<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
 
-    <section id="intro">
-        <div>
-            <h1 class="text-4xl font-bold">Celebrate Software Freedom Day 2024</h1>
-            <p class="text-lg">Join us for an exciting day of innovation and collaboration. Discover the schedule below
-                to plan your visit.</p>
-            <div id="scroll-down" onclick="document.getElementById('schedule').scrollIntoView();">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
+    <section id="intro" class="py-10">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold">Event Activities</h1>
+            <div class="lines-container">
+                <span class="line first"></span>
+                <span class="line middle"></span>
+                <span class="line last"></span>
             </div>
         </div>
     </section>
@@ -154,20 +206,8 @@
 
     </section>
 
-    <div class="mt-10">
-        <h3 class="text-2xl font-bold text-center mb-4">Sponsors:</h3>
-        <div class="flex justify-center space-x-4 mb-8">
-            <img src="https://lms.ncit.edu.np/ncit_logo.jpg" alt="NCIT College" class="w-16">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tWpLTCIS9LfzjUuA1lshDqiF8eNr2SHy3A&s"
-                alt="GitHub Education" class="w-16">
-            <img src="https://cdn.esewa.com.np/ui/images/logos/esewa-icon-large.png" alt="eSewa Ltd." class="w-16">
-        </div>
-    </div>
-
     <div class="text-center mb-8">
-        <a href="#"
-            class="bg-[#208820] text-white py-2 px-6 rounded-full hover:bg-[#156515] transition duration-200">Register
-            Now</a>
+        <a href="#" class="btn btn-register-now">Register Now</a>
     </div>
 
     <div class="h-5">

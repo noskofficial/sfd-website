@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
 
-            // Insert the timeline indicator
+            // Insert the timeline indicator with dark yellow color
             let timelineHTML = `
                 <div class="relative col-start-6 col-end-7 mx-auto">
                     <div class="flex items-center justify-center w-6 h-full">
-                        <div class="w-1 h-full ${index % 2 === 0 ? 'bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300' : 'bg-indigo-300'}"></div>
+                        <div class="w-1 h-full bg-[#DAA520]"></div>
                     </div>
-                    <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                    <div class="absolute w-6 h-6 -mt-3 bg-[#DAA520] border-4 border-[#DAA520] rounded-full top-1/2"></div>
                 </div>
             `;
 
