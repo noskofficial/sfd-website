@@ -28,7 +28,7 @@
           </div>
           <div class="align my-5 flex items-center text-xl font-bold">
             <button
-              class="mr-2 h-[3.75rem] w-[13.75rem] rounded-[1.71rem] bg-[#FFDD50] text-center hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent"
+              class="mr-2 h-[3.75rem] w-[13.75rem] rounded-[1.71rem] bg-[#FFDD50] text-center hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent shadow-md"
             >
               <a
                 href="#"
@@ -72,13 +72,13 @@
     </section>
 
     <section
-      class="flex h-[460px] w-full  content-center items-center justify-center bg-hero-pattern bg-cover gap-56"
+      class="flex h-[460px] w-full content-center items-center justify-center gap-56 bg-hero-pattern bg-cover"
     >
-      <div class="flex flex-col justify-center  text-[16px] text-white">
+      <div class="flex flex-col justify-center text-[16px] text-white">
         <span class="text-2xl font-bold"
           >Be a Part of The Celebration<br />Mark your Calenders<br
         /></span>
-        <br>
+        <br />
         <span
           >Event Date: <span class="font-extralight">21st September, 2024</span
           ><br
@@ -95,31 +95,127 @@
         /></span>
         <span>Time: <span class="font-extralight">10:00 AM</span></span>
       </div>
- <div>
+      <div>
         <div id="timer" class="flex items-center justify-center text-white">
-          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
-              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
-              <div class="row-span-2 font-bold text-6xl w-full text-center" id="days">0</div>
-              <div class="w-full text-center font-light text-base">Days</div>
+          <div
+            class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift"
+          >
+            <div
+              class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"
+            ></div>
+            <div
+              class="row-span-2 w-full text-center text-6xl font-bold"
+              id="days"
+            >
+              0
+            </div>
+            <div class="w-full text-center text-base font-light">Days</div>
           </div>
-          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
-              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
-              <div class="row-span-2 font-bold text-6xl w-full text-center" id="hours">0</div>
-              <div class="w-full text-center font-light text-base">Hours</div>
+          <div
+            class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift"
+          >
+            <div
+              class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"
+            ></div>
+            <div
+              class="row-span-2 w-full text-center text-6xl font-bold"
+              id="hours"
+            >
+              0
+            </div>
+            <div class="w-full text-center text-base font-light">Hours</div>
           </div>
-          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 mr-4">
-              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
-              <div class="row-span-2 font-bold text-6xl w-full text-center" id="minutes">0</div>
-              <div class="w-full text-center font-light text-base">Minutes</div>
+          <div
+            class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift"
+          >
+            <div
+              class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"
+            ></div>
+            <div
+              class="row-span-2 w-full text-center text-6xl font-bold"
+              id="minutes"
+            >
+              0
+            </div>
+            <div class="w-full text-center text-base font-light">Minutes</div>
           </div>
-          <div class="border-4 border-slate-600 h-24 w-24 rounded-xl relative grid grid-rows-3 font-bahnschrift p-2 ">
-              <div class="absolute -top-3 left-5 border w-3 h-5 bg-[#D9D9D9] rounded-md"></div>
-              <div class="row-span-2 font-bold text-6xl w-full text-center" id="seconds">0</div>
-              <div class="w-full text-center font-light text-base">Seconds</div>
+          <div
+            class="relative grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift"
+          >
+            <div
+              class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"
+            ></div>
+            <div
+              class="row-span-2 w-full text-center text-6xl font-bold"
+              id="seconds"
+            >
+              0
+            </div>
+            <div class="w-full text-center text-base font-light">Seconds</div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="flex h-[40rem] w-full items-center justify-center">
+      <div class="flex h-[38rem] w-[66rem] items-center justify-center gap-8">
+        <div class="flex w-[52%] justify-center flex-col gap-8">
+          <div class="flex items-center justify-center">
+            <div class="flex items-center justify-start"><p>
+              <span class="font-bold"
+                ><span class="text-[64px]">About The Event</span><br /><span
+                  class="text-4xl text-[#FFC700]"
+                  >Software Freedom Day
+                  <span class="text-[#E4554E]">2024</span></span
+                ><br>
+              <span class="text-[#E4554E] font-semibold text-xl">"A celebration of innovation and open collaboration!"</span>
+              </span>
+            </p>
+             </div>
+            <div class="flex items-center justify-center">
+              <span
+                class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#FFCD29]"
+              ></span>
+              <span
+                class="mr-1 inline-block h-[8.5rem] w-2 border-r-4 border-solid border-[#208820]"
+              ></span>
+              <span
+                class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#E4554E]"
+              ></span>
+            </div>
+          </div>
+          <div>
+            <span class="font-light">Software Freedom Day (SFD) is an annual global celebration dedicated to promoting the benefits and principles of Free and Open Source Software (FOSS). SFD is celebrated on the third Saturday of September each year and is marked by events, workshops, and conferences held by FOSS communities, tech enthusiasts, and organizations across the world.
+              <br><br>
+              In Nepal, the celebration of SFD has been actively hosted and organized by the Nepal Open Source Klub (NOSK) for over 20 years. NOSK has been at the forefront of promoting free software.
+              <br><br>
+              In 2024, NOSK is returning with an even grander edition of Software Freedom Day, This year's event promises to be the largest yet, where developers and enthusiasts can showcase their love for open source.</span>
+          </div>
+          <div>
+            <button class="w-44 h-12 FFDD50 text-center bg-[#FFDD50] hover:bg-transparent group hover:border-solid hover:border-2 hover:border-[#FFDD50] shadow-lg"><a href="#" target="_blank" class="text-center text-black text-base font-bold">LEARN MORE</a></button>
+          </div>
+        </div>
+        <div class="flex w-[48%] h-full justify-end flex-col items-center">
+          <img
+            src="../assets/shared/nosk_vertical.svg"
+            alt="Nosk Vertical Logo"
+            class="w-[32rem] h-[37rem]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-project-bg w-full h-[26rem] bg-cover flex items-center justify-center z-0 opacity-90">
+      <div class="w-full h-3/5 flex flex-col gap-6 items-center justify-center opacity-100 z-10">
+      <p class="font-bold text-[64px]"><span class="text-white">Got</span><span class="text-[#E4554E]"> Open Source</span><span class="text-white"> Project?</span><span class="text-[#6ABE52]"> We Got you!</span></p>
+      <p class="font-bold  text-[44px] text-white">Present them at <span class="text-[#FFDD50]">Software Freedom Day</span> 2024</p>
+      <div class="flex gap-6">
+        <button class="w-[220px] h-[60px] bg-[#FFDD50] rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent group"><a href="" target="" class="text-black group-hover:text-white">LEARN MORE</a></button>
+        <button class="group w-[220px] h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black"><a href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank" class="text-xl text-white">REGISTER NOW</a></button>
+      </div>
+    </div>
+    </section>
+
 
     <script src="../js/navbar.js"></script>
   </body>

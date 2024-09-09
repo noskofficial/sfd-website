@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('../assets/timer/timer_bg.svg')",
+        'project-bg': "url('../assets/projectReg/project_bg.svg')",
         
       },
     },
