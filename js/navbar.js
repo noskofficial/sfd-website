@@ -65,7 +65,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
     </div>
     <img id="hamMenu" src="../assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
 </nav>
-`
+`;
 
 document.addEventListener('DOMContentLoaded', () => {
     //To Insert the Navbar in the page
