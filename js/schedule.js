@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p class="text-gray-400 text-sm">${event.speaker.title}</p>
                         </div>
                     </div>
-                    <span class="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">${event.date}</span>
+                    <span class="absolute text-sm text-[#DAA520] -top-5 left-2 whitespace-nowrap">${event.date}</span>
                 </div>
             `;
 
