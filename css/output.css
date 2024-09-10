@@ -694,6 +694,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -718,12 +722,12 @@ video {
   display: none;
 }
 
-.h-11 {
-  height: 2.75rem;
-}
-
 .h-1\/2 {
   height: 50%;
+}
+
+.h-11 {
+  height: 2.75rem;
 }
 
 .h-12 {
@@ -818,12 +822,20 @@ video {
   height: 8.5rem;
 }
 
+.h-\[calc\(100vh-7\.5rem\)\] {
+  height: calc(100vh - 7.5rem);
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[70px\] {
+  height: 70px;
 }
 
 .max-h-screen {
@@ -838,16 +850,16 @@ video {
   width: 0.25rem;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
 
 .w-1\/3 {
   width: 33.333333%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-2 {
@@ -860,6 +872,10 @@ video {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-4 {
@@ -979,16 +995,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-16 {
   gap: 4rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-56 {
@@ -1014,16 +1030,16 @@ video {
   border-color: rgb(243 244 246 / var(--tw-divide-opacity));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-y-scroll {
   overflow-y: scroll;
 }
 
 .scroll-smooth {
   scroll-behavior: smooth;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .whitespace-nowrap {
@@ -1036,10 +1052,6 @@ video {
 
 .rounded-\[27\.5px\] {
   border-radius: 27.5px;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded-full {
@@ -1129,6 +1141,11 @@ video {
   background-color: rgb(218 165 32 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FFCD29\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 205 41 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#FFDD50\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 221 80 / var(--tw-bg-opacity));
@@ -1137,6 +1154,20 @@ video {
 .bg-\[\#f6f6ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(246 246 255 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-celeb-banner {
+  background-image: url('../assets/celebrationbg/celeb_banner.svg');
 }
 
 .bg-hero-pattern {
@@ -1439,6 +1470,11 @@ video {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-red-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-black {
