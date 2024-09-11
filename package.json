@@ -6,13 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i css/input.css -o css/output.css --watch",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "serve": "live-server ./"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "sfd-website": "file:"
   }
 }

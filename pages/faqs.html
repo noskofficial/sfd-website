@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/output.css">
+  <style>
+    #intro {
+      padding: 2rem 0;
+      text-align: center;
+      position: relative;
+    }
+
+    #intro h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+
+    #intro .lines-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #intro .line {
+      position: absolute;
+      height: 4px;
+      transition: width 0.3s;
+    }
+
+    #intro .line.first {
+      background-color: #FFCD29;
+      width: 180px;
+      top: 0;
+    }
+
+    #intro .line.middle {
+      background-color: #208820;
+      width: 220px;
+      top: 8px;
+    }
+
+    #intro .line.last {
+      background-color: #E4554E;
+      width: 180px;
+      top: 16px;
+    }
+
+    /* Animation for the FAQ Dropdown */
+    .faq-item {
+      transition: border-color 0.3s ease-in-out;
+      background-color: white;
+    }
+
+    .faq-item:hover {
+      border-color: #059669;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
+
+  <!-- FAQ Header -->
+  <section id="intro" class="py-10">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold">Frequently Asked Questions</h1>
+      <div class="lines-container">
+        <span class="line first"></span>
+        <span class="line middle"></span>
+        <span class="line last"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <div class="max-w-3xl mx-auto p-6">
+    <!-- FAQ Item 1 -->
+    <div class="faq-item border border-gray-300 shadow-md rounded-md pt-4 px-4 my-5">
+      <!-- Question Section -->
+      <button class="faq-question w-full text-left flex justify-between gap-4 items-center">
+        <span class="text-xl font-bold text-gray-700">What is SFD?</span>
+        <span class="text-gray-700 text-3xl font-medium">+</span>
+      </button>
+
+      <!-- Answer Section -->
+      <div class="faq-answer my-2 text-gray-500 overflow-hidden transition-all duration-500 max-h-0">
+        Software Freedom Day (SFD) is a global event held annually by the Digital Freedom Foundation (DFF) to promote
+        and raise awareness about Free Software. The goal of SFD is to educate the public on the benefits of Free
+        Software and to encourage its widespread adoption
+      </div>
+    </div>
+
+    <!-- FAQ Item 2 -->
+    <div class="faq-item border border-gray-300 shadow-md rounded-md pt-4 px-4 my-5">
+      <!-- Question Section -->
+      <button class="faq-question w-full text-left flex justify-between gap-4 items-center">
+        <span class="text-xl font-bold text-gray-700">When is SFD celebrated?</span>
+        <span class="text-gray-700 text-3xl font-medium">+</span>
+      </button>
+
+      <!-- Answer Section -->
+      <div class="faq-answer my-2 text-gray-500 overflow-hidden transition-all duration-500 max-h-0">
+        Software Freedom Day is typically celebrated on the third Saturday of September each year.
+      </div>
+    </div>
+
+    <!-- FAQ Item 3 -->
+    <div class="faq-item border border-gray-300 shadow-md rounded-md pt-4 px-4 my-5">
+      <!-- Question Section -->
+      <button class="faq-question w-full text-left flex justify-between gap-4 items-center">
+        <span class="text-xl font-bold text-gray-700">Who can join?</span>
+        <span class="text-gray-700 text-3xl font-medium">+</span>
+      </button>
+
+      <!-- Answer Section -->
+      <div class="faq-answer my-2 text-gray-500 overflow-hidden transition-all duration-500 max-h-0">
+        EVERYONE!!!!
+      </div>
+    </div>
+
+    <!-- FAQ Item 4 -->
+    <div class="faq-item border border-gray-300 shadow-md rounded-md pt-4 px-4 my-5">
+      <!-- Question Section -->
+      <button class="faq-question w-full text-left flex justify-between gap-4 items-center">
+        <span class="text-xl font-bold text-gray-700">Is it free to join?</span>
+        <span class="text-gray-700 text-3xl font-medium">+</span>
+      </button>
+
+      <!-- Answer Section -->
+      <div class="faq-answer my-2 text-gray-500 overflow-hidden transition-all duration-500 max-h-0">
+        Yes totally, also you can donte if you are intrested.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="max-w-7xl mx-auto p-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <!-- Left Column: Code of Conduct (3/4 width) -->
+    <div class="col-span-3">
+
+      <!-- Frequently Asked Questions Header for small screens -->
+      <section id="intro" class="py-10">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold">Code of Conduct</h1>
+          <div class="lines-container">
+            <span class="line first"></span>
+            <span class="line middle"></span>
+            <span class="line last"></span>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Introduction paragraph -->
+      <p class="text-lg text-gray-700  my-4">
+        Software Freedom Day is dedicated to providing a harassment-free experience for everyone, regardless of gender,
+        sexual orientation, gender identity, disability, physical appearance, body size, race, or religion. We invite
+        attendees to come to SFD in a spirit of curiosity, friendliness, open-mindedness, and respect. Any kind of
+        harassment will not be tolerated.
+      </p>
+
+      <!-- Agreement section -->
+      <h2 class="text-2xl font-semibold text-gray-800 mt-6 mb-4">All attendees, speakers, sponsors, and volunteers at
+        our event are required to agree with:</h2>
+
+      <ul class="list-none space-y-2">
+        <li class="flex items-start">
+          <span class="text-green-600 mr-3">✔</span>
+          <p class="text-lg text-gray-700">Be kind and sensitive to the people around you and respect the boundaries of
+            other attendees.</p>
+        </li>
+        <li class="flex items-start">
+          <span class="text-green-600 mr-3">✔</span>
+          <p class="text-lg text-gray-700">Attempt to resolve differences of opinions peacefully and appropriately for a
+            professional environment.</p>
+        </li>
+        <li class="flex items-start">
+          <span class="text-green-600 mr-3">✔</span>
+          <p class="text-lg text-gray-700">Listen with empathy when someone has a different perspective and give
+            suggestions for improvement.</p>
+        </li>
+        <li class="flex items-start">
+          <span class="text-green-600 mr-3">✔</span>
+          <p class="text-lg text-gray-700">Do not involve in any kind of harassment activities.</p>
+        </li>
+      </ul>
+
+      <!-- Harassment reporting -->
+      <p class="text-lg text-gray-700 mt-6">
+        If you are being harassed, notice that someone else is being harassed, or have any other concerns, please
+        contact a member of the event staff immediately or report your incident at
+        <a href="mailto:nosk@ncit.edu.np" class="text-blue-600 underline">nosk@ncit.edu.np</a>.
+      </p>
+
+      <!-- Footer notice -->
+      <p class="text-lg text-gray-700 mt-6">
+        This Code of Conduct applies to the venue of SFD, pre-event and post-event informal gatherings, and all events
+        organized by the organizing committee of SFD.
+      </p>
+    </div>
+
+    <!-- Right Column: Space for Image or Other Content (1/4 width) -->
+    <div class="col-span-1">
+      <img src="path-to-your-image.jpg" alt="Organizing SFD" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Footer Section (from js/footer.js) -->
+  <footer></footer>
+  <script defer src="../js/faqs.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/footer.js"></script>
+</body>
+
+</html>
