@@ -29,6 +29,9 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                         <a href="/pages/gallery.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Gallery</a>
                     </li>
                     <li>
+                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Speakers</a>
+                    </li>
+                    <li>
                         <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</a>
                     </li>
                 </ul>
@@ -37,8 +40,9 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
         <span id="itinerary" class="lg:hover:border-b-2"><a href="/pages/itinerary.html">Itinerary</a></span>
         <span id="team" class="lg:hover:border-b-2"><a href="/pages/ourteam.html">Our Team</a></span>
         <span class="group/activities" id="activities">
+            <!-- This was named "Activities" before, thus the id and classes. -->
             <div
-                class="lg:hover:bg-transparent lg:border-0 lg:pl-3 lg:pr-4 lg:py-2 lg:p-0 flex items-center justify-between w-full md:w-auto">Activities
+                class="lg:hover:bg-transparent lg:border-0 lg:pl-3 lg:pr-4 lg:py-2 lg:p-0 flex items-center justify-between w-full md:w-auto">Register
                 <svg id="activities-drop" class="w-4 h-4 ml-1 lg:group-hover/activities:-rotate-180 transition-all" fill="currentColor"
                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
@@ -52,10 +56,13 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
                         <a href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
-                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Project Registration</a>
+                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Open Source Project Exhibition</a>
                     </li>
                     <li>
                         <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0</a>
+                    </li>
+                    <li>
+                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag</a>
                     </li>
                 </ul>
             </div>
