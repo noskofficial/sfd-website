@@ -1,0 +1,22 @@
+[
+    {
+        "image": "image1.png",
+        "date": "9 Sep",
+        "description": "Pre Event Meetup"
+    },
+    {
+        "image": "image2.png",
+        "date": "10 Sep",
+        "description": "Event Planning"
+    },
+    {
+        "image": "path/to/your/image3.png",
+        "date": "11 Sep",
+        "description": "Sponsor Outreach"
+    },
+    {
+        "image": "path/to/your/image3.png",
+        "date": "11 Sep",
+        "description": "Sponsor Outreach"
+    }
+]
