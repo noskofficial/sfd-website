@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
       question.addEventListener('click', () => {
           if (answer.style.maxHeight && answer.style.maxHeight !== "0px") {
               answer.style.maxHeight = "0px";
-              question.querySelector('span.text-purple-600').textContent = '+';
+              question.querySelector('span.text-gray-900').textContent = '+';
           } else {
               answer.style.maxHeight = answer.scrollHeight + "px";
-              question.querySelector('span.text-purple-600').textContent = '-';
+              question.querySelector('span.text-gray-900').textContent = '-';
           }
       });
   });
