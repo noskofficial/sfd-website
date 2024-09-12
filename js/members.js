@@ -22,7 +22,7 @@ function createCard(member) {
                             <img src="../assets/socialmedia/linkedin.svg" class="">
                         </a>
                         <a href="${member.socialLinks.github}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
-                            <img src="../assets/socialmedia/website.svg" class="">
+                            <img src="../assets/socialmedia/github.svg" class="">
                         </a>
                         <a href="${member.socialLinks.website}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
                             <img src="../assets/socialmedia/website.svg" class="">
