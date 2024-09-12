@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="/css/output.css">
+
+    <style>
+        #intro {
+            padding: 2rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+        #intro h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        #intro .lines-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #intro .line {
+            position: absolute;
+            height: 4px;
+            transition: width 0.3s;
+        }
+
+        #intro .line.first {
+            background-color: #FFCD29;
+            width: 180px;
+            top: 0;
+        }
+
+        #intro .line.middle {
+            background-color: #208820;
+            width: 220px;
+            top: 8px;
+        }
+
+        #intro .line.last {
+            background-color: #E4554E;
+            width: 180px;
+            top: 16px;
+        }
+
+        #profile {
+            filter: grayscale(100%);
+            transition: all 0.3s ease-in-out;
+        }
+
+        #profile:hover {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+
+<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
+
+    <section id="intro" class="py-10">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold">Our Team</h1>
+            <div class="lines-container">
+                <span class="line first"></span>
+                <span class="line middle"></span>
+                <span class="line last"></span>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container max-w-5xl mx-auto p-6">
+        <div id="members-container"
+            class="grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Members insterted -->
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <script src="/js/members.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/footer.js"></script>
+</body>
+
+</html>
+
+<!-- 
+<div id="members-card" class="relative w-80 rounded-3xl shadow-lg overflow-hidden">
+            
+                <img id="profile" src="/assets/members/Sujal_Bikram_Thapa.jpeg" alt="Profile Image" class="w-full rounded-3xl h-96 object-cover border-8 border-white">
+                
+                <div class="absolute text-center bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
+                    <h2 class="text-xl font-semibold">Sujal Bikram Thapa</h2>
+                    <p class="text-sm">Graphics/Web Designer</p>
+        
+            
+                    <div class="flex justify-center gap-4 mt-4">
+                        <a href="#" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                            <img src="../assets/socialmedia/instagram.svg" class="">
+                        </a>
+                        <a href="#" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                            <img src="../assets/socialmedia/facebook.svg" class="">
+                        </a>
+                        <a href="#" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                            <img src="../assets/socialmedia/linkedin.svg" class="">
+                        </a>
+                        <a href="#" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                            <img src="../assets/socialmedia/website.svg" class="">
+                        </a>
+                        <a href="#" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                            <img src="../assets/socialmedia/website.svg" class="">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </div> 
+            -->
