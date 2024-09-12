@@ -20,7 +20,7 @@ const footerCode = `<section
           <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Home</a></li>
           <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">About</a></li>
           <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Itinerary</a></li>
-          <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Team</a></li>
+          <li><a href="/pages/ourteam.html" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Team</a></li>
           <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Highlights</a></li>
           <li><a href="/pages/faqs.html" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">FAQs</a></li>
           <li><a href="" target="_blank" class="text-white font-semibold text-xl hover:text-red-600">Contact</a></li>

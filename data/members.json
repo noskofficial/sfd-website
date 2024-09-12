@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sujal Bikram Thapa",
+        "designation": "Graphics/Web Designer",
+        "image": "../assets/members/Sujal_Bikram_Thapa.jpeg",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/sujalbikramthapa",
+            "instagram": "https://www.instagram.com/sujalbthapa/",
+            "linkedin": "https://www.linkedin.com/in/sujalbthapa/",
+            "github": "https://github.com/sujalbthapa",
+            "website": "https://sujalbthapa.com.np/"
+        }
+    },
+    {
+        "name": "Rishav Chapagain",
+        "designation": "Web Developer",
+        "image": "../assets/members/Rishav.jpg",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/rishavosaurus",
+            "instagram": "https://www.instagram.com/rishavosaurus/",
+            "linkedin": "https://www.linkedin.com/in/rishav-chapagain/",
+            "github": "https://github.com/RishavOsaurus/",
+            "website": "#"
+        }
+    }
+]
