@@ -22,5 +22,19 @@
             "github": "https://github.com/RishavOsaurus/",
             "website": "#"
         }
+    },
+     {
+        "name": "Anish Neupane",
+        "designation": "Web Developer",
+        "image": "../assets/members/Anish.jpg",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/anishkn04",
+            "instagram": "https://www.instagram.com/anishkn04/",
+            "linkedin": "https://www.linkedin.com/in/anishkn04/",
+            "github": "https://github.com/anishkn04/",
+            "website": "#"
+        }
+        
     }
+   
 ]
