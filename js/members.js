@@ -1,7 +1,7 @@
 // Function to create cards
 function createCard(member) {
-    return `
-    <div id="members-card" class="relative w-80 rounded-3xl shadow-lg overflow-hidden">
+  return `
+    <div id="members-card" class="relative w-72 rounded-3xl shadow-lg overflow-hidden">
                 <!-- Background Image -->
                 <img id="profile" src="${member.image}" alt="${member.name}" class="w-full rounded-3xl h-96 object-cover border-8 border-white">
                 
@@ -38,17 +38,17 @@ function createCard(member) {
 // Function to render all cards here
 // Gets elemnt by id (members-container) and insert inside the tag...
 async function fetchCards() {
-    try {
-        const response = await fetch('../data/members.json');
-        const members = await response.json();
+  try {
+    const response = await fetch("../data/members.json");
+    const members = await response.json();
 
-        const container = document.getElementById('members-container');
-        members.forEach(member => {
-            container.innerHTML += createCard(member);
-        });
-    } catch (error) {
-        console.error('Error fetching the JSON data', error);
-    }
+    const container = document.getElementById("members-container");
+    members.forEach((member) => {
+      container.innerHTML += createCard(member);
+    });
+  } catch (error) {
+    console.error("Error fetching the JSON data", error);
+  }
 }
 
 // Call the function to render cards...
