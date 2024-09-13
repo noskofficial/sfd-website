@@ -595,6 +595,7 @@ video {
         rgba(0, 0, 0, 0.1) 1px,
         transparent 1px
       ),
+
       linear-gradient(180deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
 }
@@ -1049,6 +1050,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .-rotate-180 {
@@ -2084,5 +2089,11 @@ video {
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
