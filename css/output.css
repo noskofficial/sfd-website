@@ -595,7 +595,6 @@ video {
         rgba(0, 0, 0, 0.1) 1px,
         transparent 1px
       ),
-
       linear-gradient(180deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
 }
@@ -804,6 +803,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -976,6 +979,10 @@ video {
   width: 1.5rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -1022,10 +1029,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-72 {
-  width: 18rem;
 }
 
 .max-w-3xl {
@@ -1333,6 +1336,11 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
