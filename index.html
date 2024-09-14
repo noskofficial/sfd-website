@@ -57,46 +57,47 @@
   </section> 
 
 <section
-    class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-center gap-56">
-    <img src="/assets/timer/timer_bg.svg" alt="Timer Background" class="absolute w-full">
-    <div class="flex flex-col justify-center text-[16px] text-white z-10">
-      <span class="text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
-      <br />
-      <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
-      <span>Venue:
-        <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
-      <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
-      <span>Time: <span class="font-extralight">10:00 AM</span></span>
+    class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-around sm:justify-center p-2 sm:gap-10 md:gap-16 lg:gap-40 xl:gap-56">
+    <img src="/assets/timer/timer_bg.svg" alt="Timer Background" class="absolute h-96 lg:h-fit object-cover object-left lg:object-cover w-full">
+    <div class="flex flex-col gap-3 justify-center text-xs sm:text-sm md:text-base lg:text-xl  text-white z-10">
+      <span class="text-sm sm:text-base md:text-xl lg:text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
+      <div>
+        <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
+        <span>Venue:
+          <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
+        <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
+        <span>Time: <span class="font-extralight">10:00 AM</span></span>
+      </div>
     </div>
     <div>
-      <div id="timer" class="flex items-center justify-center text-white w-full max-w-[100vw]">
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="days">
+      <div id="timer" class="grid md:grid-cols-4 grid-cols-2 gap-y-4  items-center justify-center text-white w-full max-w-[100vw] *:relative md:*:mr-4 *:mr-2 *:grid md:*:h-24 *:h-16 *:w-16 md:*:w-24 *:grid-rows-3 *:rounded-xl md:*:border-4 *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="days">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Days</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Days</div>
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="hours">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="hours">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Hours</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Hours</div>
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="minutes">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="minutes">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Minutes</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Minutes</div>
         </div>
-        <div class="relative grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="seconds">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="seconds">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Seconds</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Seconds</div>
         </div>
       </div>
     </div>
