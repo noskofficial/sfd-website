@@ -1,210 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NOSK SFD 2024 Event Schedule</title>
     <link rel="stylesheet" href="./../css/output.css" />
     <style>
-       html {
-    scroll-behavior: smooth;
-}
+      html {
+        scroll-behavior: smooth;
+      }
 
-#schedule {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    gap: 1rem;
-    padding: 2rem 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 8rem;
-}
+      #schedule {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        gap: 1rem;
+        padding: 2rem 0;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8rem;
+      }
 
-.thread-line {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    background-color: #FFDD50; /* Dark Yellow */
-    height: 100%;
-    z-index: 1;
-}
+      .thread-line {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        background-color: #ffdd50; /* Dark Yellow */
+        height: 100%;
+        z-index: 1;
+      }
 
-.card {
-    background-color: #016F01; /* Dark Green Background */
-    color: #e5e7eb;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    grid-column: span 5;
-}
+      .card {
+        background-color: #016f01; /* Dark Green Background */
+        color: #e5e7eb;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        grid-column: span 5;
+      }
 
-#intro {
-    padding: 2rem 0;
-    text-align: center;
-    position: relative;
-}
+      #intro {
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
 
-#intro h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    position: relative;
-}
+      #intro h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
 
-#intro .lines-container {
-    position: relative;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
+      #intro .lines-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-#intro .line {
-    position: absolute;
-    height: 4px;
-    transition: width 0.3s;
-}
+      #intro .line {
+        position: absolute;
+        height: 4px;
+        transition: width 0.3s;
+      }
 
-#intro .line.first {
-    background-color: #FFCD29; 
-    width: 180px;
-    top: 0;
-}
+      #intro .line.first {
+        background-color: #ffcd29;
+        width: 180px;
+        top: 0;
+      }
 
-#intro .line.middle {
-    background-color: #208820; 
-    width: 220px;
-    top: 8px;
-}
+      #intro .line.middle {
+        background-color: #208820;
+        width: 220px;
+        top: 8px;
+      }
 
-#intro .line.last {
-    background-color: #E4554E; 
-    width: 180px;
-    top: 16px;
-}
+      #intro .line.last {
+        background-color: #e4554e;
+        width: 180px;
+        top: 16px;
+      }
 
-.thread-line {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    background-color: #DAA520; /* Dark Yellow */
-    height: 100%;
-    z-index: 1;
-}
+      .thread-line {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        background-color: #daa520; /* Dark Yellow */
+        height: 100%;
+        z-index: 1;
+      }
 
-.card {
-    background-color: #016F01; /* Dark Green Background */
-    color: #e5e7eb;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    grid-column: span 5;
-}
+      .card {
+        background-color: #016f01; /* Dark Green Background */
+        color: #e5e7eb;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        grid-column: span 5;
+      }
 
-@media (max-width: 1024px) {
-    #schedule {
-        grid-template-columns: repeat(6, 1fr);
-        padding: 1rem;
-        margin: 0 2rem;
-    }
+      @media (max-width: 1024px) {
+        #schedule {
+          grid-template-columns: repeat(6, 1fr);
+          padding: 1rem;
+          margin: 0 2rem;
+        }
 
-    .card {
-        grid-column: span 6;
-    }
+        .card {
+          grid-column: span 6;
+        }
 
-    .thread-line {
-        left: 0;
-        transform: translateX(0);
-    }
-}
+        .thread-line {
+          left: 0;
+          transform: translateX(0);
+        }
+      }
 
-@media (max-width: 768px) {
-    #schedule {
-        grid-template-columns: 1fr;
-        padding: 1rem;
-        margin: 0 1rem;
-    }
+      @media (max-width: 768px) {
+        #schedule {
+          grid-template-columns: 1fr;
+          padding: 1rem;
+          margin: 0 1rem;
+        }
 
-    .card {
-        grid-column: span 1;
-    }
+        .card {
+          grid-column: span 1;
+        }
 
-    .thread-line {
-        left: 0;
-        transform: translateX(0);
-    }
-}
+        .thread-line {
+          left: 0;
+          transform: translateX(0);
+        }
+      }
 
+      @media (max-width: 480px) {
+        #intro h1 {
+          font-size: 2rem;
+        }
 
-@media (max-width: 480px) {
-    #intro h1 {
-        font-size: 2rem;
-    }
+        #intro p {
+          font-size: 1rem;
+        }
+      }
 
-    #intro p {
-        font-size: 1rem;
-    }
-}
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 1.71rem;
+        transition: all 0.3s;
+        text-decoration: none;
+      }
 
-.btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 1.71rem;
-    transition: all 0.3s;
-    text-decoration: none;
-}
+      .btn-register-now {
+        background-color: #ffdd50;
+        color: #000;
+        border: 2px solid transparent;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
 
-.btn-register-now {
-    background-color: #FFDD50;
-    color: #000;
-    border: 2px solid transparent;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.btn-register-now:hover {
-    background-color: transparent;
-    border-color: #FFDD50;
-    color: #000;
-}
-
+      .btn-register-now:hover {
+        background-color: transparent;
+        border-color: #ffdd50;
+        color: #000;
+      }
     </style>
-</head>
+  </head>
 
-<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
-
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
     <section id="intro" class="py-10">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold">Itinerary</h1>
-            <div class="lines-container">
-                <span class="line first"></span>
-                <span class="line middle"></span>
-                <span class="line last"></span>
-            </div>
+      <div class="text-center">
+        <h1 class="text-4xl font-bold">Itinerary</h1>
+        <div class="lines-container">
+          <span class="line first"></span>
+          <span class="line middle"></span>
+          <span class="line last"></span>
         </div>
+      </div>
     </section>
 
-
-        <section id="schedule" class="relative">
-            <!-- Event entries will be dynamically inserted here -->
-        </section>
-        
+    <section id="schedule" class="relative">
+      <!-- Event entries will be dynamically inserted here -->
+    </section>
 
     <!-- Footer Section (from js/footer.js) -->
     <footer class="h-5"></footer>
@@ -212,6 +206,5 @@
     <script src="../js/schedule.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/footer.js"></script>
-</body>
-
+  </body>
 </html>

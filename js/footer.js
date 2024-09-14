@@ -49,11 +49,10 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
 </section> `;
 
 // Adding footer when DOMContentLoaded inside body
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   // Get the first <footer> element
   const footer = document.getElementsByTagName("footer")[0].innerHTML;
 
   // Insert the footer content along with the existing footer content
   document.querySelector("footer").innerHTML = footerCode + footer;
 });
-
