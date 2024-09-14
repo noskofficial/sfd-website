@@ -55,19 +55,19 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 class="hidden lg:absolute *:text-black lg:group-hover/activities:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
+                        <a target="_blank" href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
                             class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Open Source Project Exhibition 
                         <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                         
                     </li>
                     <li>
-                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0 
+                        <a target="_blank" href="https://forms.gle/ahaZGnoJhXT5jU3q8" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0
                             <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag
+                        <a target="_blank" href="https://forms.gle/Yvt6B7EGniR47ukB9" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag
                             <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                     </li>
@@ -75,7 +75,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
             </div>
         </span>
         <span id="faqs" class="lg:hover:border-b-2"><a href="/pages/faqs.html">FAQs</a></span>
-        <span id="contact" class="lg:hover:border-b-2"><a href="/pages/contactus.html">Contact Us</a></span>
+        <span id="contact" class="lg:hover:border-b-2"><a href="mailto:nosk@ncit.edu.np" target="_blank">Contact Us</a></span>
     </div>
     <img id="hamMenu" src="/assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
 </nav>
