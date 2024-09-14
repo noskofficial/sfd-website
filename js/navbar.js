@@ -5,7 +5,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
         class="h-screen z-50 transition-all shadow-lg bg-[#f6f6ff] lg:shadow-none p-8 lg:bg-transparent fixed w-[60vw] lg:w-auto flex flex-col list-none gap-5 top-14 md:top-[4.75rem] lg:top-0 -right-full lg:static lg:flex lg:flex-row xl:gap-10 lg:gap-8 lg:my-auto md:text-xl lg:font-semibold lg:items-center lg:*:hover:cursor-pointer font-bahnschrift lg:h-[4.75rem]">
         <span class="group/about" id="about">
             <div
-                class="lg:hover:bg-transparent lg:border-0 lg:pl-3 lg:pr-4 lg:py-2 lg:p-0 flex items-center justify-between w-full md:w-auto">About
+                class="lg:hover:bg-transparent lg:border-0 flex items-center justify-between w-full md:w-auto">About
                 <svg id="about-drop" class="w-4 h-4 ml-1 lg:group-active/about:-rotate-180 lg:group-hover/about:-rotate-180 transition-all" fill="currentColor"
                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
@@ -37,12 +37,12 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 </ul>
             </div>
         </span>
-        <span id="itinerary" class="lg:hover:border-b-2"><a href="/pages/itinerary.html">Itinerary</a></span>
+        <span id="schedule_page" class="lg:hover:border-b-2"><a href="/pages/schedule.html">Schedule</a></span>
         <span id="team" class="lg:hover:border-b-2"><a href="/pages/ourteam.html">Our Team</a></span>
         <span class="group/activities" id="activities">
             <!-- This was named "Activities" before, thus the id and classes. -->
             <div
-                class="lg:hover:bg-transparent lg:border-0 lg:pl-3 lg:pr-4 lg:py-2 lg:p-0 flex items-center justify-between w-full md:w-auto">Register
+                class="lg:hover:bg-transparent lg:border-0 flex items-center justify-between w-full md:w-auto">Register
                 <svg id="activities-drop" class="w-4 h-4 ml-1 lg:group-hover/activities:-rotate-180 transition-all" fill="currentColor"
                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
@@ -77,7 +77,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
         <span id="faqs" class="lg:hover:border-b-2"><a href="/pages/faqs.html">FAQs</a></span>
         <span id="contact" class="lg:hover:border-b-2"><a href="/pages/contactus.html">Contact Us</a></span>
     </div>
-    <img id="hamMenu" src="../assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
+    <img id="hamMenu" src="/assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
 </nav>
 `;
 
@@ -91,10 +91,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const navList = document.getElementById("nav-list");
   hamMenu.addEventListener("click", () => {
     let srcNow = hamMenu.getAttribute("src");
-    if (srcNow == "../assets/navbar/hamMenu.svg") {
-      hamMenu.setAttribute("src", "../assets/navbar/closeMenu.svg");
+    if (srcNow == "/assets/navbar/hamMenu.svg") {
+      hamMenu.setAttribute("src", "/assets/navbar/closeMenu.svg");
     } else {
-      hamMenu.setAttribute("src", "../assets/navbar/hamMenu.svg");
+      hamMenu.setAttribute("src", "/assets/navbar/hamMenu.svg");
     }
     navList.classList.toggle("right-0");
     navList.classList.toggle("-right-full");
@@ -125,7 +125,8 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const navChildren = document.querySelector("#nav-list").children;
   for (navChild of navChildren) {
-    if (currentPage.includes(navChild.id)) {
+    if(currentPage == "") return
+      if (currentPage.includes(navChild.id) || navChild.id.includes(currentPage)) {
       navChild.style = "color: #E4554E";
     }
   }
