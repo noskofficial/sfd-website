@@ -1,11 +1,18 @@
 <!doctype html>
 <html lang="en">
 
-<head class="m-0 box-border p-0">
+<head >
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/output.css" />
   <title>NOSK SFD 2024</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
 </head>
 
 <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
@@ -48,51 +55,50 @@
     </div>
   </section>
 
-<section
-    class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-center gap-56 bg-hero-pattern bg-cover">
-    <div class="flex flex-col justify-center text-[16px] text-white">
-      <span class="text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
-      <br />
-      <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
-      <span>Venue:
-        <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
-      <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
-      <span>Time: <span class="font-extralight">10:00 AM</span></span>
-    </div>
-    <div>
-      <div id="timer" class="flex items-center justify-center text-white w-full max-w-[100vw]">
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="days">
-            0
-          </div>
-          <div class="w-full text-center text-base font-light">Days</div>
+  <section
+  class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-center gap-56 bg-hero-pattern bg-cover">
+  <div class="flex flex-col justify-center text-[16px] text-white">
+    <span class="text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
+    <br />
+    <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
+    <span>Venue:
+      <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
+    <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
+    <span>Time: <span class="font-extralight">10:00 AM</span></span>
+  </div>
+  <div>
+    <div id="timer" class="flex items-center justify-center text-white w-full max-w-[100vw]">
+      <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
+        <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
+        <div class="row-span-2 w-full text-center text-6xl font-bold" id="days">
+          0
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="hours">
-            0
-          </div>
-          <div class="w-full text-center text-base font-light">Hours</div>
+        <div class="w-full text-center text-base font-light">Days</div>
+      </div>
+      <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
+        <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
+        <div class="row-span-2 w-full text-center text-6xl font-bold" id="hours">
+          0
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="minutes">
-            0
-          </div>
-          <div class="w-full text-center text-base font-light">Minutes</div>
+        <div class="w-full text-center text-base font-light">Hours</div>
+      </div>
+      <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
+        <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
+        <div class="row-span-2 w-full text-center text-6xl font-bold" id="minutes">
+          0
         </div>
-        <div class="relative grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="seconds">
-            0
-          </div>
-          <div class="w-full text-center text-base font-light">Seconds</div>
+        <div class="w-full text-center text-base font-light">Minutes</div>
+      </div>
+      <div class="relative grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
+        <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
+        <div class="row-span-2 w-full text-center text-6xl font-bold" id="seconds">
+          0
         </div>
+        <div class="w-full text-center text-base font-light">Seconds</div>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
   <section class="flex h-[40rem] w-full items-center justify-center">
     <div class="flex h-[38rem] w-[66rem] items-center justify-center gap-8">
       <div class="flex w-[52%] justify-center flex-col gap-8">
@@ -139,16 +145,16 @@
 
   <section class="bg-project-bg w-full h-[26rem] bg-cover flex items-center justify-center z-0 opacity-90">
     <div class="w-full h-3/5 flex flex-col gap-6 items-center justify-center opacity-100 z-10">
-      <p class="font-bold text-[64px]"><span class="text-white">Got</span><span class="text-[#E4554E]"> Open
+      <p class="font-bold text-sml sm:text-mid1 md:text-big min-w-6 text-center"><span class="text-white">Got</span><span class="text-[#E4554E]"> Open
           Source</span><span class="text-white"> Project?</span><span class="text-[#6ABE52]"> We Got you!</span></p>
-      <p class="font-bold  text-[44px] text-white">Present them at <span class="text-[#FFDD50]">Software Freedom
+      <p class="font-bold  text-sml2 sm:text-mid2 md:text-big2  text-center text-white">Present them at <span class="text-[#FFDD50]">Software Freedom
           Day</span> 2024</p>
       <div class="flex gap-6">
         <button
-          class="w-[220px] h-[60px] bg-[#FFDD50] rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent group"><a
+          class=" p-[20px] md:p-0 md:w-[220px] h-[60px] bg-[#FFDD50] rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent group"><a
             href="" target="" class="text-black group-hover:text-white">LEARN MORE</a></button>
         <button
-          class="group w-[220px] h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black"><a
+          class="group p-[20px] md:w-[220px] md:p-0 h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black"><a
             href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank" class="text-xl text-white">REGISTER
             NOW</a></button>
       </div>
@@ -180,8 +186,8 @@
           <div class="flex items-center justify-start">
             <p>
               <span class="font-bold"
-                ><span class="text-[48px]">About The Organizers</span
-                ><br /><span class="text-3xl text-[#009042]"
+                ><span class=" text-2xl md:text-3xl">About The Organizers</span
+                ><br /><span class="text-2xl md:text-3xl text-[#009042]"
                   >Nepal Open Source Klub - NOSK </span
                 ><br />
                 <span class="text-xl font-semibold text-[#413BA9]"
@@ -205,7 +211,7 @@
             stuff which supports FOSS through the NOSK........</span
           >
         </div>
-        <div>
+        <div class="w-full flex justify-center sm:justify-start">
           <button
             class="FFDD50 group h-12 w-44 bg-[#208820] text-center shadow-lg hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent"
           >

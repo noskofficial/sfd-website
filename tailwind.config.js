@@ -15,7 +15,20 @@ module.exports = {
         "project-bg": "url('../assets/projectReg/project_bg.svg')",
         "celeb-banner": "url('../assets/celebrationbg/celeb_banner.svg')",
       },
+      padding:{
+        '20px':'20px',
+      },
+      fontSize:{
+        big:'64px',
+        mid1:'52px',
+        sml:'30px',
+        big2:'44px',
+        mid2:'35px',
+        sml2:'25px'
+      },
     },
+    
+  
   },
   plugins: [],
 };
