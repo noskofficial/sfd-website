@@ -3,37 +3,37 @@
         {
             "title": "Keynote Speakers",
             "description": "Participants will gain insights from renowned keynote speakers, sharing their expertise and experiences in the open-source world. These talks will inspire and ignite discussions on the future of technology.",
-            "image": "",
+            "image": "/assets/activities/keynote.svg",
             "button" : {
                 "title": "SEE OUR SPEAKERS",
-                "link": "/assets/activities/keynote.svg"
+                "link": ""
             }
         },
         {
             "title": "Capture The Flag",
             "description": "Capture The Flag (CTF) is a thrilling cybersecurity competition where participants engage in solving complex security challenges to capture digital 'flags'. These challenges simulate real-world cyber threats and vulnerabilities, testing participants' skills.",
-            "image": "",
+            "image": "/assets/activities/ctf.svg",
             "button" : {
                 "title": "REGISTER NOW",
-                "link": "/assets/activities/ctf.svg"
+                "link": "https://forms.gle/Yvt6B7EGniR47ukB9"
             }
         },
         {
             "title": "NOSKODE 5.0",
             "description": "Noskode 4.0 is the problem-solving coding competition, where participants will tackle real-world challenges through innovative coding solutions. It's a platform for coders to showcase their skills and creativity in an exciting, competitive environment.",
-            "image": "",
+            "image": "/assets/shared/nosk_logo.svg",
             "button" : {
                 "title": "REGISTER NOW",
-                "link": "/assets/shared/nosk_logo.svg"
+                "link": "https://forms.gle/ahaZGnoJhXT5jU3q8"
             }
         },
         {
             "title": "Open Source Project Exhibition",
             "description": "The Open Source Project Exhibition will showcase innovative projects from developers and enthusiasts in the open-source community. Participants will get the chance to present their work, exchange ideas, and inspire others with their contributions to open-source technology.",
-            "image": "",
+            "image": "/assets/activities/exhibition.svg",
             "button" : {
                 "title": "REGISTER NOW",
-                "link": "/assets/activities/exhibition.svg"
+                "link": "https://forms.gle/ZmT2eDPqyLoLj5Sd6"
             }
         }
     ],
