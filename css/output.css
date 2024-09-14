@@ -715,10 +715,6 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -789,10 +785,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.box-border {
-  box-sizing: border-box;
 }
 
 .block {
@@ -1005,6 +997,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-6 {
+  min-width: 1.5rem;
 }
 
 .max-w-3xl {
@@ -1467,19 +1463,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-sml2 {
+  font-size: 25px;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .font-bold {
@@ -1602,6 +1591,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
@@ -1784,6 +1777,10 @@ video {
     margin-right: auto;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:contents {
     display: contents;
   }
@@ -1865,11 +1862,14 @@ video {
     padding-right: 0px;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .md\:text-big {
+    font-size: 64px;
   }
 
+  .md\:text-big2 {
+    font-size: 44px;
+  }
+  
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
