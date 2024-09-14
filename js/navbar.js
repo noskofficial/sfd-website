@@ -56,13 +56,20 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
                         <a href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
-                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Open Source Project Exhibition</a>
+                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Open Source Project Exhibition 
+                        <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
+                        </a>
+                        
                     </li>
                     <li>
-                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0</a>
+                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0 
+                            <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag</a>
+                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag
+                            <img src="/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>

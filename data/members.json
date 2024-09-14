@@ -1,40 +1,168 @@
 [
-    {
-        "name": "Sujal Bikram Thapa",
-        "designation": "Graphics/Web Designer",
-        "image": "../assets/members/Sujal_Bikram_Thapa.jpeg",
-        "socialLinks": {
-            "facebook": "https://www.facebook.com/sujalbikramthapa",
-            "instagram": "https://www.instagram.com/sujalbthapa/",
-            "linkedin": "https://www.linkedin.com/in/sujalbthapa/",
-            "github": "https://github.com/sujalbthapa",
-            "website": "https://sujalbthapa.com.np/"
-        }
-    },
-    {
-        "name": "Rishav Chapagain",
-        "designation": "Web Developer",
-        "image": "../assets/members/Rishav.jpg",
-        "socialLinks": {
-            "facebook": "https://www.facebook.com/rishavosaurus",
-            "instagram": "https://www.instagram.com/rishavosaurus/",
-            "linkedin": "https://www.linkedin.com/in/rishav-chapagain/",
-            "github": "https://github.com/RishavOsaurus/",
-            "website": "#"
-        }
-    },
-     {
-        "name": "Anish Neupane",
-        "designation": "Web Developer",
-        "image": "../assets/members/Anish.jpg",
-        "socialLinks": {
-            "facebook": "https://www.facebook.com/anishkn04",
-            "instagram": "https://www.instagram.com/anishkn04/",
-            "linkedin": "https://www.linkedin.com/in/anishkn04/",
-            "github": "https://github.com/anishkn04/",
-            "website": "#"
-        }
-        
+  {
+    "name": "Anuroj Baskota",
+    "designation": "Facilitator",
+    "image": "../assets/members/Anuroj.jpeg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/anuroj.baskota",
+      "instagram": "https://www.instagram.com/anuroj.baskota/",
+      "linkedin": "https://www.linkedin.com/in/anuroj-baskota-57bb661b1/",
+      "github": "https://github.com/AnurojBaskota",
+      "website": "https://anurojbaskota.com.np/"
     }
-   
+  },
+  {
+    "name": "Satya Raj Awasthi",
+    "designation": "Facilitator",
+    "image": "../assets/members/Satya.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/SatyaRajAwasth1",
+      "instagram": "https://www.instagram.com/SatyaRajAwasth1",
+      "linkedin": "https://www.linkedin.com/in/SatyaRajAwasth1",
+      "github": "https://github.com/SatyaRajAwasth1",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Sujal Bikram Thapa",
+    "designation": "Graphics/Web Designer",
+    "image": "../assets/members/Sujal.jpeg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/sujalbikramthapa",
+      "instagram": "https://www.instagram.com/sujalbthapa/",
+      "linkedin": "https://www.linkedin.com/in/sujalbthapa/",
+      "github": "https://github.com/sujalbthapa",
+      "website": "https://sujalbthapa.com.np/"
+    }
+  },
+
+  {
+    "name": "Aman Sheikh",
+    "designation": "Web Developer",
+    "image": "../assets/members/Aman.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/fried.donutslinger",
+      "instagram": "https://www.instagram.com/sheikh_a_man/",
+      "linkedin": "https://www.linkedin.com/in/aman-sheikh-044b6a155/",
+      "github": "https://github.com/IntelligentBeaver",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Anish Neupane",
+    "designation": "Web Developer",
+    "image": "../assets/members/Anish.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/anishkn04",
+      "instagram": "https://www.instagram.com/anishkn04/",
+      "linkedin": "https://www.linkedin.com/in/anishkn04/",
+      "github": "https://github.com/anishkn04/",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Rishav Chapagain",
+    "designation": "Web Developer",
+    "image": "../assets/members/Rishav.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/rishavosaurus",
+      "instagram": "https://www.instagram.com/rishavosaurus/",
+      "linkedin": "https://www.linkedin.com/in/rishav-chapagain/",
+      "github": "https://github.com/RishavOsaurus/",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Darshan Pajiyar",
+    "designation": "Logistics",
+    "image": "../assets/members/Darshan.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/darshan.pajiyar.5?mibextid=ZbWKwL",
+      "instagram": "https://www.instagram.com/darsu144?igsh=MTdrNjgwZzhzczE0NQ==",
+      "linkedin": "https://www.linkedin.com/in/darshan-pajiyar-3489b1259",
+      "github": "https://github.com/darsu144",
+      "website": "#"
+    }
+  },
+  {
+    "name": "Aaditya Binod Yadav",
+    "designation": "Outreach and Sponsorship",
+    "image": "../assets/members/Aaditya.png",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/aadityabinodyadav108/",
+      "instagram": "https://www.instagram.com/aadityarayyadav/",
+      "linkedin": "https://www.linkedin.com/in/aaditya-binod-yadav-52505a256/",
+      "github": "https://github.com/aadityabinod",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Kripa Khanal",
+    "designation": "Outreach and Sponsorship",
+    "image": "../assets/members/Kripa.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "instagram": "https://www.instagram.com/_krispyyy?igsh=MTQwN2Q3ajNhdndveA==",
+      "linkedin": "https://www.linkedin.com/in/krispyyy",
+      "github": "#",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Sanskar Tamang",
+    "designation": "Outreach and Sponsorship",
+    "image": "../assets/members/Sanskar.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "https://www.linkedin.com/in/sanskartamang",
+      "github": "#",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Prashubha Pathak",
+    "designation": "Social Media",
+    "image": "../assets/members/Prashubha.png",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/share/TqV2mb4tdGWkhMph/?mibextid=qi2Omg",
+      "instagram": "https://www.instagram.com/prashubha_pathak?igsh=eGpubTdoMTA0bWVh",
+      "linkedin": "https://www.linkedin.com/in/prashubha-pathak-1077a32b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/PrashubhaP",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Rushab Risal",
+    "designation": "Volunteer",
+    "image": "../assets/members/Rushab.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "https://www.linkedin.com/in/rushabofficials/",
+      "github": "https://github.com/RushabRisal",
+      "website": "#"
+    }
+  },
+
+  {
+    "name": "Sanjana Paudel",
+    "designation": "Volunteer",
+    "image": "../assets/members/Sanjana.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/profile.php?id=100008684178724",
+      "instagram": "https://www.instagram.com/_sanjanapaudel/",
+      "linkedin": "https://www.linkedin.com/in/sanjanapaudel",
+      "github": "",
+      "website": "#"
+    }
+  }
 ]

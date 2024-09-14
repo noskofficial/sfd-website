@@ -1,89 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Team</title>
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="/css/output.css" />
 
     <style>
-        #intro {
-            padding: 2rem 0;
-            text-align: center;
-            position: relative;
-        }
+      #intro {
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
 
-        #intro h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-            position: relative;
-        }
+      #intro h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
 
-        #intro .lines-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+      #intro .lines-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-        #intro .line {
-            position: absolute;
-            height: 4px;
-            transition: width 0.3s;
-        }
+      #intro .line {
+        position: absolute;
+        height: 4px;
+        transition: width 0.3s;
+      }
 
-        #intro .line.first {
-            background-color: #FFCD29;
-            width: 180px;
-            top: 0;
-        }
+      #intro .line.first {
+        background-color: #ffcd29;
+        width: 180px;
+        top: 0;
+      }
 
-        #intro .line.middle {
-            background-color: #208820;
-            width: 220px;
-            top: 8px;
-        }
+      #intro .line.middle {
+        background-color: #208820;
+        width: 220px;
+        top: 8px;
+      }
 
-        #intro .line.last {
-            background-color: #E4554E;
-            width: 180px;
-            top: 16px;
-        }
+      #intro .line.last {
+        background-color: #e4554e;
+        width: 180px;
+        top: 16px;
+      }
 
-        #profile {
-            filter: grayscale(100%);
-            transition: all 0.3s ease-in-out;
-        }
+      #members-card {
+        filter: grayscale(100%);
+        transition: all 0.3s ease-in-out;
+      }
 
-        #profile:hover {
-            filter: grayscale(0%);
-        }
+      #members-card:hover {
+        filter: grayscale(0%);
+      }
     </style>
-</head>
+  </head>
 
-<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
-
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
     <section id="intro" class="py-10">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold">Our Team</h1>
-            <div class="lines-container">
-                <span class="line first"></span>
-                <span class="line middle"></span>
-                <span class="line last"></span>
-            </div>
+      <div class="text-center">
+        <h1 class="text-4xl font-bold">Our Team</h1>
+        <div class="lines-container">
+          <span class="line first"></span>
+          <span class="line middle"></span>
+          <span class="line last"></span>
         </div>
+      </div>
     </section>
 
-
-    <div class="container max-w-5xl mx-auto p-6">
-        <div id="members-container"
-            class="grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Members insterted -->
-        </div>
+    <div class="container mx-auto max-w-7xl p-6">
+      <div
+        id="members-container"
+        class="grid grid-cols-1 justify-items-center gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+      >
+        <!-- Members insterted -->
+      </div>
     </div>
-
 
     <!-- Footer -->
     <footer></footer>
@@ -91,8 +89,7 @@
     <script src="/js/members.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/footer.js"></script>
-</body>
-
+  </body>
 </html>
 
 <!-- 
