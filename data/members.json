@@ -61,7 +61,7 @@
   },
   {
     "name": "Aman Sheikh",
-    "designation": "Web Developer",
+    "designation": "Technical Committee",
     "image": "../assets/members/Aman.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/fried.donutslinger",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Anish Neupane",
-    "designation": "Web Developer",
+    "designation": "Technical Committee",
     "image": "../assets/members/Anish.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/anishkn04",
@@ -84,20 +84,8 @@
     }
   },
   {
-    "name": "Rishav Chapagain",
-    "designation": "Web Developer",
-    "image": "../assets/members/Rishav.jpg",
-    "socialLinks": {
-      "facebook": "https://www.facebook.com/rishavosaurus",
-      "instagram": "https://www.instagram.com/rishavosaurus/",
-      "linkedin": "https://www.linkedin.com/in/rishav-chapagain/",
-      "github": "https://github.com/RishavOsaurus/",
-      "website": "#"
-    }
-  },
-  {
     "name": "Bikram Kharal",
-    "designation": "Tech Team",
+    "designation": "Technical Committee",
     "image": "../assets/members/Bikram.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/themarkib/",
@@ -108,8 +96,20 @@
     }
   },
   {
+    "name": "Nabin Paudel",
+    "designation": "Technical Committee",
+    "image": "../assets/members/Nabin.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/nabin.paudel.41",
+      "instagram": "https://www.instagram.com/nabin_paudel24/",
+      "linkedin": "https://np.linkedin.com/in/nabin-paudel-133902293",
+      "github": "https://github.com/NabinPaudel001",
+      "website": "#"
+    }
+  },
+  {
     "name": "Rajan Kshedal",
-    "designation": "Tech Team",
+    "designation": "Technical Committee",
     "image": "../assets/members/Rajan.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/mahrajanhok",
@@ -117,6 +117,18 @@
       "linkedin": "https://www.linkedin.com/in/noobsixt9/",
       "github": "https://github.com/noobsixt9/",
       "website": "https://noobsixt9.medium.com/"
+    }
+  },
+  {
+    "name": "Rishav Chapagain",
+    "designation": "Technical Committee",
+    "image": "../assets/members/Rishav.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/rishavosaurus",
+      "instagram": "https://www.instagram.com/rishavosaurus/",
+      "linkedin": "https://www.linkedin.com/in/rishav-chapagain/",
+      "github": "https://github.com/RishavOsaurus/",
+      "website": "#"
     }
   },
   {
