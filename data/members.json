@@ -35,7 +35,6 @@
       "website": "#"
     }
   },
-
   {
     "name": "Sujal Bikram Thapa",
     "designation": "Graphics/Web Designer",
@@ -48,10 +47,21 @@
       "website": "https://sujalbthapa.com.np/"
     }
   },
-
+  {
+    "name": "Ujashna Dangol",
+    "designation": "Graphics Designer",
+    "image": "../assets/members/Ujashna.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/ujashna.dangol",
+      "instagram": "https://www.instagram.com/uj_2004_/",
+      "linkedin": "https://www.linkedin.com/in/ujashna-dangol-165533311/",
+      "github": "https://github.com/Ujashna",
+      "website": "#"
+    }
+  },
   {
     "name": "Aman Sheikh",
-    "designation": "Web Developer",
+    "designation": "Technical Committee",
     "image": "../assets/members/Aman.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/fried.donutslinger",
@@ -61,10 +71,9 @@
       "website": "#"
     }
   },
-
   {
     "name": "Anish Neupane",
-    "designation": "Web Developer",
+    "designation": "Technical Committee",
     "image": "../assets/members/Anish.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/anishkn04",
@@ -74,10 +83,45 @@
       "website": "#"
     }
   },
-
+  {
+    "name": "Bikram Kharal",
+    "designation": "Technical Committee",
+    "image": "../assets/members/Bikram.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/themarkib/",
+      "instagram": "https://www.instagram.com/themarkib/",
+      "linkedin": "https://www.linkedin.com/in/themarkib/",
+      "github": "https://github.com/themarkib",
+      "website": "https://bikramkharal.com.np/"
+    }
+  },
+  {
+    "name": "Nabin Paudel",
+    "designation": "Technical Committee",
+    "image": "../assets/members/Nabin.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/nabin.paudel.41",
+      "instagram": "https://www.instagram.com/nabin_paudel24/",
+      "linkedin": "https://np.linkedin.com/in/nabin-paudel-133902293",
+      "github": "https://github.com/NabinPaudel001",
+      "website": "#"
+    }
+  },
+  {
+    "name": "Rajan Kshedal",
+    "designation": "Technical Committee",
+    "image": "../assets/members/Rajan.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/mahrajanhok",
+      "instagram": "https://www.instagram.com/rajanhok_/",
+      "linkedin": "https://www.linkedin.com/in/noobsixt9/",
+      "github": "https://github.com/noobsixt9/",
+      "website": "https://noobsixt9.medium.com/"
+    }
+  },
   {
     "name": "Rishav Chapagain",
-    "designation": "Web Developer",
+    "designation": "Technical Committee",
     "image": "../assets/members/Rishav.jpg",
     "socialLinks": {
       "facebook": "https://www.facebook.com/rishavosaurus",
@@ -87,7 +131,18 @@
       "website": "#"
     }
   },
-
+  {
+    "name": "Birat Aryal",
+    "designation": "Logistics",
+    "image": "../assets/members/Birat.png",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/itsbirataryal",
+      "instagram": "https://www.instagram.com/birataryal_/",
+      "linkedin": "https://www.linkedin.com/in/aryalbirat/",
+      "github": "https://github.com/aryalbirat",
+      "website": "https://aryalbirat.com.np/"
+    }
+  },
   {
     "name": "Darshan Pajiyar",
     "designation": "Logistics",
@@ -112,7 +167,6 @@
       "website": "#"
     }
   },
-
   {
     "name": "Kripa Khanal",
     "designation": "Outreach and Sponsorship",
@@ -125,7 +179,6 @@
       "website": "#"
     }
   },
-
   {
     "name": "Sanskar Tamang",
     "designation": "Outreach and Sponsorship",
@@ -138,7 +191,6 @@
       "website": "#"
     }
   },
-
   {
     "name": "Prashubha Pathak",
     "designation": "Social Media",
@@ -151,7 +203,30 @@
       "website": "#"
     }
   },
-
+  {
+    "name": "Samikshya Ghimire",
+    "designation": "Content & Social Media",
+    "image": "../assets/members/Samikshya.png",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
+      "instagram": "https://www.instagram.com/samikshyaxx/",
+      "linkedin": "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
+      "github": "",
+      "website": "#"
+    }
+  },
+  {
+    "name": "Nikita Banskota",
+    "designation": "Volunteer",
+    "image": "../assets/members/Nikita.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/nikita.banskota.9",
+      "instagram": "",
+      "linkedin": "https://www.linkedin.com/in/nikita-banskota-6b78b6328/",
+      "github": "https://github.com/Nikkyyyyy",
+      "website": "#"
+    }
+  },
   {
     "name": "Rushab Risal",
     "designation": "Volunteer",
@@ -164,7 +239,6 @@
       "website": "#"
     }
   },
-
   {
     "name": "Sanjana Paudel",
     "designation": "Volunteer",
