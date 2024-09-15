@@ -1,8 +1,15 @@
+const pathName = window.location.pathname;
+let splittedPath = pathName.split("/");
+const currentPage = splittedPath[splittedPath.length - 1].replace(
+    ".html",
+    "",
+);
+
 const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
     <a href="/"><img class="h-11 md:h-[4.75rem] lg:w-auto lg:hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="nav-list"
-        class="h-screen z-50 transition-all shadow-lg bg-[#f6f6ff] lg:shadow-none p-8 lg:bg-transparent fixed w-[60vw] lg:w-auto flex flex-col list-none gap-5 top-14 md:top-[4.75rem] lg:top-0 -right-full lg:static lg:flex lg:flex-row xl:gap-10 lg:gap-8 lg:my-auto md:text-xl lg:font-semibold lg:items-center lg:*:hover:cursor-pointer font-bahnschrift lg:h-[4.75rem]">
+        class="h-screen z-50 transition-all shadow-lg bg-[#f6f6ff] lg:shadow-none lg:bg-transparent fixed w-[60vw] lg:w-auto flex flex-col list-none gap-5 top-14 md:top-[4.75rem] lg:top-0 -right-full lg:static lg:flex lg:flex-row xl:gap-10 lg:gap-8 lg:my-auto md:text-xl lg:font-semibold lg:items-center lg:*:hover:cursor-pointer font-bahnschrift lg:h-[4.75rem]">
         <span class="group/about" id="about">
             <div
                 class="lg:hover:bg-transparent lg:border-0 flex items-center justify-between w-full md:w-auto">About
@@ -18,11 +25,11 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 class="hidden lg:absolute *:text-black lg:group-hover/about:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <span onclick="scrollNav('about-sfd-section')" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
+                        <span onclick="${ currentPage == "" ? "scrollNav('about-sfd-section')" : "jumpToPage('about-sfd-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
                             SFD</span>
                     </li>
                     <li>
-                        <span onclick="scrollNav('about-nosk-section')"
+                        <span onclick="${ currentPage == "" ? "scrollNav('about-nosk-section')" : "jumpToPage('about-nosk-section')"}"
                             class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2 hover:cursor-pointer">About NOSK</span>
                     </li>
                     <li>
@@ -32,7 +39,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                         <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Speakers</a>
                     </li>
                     <li>
-                        <span onclick="scrollNav('sponsors-section')" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</span>
+                        <span onclick="${ currentPage == "" ? "scrollNav('sponsors-section')" : "jumpToPage('sponsors-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</span>
                     </li>
                 </ul>
             </div>
@@ -88,6 +95,11 @@ const scrollNav = (id)=>{
     });
 }
 
+const jumpToPage = (id)=>{
+    let origin = document.location.origin 
+    document.location.replace( origin + `#${id}`)
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   //To Insert the Navbar in the page
   const body = document.querySelector("#body").innerHTML;
@@ -124,12 +136,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   //For NavItem highlighting
-  const pathName = window.location.pathname;
-  let splittedPath = pathName.split("/");
-  const currentPage = splittedPath[splittedPath.length - 1].replace(
-    ".html",
-    "",
-  );
   const navChildren = document.querySelector("#nav-list").children;
   for (navChild of navChildren) {
     if(currentPage == "") return
