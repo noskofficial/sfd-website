@@ -8,35 +8,30 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
   <div class="w-full md:w-1/2 flex items-center justify-center flex-col gap-8">
     <div class="w-full flex flex-wrap items-center justify-center gap-4 md:gap-8">
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="#" target="_blank"><img src="../assets/socialmedia/instagram.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.instagram.com/officialnosk/" target="_blank"><img src="../assets/socialmedia/instagram.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="#" target="_blank"><img src="../assets/socialmedia/x.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://twitter.com/OfficialNosk" target="_blank"><img src="../assets/socialmedia/x.svg" alt="twitter" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="#" target="_blank"><img src="../assets/socialmedia/linkedin.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.linkedin.com/company/officialnosk/" target="_blank"><img src="../assets/socialmedia/linkedin.svg" alt="linkedin" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="#" target="_blank"><img src="../assets/socialmedia/facebook.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.facebook.com/nosklub" target="_blank"><img src="../assets/socialmedia/facebook.svg" alt="facebook" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="#" target="_blank"><img src="../assets/socialmedia/website.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://nosk.org.np/" target="_blank"><img src="../assets/socialmedia/website.svg" alt="websites" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
 
-   
-   
-    
-   
     </div>
     <div class="w-full">
       <ul class="flex flex-wrap items-center justify-center gap-2 md:gap-4">
-        <li><a href="" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Home</a></li>
-        <li><a href="" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">About</a></li>
-        <li><a href="" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Itinerary</a></li>
-        <li><a href="/pages/ourteam.html" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Team</a></li>
-
-        <li><a href="/pages/faqs.html" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">FAQs</a></li>
-        <li><a href="" target="_blank" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Contact</a></li>
+        <li><a href="/index.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Home</a></li>
+        <li><a href="/index.html#about-sfd-section" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">About</a></li>
+        <li><a href="/pages/schedule.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Schedule</a></li>
+        <li><a href="/pages/ourteam.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Team</a></li>
+        <li><a href="/pages/faqs.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">FAQs</a></li>
+        <li><a href="mailto:nosk@ncit.edu.np" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Contact</a></li>
       </ul>
     </div>
   </div>

@@ -37,16 +37,18 @@
         </div>
         <div class="my-5 justify-center lg:justify-start flex items-center text-xl font-bold">
           <button
-            class="mr-2 h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#FFDD50] text-center hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent transition-all">
-            <span onclick="scrollNav('about-sfd-section')" target="_blank" class="text-sm sm:text-base md:text-xl font-bold leading-4 text-black">Learn
-              More</span>
+            onclick="scrollNav('about-sfd-section')"
+            class="mr-2 h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#FFDD50] text-center hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent transition-all text-sm sm:text-base md:text-xl font-bold leading-4 text-black"
+          >
+          Learn More
           </button>
-          <button
-            class="group h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#208820] text-center hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black transition-all">
-            <a href="https://forms.gle/dLoKZifnSpCnUgPdA" target="_blank"
-              class="text-sm sm:text-base md:text-xl font-bold leading-4 text-white group-hover:text-black">Register
-              Here</a>
-          </button>
+          <a
+            class=" h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#208820] text-center hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black transition-all text-sm sm:text-base md:text-xl font-bold leading-4 text-white flex justify-center items-center"
+            target="_blank"
+            href="https://forms.gle/dLoKZifnSpCnUgPdA"
+            >
+            Register Here
+          </a>
         </div>
         <div class="mt-2 flex justify-center md:gap-2 lg:justify-start h-14 lg:h-16 xl:h-20 max-w-[100vw] w-full">
           <img src="../assets/shared/sfd_horizontal.svg" alt="SFD Horizontal" class="h-14 lg:h-16 xl:h-20 max-w-full" />
@@ -60,7 +62,7 @@
     </div>
   </section>
 
-  <button id="scroll-to-top" class="hidden fixed bottom-16 right-12 z-50 bg-[#208820] rounded p-3"
+  <button id="scroll-to-top" class="hidden fixed bottom-9 right-6 md:right-12 z-50 bg-[#208820] rounded p-3"
     onclick="goToTop()"><img src="/assets//hero/arrow.svg" alt="Top"></button>
 
   <section
@@ -124,7 +126,7 @@
   </section>
 
   <section id="about-sfd-section"
-    class="flex flex-col-reverse lg:flex-row min-h-screen w-full items-center justify-between  px-8 lg:px-[7.5%] xl:px-[10%]">
+    class="flex flex-col-reverse lg:flex-row min-h-screen w-full items-center justify-center lg:justify-between gap-8 lg:gap-0 px-8 lg:px-[7.5%] xl:px-[10%]">
 
     <div class="flex w-full lg:w-[52%] justify-center flex-col gap-4 lg:gap-6 xl:gap-8 items-center lg:items-start">
       <div class="flex items-center justify-between w-full flex-1 flex-col lg:flex-row">
@@ -159,11 +161,13 @@
           be the largest yet, where developers and enthusiasts can showcase their love for open source.</span>
       </div>
       <div>
-        <button
-          class="transition w-full px-4 h-12 FFDD50 text-center bg-[#FFDD50] hover:bg-transparent group hover:border-solid hover:border-2 hover:border-[#FFDD50] shadow-lg">
-          <a href="https://forms.gle/dLoKZifnSpCnUgPdA" target="_blank"
-            class="text-center text-black text-base font-bold block min-w-20">REGISTER NOW</a>
-        </button>
+        <a
+          class="transition w-full px-4 h-12 FFDD50 text-center bg-[#FFDD50] hover:bg-transparent hover:border-solid hover:border-2 hover:border-[#FFDD50] shadow-lg text-black text-base font-bold flex justify-center items-center min-w-20"
+          href="https://forms.gle/dLoKZifnSpCnUgPdA"
+          target="_blank"
+        >
+            REGISTER NOW
+          </a>
       </div>
     </div>
 
@@ -184,14 +188,19 @@
         them at <span class="text-[#FFDD50]">Software Freedom
           Day</span> 2024</p>
       <div class="flex gap-6">
-        <button
-          class="sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#FFDD50]  rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent group"><a
-            href="" target="" class="text-black group-hover:text-white sm:text-xl text-[16px]">LEARN MORE</a></button>
-        <button
-          class="sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black"><a
-            href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank"
-            class="text-[17px] sm:text-xl text-white">REGISTER
-            NOW</a></button>
+        <a
+          class="flex justify-center items-center hover:text-white sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#FFDD50] text-black sm:text-xl text-[16px] rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent "
+          href=""
+          target="_blank"
+          >
+            LEARN MORE
+          </>
+        <a
+          class="flex justify-center items-center sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white text-[17px] sm:text-xl text-white"
+          href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank"
+        >
+        REGISTER NOW
+        </a>
       </div>
     </div>
   </section>
@@ -241,11 +250,13 @@
       </div>
 
       <div class="mt-8">
-        <button
-          class="w-36 h-12 FFDD50 text-center bg-[#208820] hover:bg-transparent group hover:border-solid hover:border-2 hover:border-[#208820] shadow-lg">
-          <a href="https://nosk.org.np/" target="_blank" class="text-center text-white text-base font-bold group-hover:text-black">LEARN
-            MORE</a>
-        </button>
+        <a
+          class="flex justify-center items-center w-36 h-12 FFDD50 text-center bg-[#208820] hover:bg-transparent hover:text-black hover:border-solid hover:border-2 hover:border-[#208820] shadow-lg text-white text-base font-bold group-hover:text-black"
+          href="https://nosk.org.np/"
+          target="_blank"
+          class="">
+          LEARN MORE
+        </a>
       </div>
     </div>
 
@@ -323,11 +334,11 @@
     //For Scroll to rop
     window.onscroll = function () { scrollFunction() };
     function scrollFunction() {
-      const button = document.getElementById("scroll-to-top")
-      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        button.style.display = "block"
+      const button = document.getElementById("scroll-to-top");
+      if ((document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) && (document.documentElement.scrollTop + window.screen.height) < document.body.scrollHeight) {
+        button.style.display = "block";
       } else {
-        button.style.display = "none"
+        button.style.display = "none";
       }
     }
     function goToTop() {

@@ -12,19 +12,19 @@ function createCard(member) {
         
                     <!-- Icons -->
                     <div class="flex justify-center gap-4 mt-4">
-                        <a href="${member.socialLinks.instagram}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                        <a href="${member.socialLinks.instagram}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8 ${member.socialLinks.instagram == "#" ? "hover:cursor-not-allowed" : ""} ">
                             <img src="../assets/socialmedia/instagram.svg" class="">
                         </a>
-                        <a href="${member.socialLinks.facebook}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                        <a href="${member.socialLinks.facebook}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8 ${member.socialLinks.facebook == "#" ? "hover:cursor-not-allowed" : ""} ">
                             <img src="../assets/socialmedia/facebook.svg" class="">
                         </a>
-                        <a href="${member.socialLinks.linkedin}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                        <a href="${member.socialLinks.linkedin}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8 ${member.socialLinks.linkedin == "#" ? "hover:cursor-not-allowed" : ""} ">
                             <img src="../assets/socialmedia/linkedin.svg" class="">
                         </a>
-                        <a href="${member.socialLinks.github}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                        <a href="${member.socialLinks.github}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8 ${member.socialLinks.github == "#" ? "hover:cursor-not-allowed" : ""} ">
                             <img src="../assets/socialmedia/github.svg" class="">
                         </a>
-                        <a href="${member.socialLinks.website}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8">
+                        <a href="${member.socialLinks.website}" class="bg-white rounded-full border-4 flex items-center justify-center w-8 h-8 ${member.socialLinks.website == "#" ? "hover:cursor-not-allowed" : ""} ">
                             <img src="../assets/socialmedia/website.svg" class="">
                         </a>
                     </div>

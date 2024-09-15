@@ -12,6 +12,18 @@
     }
   },
   {
+    "name": "Manish Poudel",
+    "designation": "Facilitator",
+    "image": "../assets/members/Manish.jpg",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/manish.poudel.1297943/",
+      "instagram": "#",
+      "linkedin": "https://www.linkedin.com/in/manish-poudel-b6566a198/",
+      "github": "https://github.com/ManishPoudel",
+      "website": "#"
+    }
+  },
+  {
     "name": "Satya Raj Awasthi",
     "designation": "Facilitator",
     "image": "../assets/members/Satya.jpg",
@@ -80,7 +92,7 @@
       "instagram": "https://www.instagram.com/anishkn04/",
       "linkedin": "https://www.linkedin.com/in/anishkn04/",
       "github": "https://github.com/anishkn04/",
-      "website": "#"
+      "website": "https://anishkn.com.np/"
     }
   },
   {
