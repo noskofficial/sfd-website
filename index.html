@@ -64,11 +64,11 @@
     onclick="goToTop()"><img src="/assets//hero/arrow.svg" alt="Top"></button>
 
   <section
-    class="flex h-[460px] overflow-hidden w-full content-center items-center justify-between  px-8 lg:px-[7.5%] xl:px-[10%]">
+    class="flex h-[460px] overflow-hidden w-full content-center items-center justify-around px-1 sm:px-8 lg:px-[7.5%] xl:px-[10%]">
     <img src="/assets/timer/timer_bg.svg" alt="Timer Background"
       class="absolute left-0 h-96 lg:h-fit object-cover object-left lg:object-cover w-full">
-    <div class="flex flex-col gap-3 justify-center text-xs sm:text-sm md:text-base lg:text-xl  text-white z-10">
-      <span class="text-sm sm:text-base md:text-xl lg:text-2xl font-bold">Be a Part of The Celebration<br />Mark your
+    <div class="flex flex-col w-fit gap-3 justify-center text-xs sm:text-sm md:text-base xl:text-xl  text-white z-10">
+      <span class="text-sm sm:text-base md:text-xl xl:text-2xl font-bold">Be a Part of The Celebration<br />Mark your
         Calenders<br /></span>
       <div>
         <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
@@ -78,50 +78,48 @@
         <span>Time: <span class="font-extralight">10:00 AM</span></span>
       </div>
     </div>
-    <div>
-      <div id="timer"
-        class="grid md:grid-cols-4 grid-cols-2 gap-y-4  items-center justify-center text-white w-full max-w-[100vw] *:relative md:*:mr-4 *:mr-2 *:grid md:*:h-24 *:h-16 *:w-16 md:*:w-24 *:grid-rows-3 *:rounded-xl md:*:border-4 *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift">
+    <div id="timer"
+      class="grid md:grid-cols-4 w-fit grid-cols-2 gap-y-4  items-center justify-center text-white max-w-[100vw] *:relative md:*:mr-4 *:mr-2 *:grid md:*:h-24 *:h-16 *:w-16 md:*:w-24 *:grid-rows-3 *:rounded-xl md:*:border-4 *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift">
         <div class="">
           <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
           </div>
           <div
-            class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center"
+            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
             id="days">
             0
           </div>
-          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Days</div>
+          <div class="w-full text-center text-xs md:text-base font-light">Days</div>
         </div>
         <div class="">
           <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
           </div>
           <div
-            class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center"
+            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
             id="hours">
             0
           </div>
-          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Hours</div>
+          <div class="w-full text-center text-xs md:text-base font-light">Hours</div>
         </div>
         <div class="">
           <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
           </div>
           <div
-            class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center"
+            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
             id="minutes">
             0
           </div>
-          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Minutes</div>
+          <div class="w-full text-center text-xs md:text-base font-light">Minutes</div>
         </div>
         <div class="">
           <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
           </div>
           <div
-            class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center"
+            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
             id="seconds">
             0
           </div>
-          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Seconds</div>
+          <div class="w-full text-center text-xs md:text-base font-light">Seconds</div>
         </div>
-      </div>
     </div>
   </section>
 
