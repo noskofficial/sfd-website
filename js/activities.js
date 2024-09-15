@@ -37,6 +37,16 @@ const clickGen = (activity, titleColor, buttonColor) => {
             <div class="font-bold text-2xl flex-1 text-center" style="color: ${titleColor}">${activity.title}</div>
         </div>
         <div class="font-light text-base flex-1">${activity.description}</div>
-        <a target="_blank" class="text-base w-4/5 h-10 rounded-3xl font-bold text-white items-center flex justify-center " href="${activity.button.link}" style="background-color: ${buttonColor}" >${activity.button.title}</a>
+        <a target="_blank" class="text-base w-4/5 h-10 rounded-3xl font-bold text-white items-center flex justify-center hover:bg-transparent" href="${activity.button.link}" style="background-color: ${buttonColor}; border: 1px solid ${buttonColor}" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)">${activity.button.title}</a>
     </div>`
+}
+
+const hoverEffect = (e) => {
+    e.style.backgroundColor = 'transparent';
+    e.style.color = e.style.borderColor;
+}
+
+const resetEffect = (e) => {
+    e.style.backgroundColor = e.style.borderColor;
+    e.style.color = 'white';
 }

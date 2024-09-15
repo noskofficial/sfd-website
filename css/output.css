@@ -655,8 +655,8 @@ video {
   right: -100%;
 }
 
-.-top-1 {
-  top: -0.25rem;
+.-top-2 {
+  top: -0.5rem;
 }
 
 .-top-5 {
@@ -689,10 +689,6 @@ video {
 
 .top-14 {
   top: 3.5rem;
-}
-
-.-top-2 {
-  top: -0.5rem;
 }
 
 .z-0 {
@@ -923,6 +919,11 @@ video {
   height: auto;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full {
   height: 100%;
 }
@@ -931,12 +932,29 @@ video {
   height: 100vh;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
 
+.min-h-36 {
+  min-height: 9rem;
+}
+
 .min-h-dvh {
   min-height: 100dvh;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.min-h-48 {
+  min-height: 12rem;
 }
 
 .w-1 {
@@ -1160,11 +1178,6 @@ video {
   row-gap: 1rem;
 }
 
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1365,6 +1378,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1383,10 +1400,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-2 {
@@ -1427,6 +1440,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .py-6 {
@@ -1804,10 +1822,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:-top-2 {
-    top: -0.5rem;
-  }
-
   .sm\:hidden {
     display: none;
   }
@@ -1997,8 +2011,16 @@ video {
     width: auto;
   }
 
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {
@@ -2145,18 +2167,6 @@ video {
     height: 66px;
   }
 
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
   .lg\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
@@ -2230,6 +2240,10 @@ video {
     justify-content: center;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:gap-40 {
     gap: 10rem;
   }
@@ -2257,11 +2271,6 @@ video {
   .lg\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .lg\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
   }
 
   .lg\:object-cover {

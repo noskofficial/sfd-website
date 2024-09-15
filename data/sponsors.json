@@ -1,6 +1,22 @@
 [
     {
         "name": "NCIT",
-        "image": ""
+        "image": "/assets/sponsors/ncit.png",
+        "link": "https://ncit.edu.np/"
+    },
+    {
+        "name": "rEngine",
+        "image": "/assets/sponsors/rengine.png",
+        "link": "https://rengine.wiki/"
+    },
+    {
+        "name": "eSewa",
+        "image": "/assets/sponsors/esewa.svg",
+        "link": "https://esewa.com.np/"
+    },
+    {
+        "name": "GitHub Education",
+        "image": "/assets/sponsors/github.svg",
+        "link": "https://github.com/"
     }
 ]
