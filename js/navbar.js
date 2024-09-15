@@ -18,12 +18,12 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 class="hidden lg:absolute *:text-black lg:group-hover/about:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a href="/pages/aboutsfd.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">About
-                            SFD</a>
+                        <span onclick="scrollNav('about-sfd-section')" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
+                            SFD</span>
                     </li>
                     <li>
-                        <a href="https://nosk.org.np/site/html/about.html"
-                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">About NOSK</a>
+                        <span onclick="scrollNav('about-nosk-section')"
+                            class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2 hover:cursor-pointer">About NOSK</span>
                     </li>
                     <li>
                         <a href="/pages/gallery.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Gallery</a>
@@ -32,7 +32,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                         <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Speakers</a>
                     </li>
                     <li>
-                        <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</a>
+                        <span onclick="scrollNav('sponsors-section')" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</span>
                     </li>
                 </ul>
             </div>
@@ -80,6 +80,13 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
     <img id="hamMenu" src="/assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
 </nav>
 `;
+
+const scrollNav = (id)=>{
+    document.getElementById(id).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   //To Insert the Navbar in the page
