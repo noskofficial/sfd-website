@@ -4,6 +4,7 @@
 <head >
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/shared/nosk_vertical.svg" type="image/x-icon">
   <link rel="stylesheet" href="../css/output.css" />
   <title>NOSK SFD 2024</title>
   <style>
@@ -56,45 +57,47 @@
   </section> 
 
 <section
-    class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-center gap-56 bg-hero-pattern bg-cover">
-    <div class="flex flex-col justify-center text-[16px] text-white">
-      <span class="text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
-      <br />
-      <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
-      <span>Venue:
-        <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
-      <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
-      <span>Time: <span class="font-extralight">10:00 AM</span></span>
+    class="flex h-[460px] overflow-hidden w-auto content-center items-center justify-around sm:justify-center p-2 sm:gap-10 md:gap-16 lg:gap-40 xl:gap-56">
+    <img src="/assets/timer/timer_bg.svg" alt="Timer Background" class="absolute h-96 lg:h-fit object-cover object-left lg:object-cover w-full">
+    <div class="flex flex-col gap-3 justify-center text-xs sm:text-sm md:text-base lg:text-xl  text-white z-10">
+      <span class="text-sm sm:text-base md:text-xl lg:text-2xl font-bold">Be a Part of The Celebration<br />Mark your Calenders<br /></span>
+      <div>
+        <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
+        <span>Venue:
+          <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
+        <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
+        <span>Time: <span class="font-extralight">10:00 AM</span></span>
+      </div>
     </div>
     <div>
-      <div id="timer" class="flex items-center justify-center text-white w-full max-w-[100vw]">
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="days">
+      <div id="timer" class="grid md:grid-cols-4 grid-cols-2 gap-y-4  items-center justify-center text-white w-full max-w-[100vw] *:relative md:*:mr-4 *:mr-2 *:grid md:*:h-24 *:h-16 *:w-16 md:*:w-24 *:grid-rows-3 *:rounded-xl md:*:border-4 *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="days">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Days</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Days</div>
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="hours">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="hours">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Hours</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Hours</div>
         </div>
-        <div class="relative mr-4 grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="minutes">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="minutes">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Minutes</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Minutes</div>
         </div>
-        <div class="relative grid h-24 w-24 grid-rows-3 rounded-xl border-4 border-slate-600 p-2 font-bahnschrift">
-          <div class="absolute -top-3 left-5 h-5 w-3 rounded-md border bg-[#D9D9D9]"></div>
-          <div class="row-span-2 w-full text-center text-6xl font-bold" id="seconds">
+        <div class="">
+          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]"></div>
+          <div class="row-span-2 w-full text-center lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-bold flex justify-center" id="seconds">
             0
           </div>
-          <div class="w-full text-center text-base font-light">Seconds</div>
+          <div class="w-full text-center text-xs sm:text-sm md:text-base font-light">Seconds</div>
         </div>
       </div>
     </div>
@@ -210,27 +213,40 @@
   
   </section>
   
-  
+  <section class="flex h-auto justify-around items-center bg-yellow-400 py-6 w-full  mx-auto ">
+    
 
-<section class="flex h-auto justify-around items-center bg-yellow-400 py-6 w-full  mx-auto ">
-   
+      <div class="text-center border-r border-black sm:px-6 px-2 flex items-center justify-center">
+          <p class="md:text-[39px] lg:text-[3.8rem] font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+20</p>
+          <p class="lg:text-base font-normal flex justify-start text-left md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">Years of Advocating for Software Freedom</p>
+      </div>
 
-    <div class="text-center border-r border-black sm:px-6 px-2 flex items-center justify-center">
-        <p class="md:text-[39px] lg:text-[3.8rem] font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+20</p>
-        <p class="lg:text-base font-normal flex justify-start text-left md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">Years of Advocating for Software Freedom</p>
+      <div class="text-center border-r border-black sm:px-6  px-2 flex items-center justify-center">
+          <p class="md:text-[39px] lg:text-[3.8rem]  font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+2100</p>
+          <p class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">Open Source Enthusiasts Reached</p>
+      </div>
+
+      <div class="text-center sm:px-6  flex items-center px-2  justify-center">
+          <p class="md:text-[39px] lg:text-[3.8rem]   font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+500</p>
+          <p class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px] ">Events Conducted</p>
+      </div>
+
+  </section>
+
+  <section class="mt-7 min-h-dvh w-full px-[8%]">
+    <div>
+      <div class="w-full text-center text-4xl font-bold">Event Activities</div>
+      <div class="mr-4 flex flex-col items-center justify-center">
+        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#FFCD29]"></span>
+        <span class="ml-1 inline-block w-36 sm:w-48 h-2 border-b-4 border-solid border-[#208820]"></span>
+        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#E4554E]"></span>
+      </div>
     </div>
-
-    <div class="text-center border-r border-black sm:px-6  px-2 flex items-center justify-center">
-        <p class="md:text-[39px] lg:text-[3.8rem]  font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+2100</p>
-        <p class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">Open Source Enthusiasts Reached</p>
+    <div id="event-container" class="w-full h-full">
+      <div id="unclickables" class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-5"></div>
+      <div id="clickables" class="grid place-items-center grid-cols-1 lg:grid-cols-2 gap-4 pt-5"></div>
     </div>
-
-    <div class="text-center sm:px-6  flex items-center px-2  justify-center">
-        <p class="md:text-[39px] lg:text-[3.8rem]   font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">+500</p>
-        <p class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px] ">Events Conducted</p>
-    </div>
-
-</section>
+  </section>
 
   <section
     class="mt-7 flex h-[11.25rem] w-full flex-col items-center justify-center bg-[#009042]"
@@ -238,12 +254,28 @@
     <p class=" text-3xl sm:text-5xl md:6xl lg:text-7xl font-bold text-white">Learn - Enjoy - Discover</p>
   </section>  
 
+  <section class="mt-7 min-h-fit w-full px-[8%]">
+    <div>
+      <div class="w-full text-center text-4xl font-bold">Sponsors and Partners</div>
+      <div class="mr-4 flex flex-col items-center justify-center">
+        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#FFCD29]"></span>
+        <span class="ml-1 inline-block w-36 sm:w-48 h-2 border-b-4 border-solid border-[#208820]"></span>
+        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#E4554E]"></span>
+      </div>
+    </div>
+    <div id="sponsor-container">
+      
+    </div>
+  </section>
+
   <!-- Footer Section (from js/footer.js) -->
   <footer></footer>
 
 
   <script src="/js/navbar.js"></script>
-  <script src="js/footer.js"></script>
+  <script src="/js/activities.js"></script>
+  <script src="/js/sponsors.js"></script>
+  <script src="/js/footer.js"></script>
   <script>
 
     document.addEventListener("DOMContentLoaded", () => {

@@ -23,6 +23,18 @@
       "website": "#"
     }
   },
+  {
+    "name": "Shreeya Tamang",
+    "designation": "Facilitator",
+    "image": "../assets/members/Shreeya.jpg",
+    "socialLinks": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "https://www.linkedin.com/in/shreeya-tamang/",
+      "github": "https://github.com/shreeyatamang",
+      "website": "#"
+    }
+  },
 
   {
     "name": "Sujal Bikram Thapa",
