@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -699,6 +699,10 @@ video {
   top: 3.5rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -755,6 +759,10 @@ video {
 
 .-mt-3 {
   margin-top: -0.75rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .mb-2 {
@@ -962,6 +970,10 @@ video {
   max-height: 100vh;
 }
 
+.min-h-36 {
+  min-height: 9rem;
+}
+
 .min-h-48 {
   min-height: 12rem;
 }
@@ -977,18 +989,6 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.min-h-20 {
-  min-height: 5rem;
-}
-
-.min-h-24 {
-  min-height: 6rem;
-}
-
-.min-h-36 {
-  min-height: 9rem;
 }
 
 .w-1 {
@@ -2041,6 +2041,10 @@ video {
     grid-column-end: 7;
   }
 
+  .md\:mb-\[4\.75\] {
+    margin-bottom: 4.75;
+  }
+
   .md\:ml-auto {
     margin-left: auto;
   }
@@ -2083,6 +2087,10 @@ video {
 
   .md\:h-\[calc\(100dvh-6\.75rem\)\] {
     height: calc(100dvh - 6.75rem);
+  }
+
+  .md\:h-\[4\.75\] {
+    height: 4.75;
   }
 
   .md\:w-1\/2 {
@@ -2143,6 +2151,10 @@ video {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:p-0 {
@@ -2243,6 +2255,10 @@ video {
     margin-bottom: auto;
   }
 
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -2286,6 +2302,10 @@ video {
   .lg\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .lg\:h-0 {
+    height: 0px;
   }
 
   .lg\:min-h-96 {

@@ -20,7 +20,7 @@
   <section id="hero"
     class="flex w-full items-center justify-center px-8 lg:px-[7.5%] xl:px-[10%] h-[calc(100dvh-5.5rem)] md:h-[calc(100dvh-6.75rem)]">
     <div id="holder"
-      class="flex flex-col-reverse lg:flex-row justify-center gap-10 md:gap-0 md:justify-between h-full max-w-[100vw] w-full lg:*:w-[45%]">
+      class="flex flex-col-reverse lg:flex-row justify-center gap-10 lg:justify-between h-full max-w-[100vw] w-full lg:*:w-[45%]">
       <div class="flex flex-col justify-center">
         <div class="mb-2 text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
           <p class="flex flex-col text-center lg:text-start gap-2 lg:gap-6 ">
@@ -189,14 +189,14 @@
           Day</span> 2024</p>
       <div class="flex gap-6">
         <a
-          class="flex justify-center items-center hover:text-white sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#FFDD50] text-black sm:text-xl text-[16px] rounded-[27.5px] text-xl hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent "
+          class="flex justify-center items-center hover:text-white sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#FFDD50] text-black sm:text-xl text-sm rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent "
           href="pages/aboutsfd.html"
           target="_blank"
           >
             LEARN MORE
           </>
         <a
-          class="flex justify-center items-center sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white text-[17px] sm:text-xl text-white"
+          class="flex justify-center items-center sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 text-sm hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white text-[17px] sm:text-xl text-white"
           href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank"
         >
         REGISTER NOW
@@ -332,19 +332,19 @@
   <script src="/js/footer.js"></script>
   <script>
     //For Scroll to rop
-    window.onscroll = function () { scrollFunction() };
-    function scrollFunction() {
-      const button = document.getElementById("scroll-to-top");
-      if ((document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) && (document.documentElement.scrollTop + window.screen.height) < document.body.scrollHeight) {
-        button.style.display = "block";
-      } else {
-        button.style.display = "none";
+      window.onscroll = function () { scrollFunction() };
+      function scrollFunction() {
+        if (window.innerWidth <= 1024) return
+        const button = document.getElementById("scroll-to-top");
+        if ((document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) && (document.documentElement.scrollTop + window.screen.height) < document.body.scrollHeight) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
       }
-    }
-    function goToTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
+      function goToTop() {
+        scrollNav("hero")
+      }
     document.addEventListener("DOMContentLoaded", () => {
       const sfdDate = new Date("2024-09-21T10:00:00");
       const daysElem = document.getElementById("days");
