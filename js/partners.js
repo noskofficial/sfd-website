@@ -1,60 +1,41 @@
 const sponsorsData = [
   {
-    title: "Event Sponsor",
-    name: "Leapfrog",
-    image: "/assets/sponsors/Leapfrog.svg",
-    link: "https://www.lftechnology.com/",
-  },
-  {
-    title: "Primary Organizer",
-    name: "NOSK",
-    image: "/assets/shared/nosk_logo.svg",
-    link: "https://nosk.org.np/",
-  },
-  {
-    title: "Primary Supporter",
+    title: "Gold Sponsor",
     name: "Nepal College of Information Technology",
     image: "/assets/sponsors/NCIT.jpg",
     link: "https://ncit.edu.np/",
   },
 
   {
-    title: "Event Sponsor",
+    title: "Silver Sponsor",
     name: "rEngine",
     image: "/assets/sponsors/rengine.png",
     link: "https://rengine.wiki/",
   },
   {
-    title: "Career Partner",
-    name: "Mero Job",
+    title: "Bronze Sponsor",
+    name: "Leapfrog",
+    image: "/assets/sponsors/LeapFrog1.png",
+    link: "https://www.lftechnology.com/",
+  },
+  {
+    title: "Supporting Partner",
+    name: "Mero Job (Career Partner)",
     image: "/assets/sponsors/Mero Job.jpg",
     link: "https://merojob.com/",
   },
   {
-    title: "Community Partner",
-    name: "Rotaract Club of Balaju",
-    image: "/assets/sponsors/Rotaract Club Of Balaju.png",
-    link: "https://www.instagram.com/rotaractbalajuofficial/",
+    title: "Supporting Partner",
+    name: "Libre Office",
+    image: "/assets/sponsors/LibreOffice.png",
+    link: "https://www.libreoffice.org/",
   },
   {
-    title: "Community Partner",
-    name: "Rotaract Club of Dillibazar-Kathmandu",
-    image: "/assets/sponsors/Logo_Club_And_Serving_Mankind.png",
-    link: "https://www.instagram.com/rotaractdillibazar_ktm/",
+    title: "Supporting Partner",
+    name: "GitHub Campus Expert",
+    image: "/assets/sponsors/Red Flag.png",
+    link: "https://githubcampus.expert/",
   },
-  {
-    title: "Community Partner",
-    name: "Rotaract Club of Gyaneshwor, CiST",
-    image: "/assets/sponsors/RAC_Gyaneswor_CiST, Logo.png",
-    link: "https://www.instagram.com/racgyanesworcist/",
-  },
-  {
-    title: "Community Partner",
-    name: "Rotaract Club of Patan West",
-    image: "/assets/sponsors/patan_west-1.png",
-    link: "https://www.instagram.com/rotaractclubofpatanwest/",
-  },
-
   {
     title: "Co-Organizing Partner",
     name: "Birendra Open Source Club",
@@ -72,6 +53,30 @@ const sponsorsData = [
     name: "Trichandra Research Group",
     image: "/assets/sponsors/TriChandra Research Group.jpg",
     link: "https://www.facebook.com/TriChandraResearchGroup/",
+  },
+  {
+    title: "Other Partner",
+    name: "Rotaract Club of Balaju",
+    image: "/assets/sponsors/Rotaract Club Of Balaju.png",
+    link: "https://www.instagram.com/rotaractbalajuofficial/",
+  },
+  {
+    title: "Other Partner",
+    name: "Rotaract Club of Dillibazar-Kathmandu",
+    image: "/assets/sponsors/Logo_Club_And_Serving_Mankind.png",
+    link: "https://www.instagram.com/rotaractdillibazar_ktm/",
+  },
+  {
+    title: "Other Partner",
+    name: "Rotaract Club of Gyaneshwor, CiST",
+    image: "/assets/sponsors/RAC_Gyaneswor_CiST, Logo.png",
+    link: "https://www.instagram.com/racgyanesworcist/",
+  },
+  {
+    title: "Other Partner",
+    name: "Rotaract Club of Patan West",
+    image: "/assets/sponsors/patan_west-1.png",
+    link: "https://www.instagram.com/rotaractclubofpatanwest/",
   },
 
   {
@@ -111,12 +116,12 @@ sponsorsData.forEach((sponsor) => {
   card.className =
     "sponsor-card flex max-w-64 flex-col justify-between gap-3 rounded-3xl bg-white p-4 rounded-xl hover:shadow-xl";
   card.innerHTML = `
-      <div class="sponsor-image max-w-full max-h-full my-auto flex items-start justify-center">
+      <div class="sponsor-image max-w-full max-h-full min-h-36 my-auto flex items-center justify-center">
         <a href="${link}">
           <img
             src="${image}"
             alt="${name}"
-            class="max-w-full max-h-full min-w-48 object-cover"
+            class="max-w-full max-h-full  min-w-48 object-cover"
           />
         </a>
       </div>
