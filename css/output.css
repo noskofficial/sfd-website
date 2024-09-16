@@ -691,16 +691,16 @@ video {
   right: 1.5rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .top-1\/2 {
   top: 50%;
 }
 
 .top-14 {
   top: 3.5rem;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .z-0 {
@@ -759,10 +759,6 @@ video {
 
 .-mt-3 {
   margin-top: -0.75rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
 }
 
 .mb-2 {
@@ -1561,10 +1557,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .text-\[17px\] {
   font-size: 17px;
 }
@@ -2041,10 +2033,6 @@ video {
     grid-column-end: 7;
   }
 
-  .md\:mb-\[4\.75\] {
-    margin-bottom: 4.75;
-  }
-
   .md\:ml-auto {
     margin-left: auto;
   }
@@ -2089,10 +2077,6 @@ video {
     height: calc(100dvh - 6.75rem);
   }
 
-  .md\:h-\[4\.75\] {
-    height: 4.75;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2133,14 +2117,6 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
-  }
-
   .md\:gap-2 {
     gap: 0.5rem;
   }
@@ -2151,14 +2127,6 @@ video {
 
   .md\:gap-8 {
     gap: 2rem;
-  }
-
-  .md\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
   }
 
   .md\:p-\[10px\] {
@@ -2255,10 +2223,6 @@ video {
     margin-bottom: auto;
   }
 
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .lg\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -2273,6 +2237,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-0 {
+    height: 0px;
   }
 
   .lg\:h-16 {
@@ -2302,10 +2270,6 @@ video {
   .lg\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
-  }
-
-  .lg\:h-0 {
-    height: 0px;
   }
 
   .lg\:min-h-96 {
@@ -2514,6 +2478,11 @@ video {
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .lg\:drop-shadow-none {
+    --tw-drop-shadow: drop-shadow(0 0 #0000);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 
   .lg\:\*\:w-\[45\%\] > * {
