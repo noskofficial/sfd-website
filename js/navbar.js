@@ -1,9 +1,6 @@
 const pathName = window.location.pathname;
 let splittedPath = pathName.split("/");
-const currentPage = splittedPath[splittedPath.length - 1].replace(
-    ".html",
-    "",
-);
+const currentPage = splittedPath[splittedPath.length - 1].replace(".html", "");
 
 const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
     <a href="/"><img class="h-11 md:h-[4.75rem] lg:w-auto lg:hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
@@ -25,11 +22,11 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                 class="hidden lg:absolute *:text-black lg:group-hover/about:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <span onclick="${ currentPage == "" ? "scrollNav('about-sfd-section')" : "jumpToPage('about-sfd-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
+                        <span onclick="${currentPage == "" ? "scrollNav('about-sfd-section')" : "jumpToPage('about-sfd-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
                             SFD</span>
                     </li>
                     <li>
-                        <span onclick="${ currentPage == "" ? "scrollNav('about-nosk-section')" : "jumpToPage('about-nosk-section')"}"
+                        <span onclick="${currentPage == "" ? "scrollNav('about-nosk-section')" : "jumpToPage('about-nosk-section')"}"
                             class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2 hover:cursor-pointer">About NOSK</span>
                     </li>
                     <li>
@@ -39,7 +36,8 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
                         <a href="#" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Speakers</a>
                     </li>
                     <li>
-                        <span onclick="${ currentPage == "" ? "scrollNav('sponsors-section')" : "jumpToPage('sponsors-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</span>
+                        <a href="/pages/sponsors.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</a>
+                    <!-- <span onclick="${currentPage == "" ? "scrollNav('sponsors-section')" : "jumpToPage('sponsors-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</span> -->
                     </li>
                 </ul>
             </div>
@@ -88,17 +86,17 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
 </nav>
 `;
 
-const scrollNav = (id)=>{
-    document.getElementById(id).scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
-}
+const scrollNav = (id) => {
+  document.getElementById(id).scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};
 
-const jumpToPage = (id)=>{
-    let origin = document.location.origin 
-    document.location.replace( origin + `#${id}`)
-}
+const jumpToPage = (id) => {
+  let origin = document.location.origin;
+  document.location.replace(origin + `#${id}`);
+};
 
 document.addEventListener("DOMContentLoaded", () => {
   //To Insert the Navbar in the page
@@ -138,8 +136,11 @@ document.addEventListener("DOMContentLoaded", () => {
   //For NavItem highlighting
   const navChildren = document.querySelector("#nav-list").children;
   for (navChild of navChildren) {
-    if(currentPage == "") return
-      if (currentPage.includes(navChild.id) || navChild.id.includes(currentPage)) {
+    if (currentPage == "") return;
+    if (
+      currentPage.includes(navChild.id) ||
+      navChild.id.includes(currentPage)
+    ) {
       navChild.style = "color: #E4554E";
     }
   }
