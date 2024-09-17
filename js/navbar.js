@@ -2,11 +2,11 @@ const pathName = window.location.pathname;
 let splittedPath = pathName.split("/");
 const currentPage = splittedPath[splittedPath.length - 1].replace(".html", "");
 
-const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
+const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-row fixed top-0 lg:static w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
     <a href="/"><img class="h-11 md:h-[4.75rem] lg:w-auto lg:hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="nav-list"
-        class="h-screen z-50 p-8 md:p-0 transition-all shadow-lg bg-[#f6f6ff] lg:shadow-none lg:bg-transparent fixed w-[60vw] lg:w-auto flex flex-col list-none gap-5 top-14 md:top-[4.75rem] lg:top-0 -right-full lg:static lg:flex lg:flex-row xl:gap-10 lg:gap-8 lg:my-auto md:text-xl lg:font-semibold lg:items-center lg:*:hover:cursor-pointer font-bahnschrift lg:h-[4.75rem]">
+        class="h-screen z-50 p-8 lg:p-0 transition-all shadow-lg bg-[#f6f6ff] lg:shadow-none lg:bg-transparent fixed w-[60vw] lg:w-auto flex flex-col list-none gap-5 top-14 md:top-[4.75rem] lg:top-0 -right-full lg:static lg:flex lg:flex-row xl:gap-10 lg:gap-8 lg:my-auto md:text-xl lg:font-semibold lg:items-center lg:*:hover:cursor-pointer font-bahnschrift lg:h-[4.75rem]">
         <span class="group/about" id="about">
             <div
                 class="lg:hover:bg-transparent lg:border-0 flex items-center justify-between w-full md:w-auto">About
@@ -84,6 +84,7 @@ const navCode = `<nav class="flex z-50 flex-row w-full p-8 lg:p-0 bg-[#f6f6ff] l
     </div>
     <img id="hamMenu" src="/assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>
 </nav>
+<div class="h-14 md:h-[4.75rem] lg:h-0">‎</div>
 `;
 
 const scrollNav = (id) => {

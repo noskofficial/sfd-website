@@ -2,11 +2,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     let spCards = "";
 
     const res = await fetch("/data/sponsors.json");
-    const data = await res.json();
+    const unfilteredData = await res.json();
+    const data = unfilteredData.filter(data => data.title.includes("Sponsor"))
     const sponsorCount = data.length;
     data.forEach(sponsor => {
-        spCards += `<a target="_blank" href="${sponsor.link}" class="w-full h-full min-h-48 bg-white drop-shadow-lg hover:drop-shadow-2xl border-[0.2px] border-[#787676] p-8 flex justify-center items-center rounded-lg ">
-            <img src="${sponsor.image}" alt="${sponsor.name}" class="max-w-full max-h-full object-contain">
+        spCards += `<a target="_blank" href="${sponsor.link}" class="w-full h-full has-tooltip min-h-48 bg-white drop-shadow-lg hover:drop-shadow-2xl border-[0.2px] border-[#787676] p-8 flex justify-center items-center rounded-lg ">
+            <abbr title="${sponsor.name}"><img src="${sponsor.image}" alt="${sponsor.name}" class="max-w-full max-h-full object-contain"></abbr>
         </a>`;
     });
 
