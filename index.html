@@ -357,20 +357,22 @@
   <script src="/js/sponsors.js"></script>
   <script src="/js/footer.js"></script>
   <script>
-    //For Scroll to rop
-      window.onscroll = function () { scrollFunction() };
-      function scrollFunction() {
-        if (window.innerWidth <= 1024) return
-        const button = document.getElementById("scroll-to-top");
-        if ((document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) && (document.documentElement.scrollTop + window.screen.height) < document.body.scrollHeight) {
-          button.style.display = "block";
-        } else {
-          button.style.display = "none";
-        }
-      }
-      function goToTop() {
-        scrollNav("hero")
-      }
+    //For Scroll to Top
+    function goToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Toggle scroll to top button visibility
+window.onscroll = function () {
+  const scrollToTopButton = document.getElementById("scroll-to-top");
+  
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+};
+
     document.addEventListener("DOMContentLoaded", () => {
       const sfdDate = new Date("2024-09-21T10:00:00");
       const daysElem = document.getElementById("days");

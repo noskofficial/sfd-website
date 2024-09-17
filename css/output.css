@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -713,6 +713,10 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-\[80\] {
+  z-index: 80;
 }
 
 .col-start-6 {
@@ -1692,11 +1696,6 @@ video {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
