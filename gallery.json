@@ -1,22 +1,62 @@
 [
   {
-    "image": "image1.png",
-    "date": "9 Sep",
-    "description": "Pre Event Meetup"
+    "image": "../assets/gallery/opening.JPG",
+    "description": "Opening Ceremony"
   },
   {
-    "image": "image2.png",
-    "date": "10 Sep",
-    "description": "Event Planning"
+    "image": "../assets/gallery/opening2.JPG",
+    "description": "Group Photo"
   },
   {
-    "image": "path/to/your/image3.png",
-    "date": "11 Sep",
-    "description": "Sponsor Outreach"
+    "image": "../assets/gallery/eventregistration.JPG",
+    "description": "Event Registration"
   },
   {
-    "image": "path/to/your/image3.png",
-    "date": "11 Sep",
-    "description": "Sponsor Outreach"
+    "image": "../assets/gallery/speaker1.JPG",
+    "description": "Speaker Session"
+  },
+  {
+    "image": "../assets/gallery/speaker2.JPG",
+    "description": "Speaker Session"
+  },
+  {
+    "image": "../assets/gallery/speaker3.JPG",
+    "description": "Speaker Session"
+  },
+  {
+    "image": "../assets/gallery/token1.JPG",
+    "description": "Token Of Love Distribution"
+  },
+  {
+    "image": "../assets/gallery/token2.JPG",
+    "description": "Token Of Love Distribution"
+  },
+  {
+    "image": "../assets/gallery/token3.JPG",
+    "description": "Token Of Love Distribution"
+  },
+  {
+    "image": "../assets/gallery/projectdemo.JPG",
+    "description": "Project Demonstration"
+  },
+  {
+    "image": "../assets/gallery/distrodemo.JPG",
+    "description": "Distro Demonstration"
+  },
+  {
+    "image": "../assets/gallery/noskcode.JPG",
+    "description": "NOSKCODE Glimpse"
+  },
+  {
+    "image": "../assets/gallery/eventshoot1.JPG",
+    "description": "Event Memories"
+  },
+  {
+    "image": "../assets/gallery/eventshoot2.JPG",
+    "description": "Event Memories"
+  },
+  {
+    "image": "../assets/gallery/eventshoot3.JPG",
+    "description": "Closing Ceremony"
   }
 ]
