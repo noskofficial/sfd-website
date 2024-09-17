@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p class="text-blue-400 text-sm mb-2">${event.time}</p>
                     <h3 class="text-lg font-semibold lg:text-xl">${event.title}</h3>
                     <div class="flex items-center mt-4">
-                        <img src="${event.speaker.image}" alt="${event.speaker.name}" class="w-12 h-12 rounded-full mr-4">
+                       <!-- <img src="${event.speaker.image}" alt="${event.speaker.name}" class="w-12 h-12 rounded-full mr-4"> -->
                         <div>
                             <p class="font-semibold">${event.speaker.name}</p>
                             <p class="text-gray-400 text-sm">${event.speaker.title}</p>
