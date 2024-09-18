@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <title>SFD Link Tree</title>
+    <style>
+      #intro {
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
+
+      #intro h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      #intro .lines-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #intro .line {
+        position: absolute;
+        height: 4px;
+        transition: width 0.3s;
+      }
+
+      #intro .line.first {
+        background-color: #ffcd29;
+        width: 180px;
+        top: 0;
+      }
+
+      #intro .line.middle {
+        background-color: #208820;
+        width: 220px;
+        top: 8px;
+      }
+
+      #intro .line.last {
+        background-color: #e4554e;
+        width: 180px;
+        top: 16px;
+      }
+    </style>
+  </head>
+  <body class="bg-grid" id="body">
+    <div class="flex flex-col items-center justify-center gap-8">
+      <section id="intro" class="py-10">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold">Link Tree</h1>
+          <div class="lines-container">
+            <span class="line first"></span>
+            <span class="line middle"></span>
+            <span class="line last"></span>
+          </div>
+        </div>
+      </section>
+      <button
+        class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+      >
+        <a href="https://forms.gle/dLoKZifnSpCnUgPdA">SFD Registration</a>
+      </button>
+      <button
+        class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+      >
+        <a href=" https://forms.gle/ZmT2eDPqyLoLj5Sd6">Project Registration</a>
+      </button>
+      <button
+        class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+      >
+        <a href=" https://forms.gle/ahaZGnoJhXT5jU3q8"
+          >NOSKODE 5.0 Registration</a
+        >
+      </button>
+      <button
+        class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+      >
+        <a href=" https://forms.gle/Yvt6B7EGniR47ukB9">CTF Registration</a>
+      </button>
+      <button
+        class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+      >
+        <a href="https://sfd.nosk.org.np">Website</a>
+      </button>
+    </div>
+
+    <section
+      class="mt-8 flex w-full items-center justify-center bg-[#111111] px-4 py-8 md:px-0"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-center gap-8 md:w-1/2"
+      >
+        <div
+          class="flex w-full flex-wrap items-center justify-center gap-4 md:gap-8"
+        >
+          <div
+            class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white md:h-[48px] md:w-[48px] lg:h-[66px] lg:w-[66px]"
+          >
+            <a href="https://www.instagram.com/officialnosk/" target="_blank"
+              ><img
+                src="../assets/socialmedia/instagram.svg"
+                alt="instagram"
+                class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"
+            /></a>
+          </div>
+          <div
+            class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white md:h-[48px] md:w-[48px] lg:h-[66px] lg:w-[66px]"
+          >
+            <a href="https://twitter.com/OfficialNosk" target="_blank"
+              ><img
+                src="../assets/socialmedia/x.svg"
+                alt="twitter"
+                class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"
+            /></a>
+          </div>
+          <div
+            class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white md:h-[48px] md:w-[48px] lg:h-[66px] lg:w-[66px]"
+          >
+            <a
+              href="https://www.linkedin.com/company/officialnosk/"
+              target="_blank"
+              ><img
+                src="../assets/socialmedia/linkedin.svg"
+                alt="linkedin"
+                class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"
+            /></a>
+          </div>
+          <div
+            class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white md:h-[48px] md:w-[48px] lg:h-[66px] lg:w-[66px]"
+          >
+            <a href="https://www.facebook.com/nosklub" target="_blank"
+              ><img
+                src="../assets/socialmedia/facebook.svg"
+                alt="facebook"
+                class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"
+            /></a>
+          </div>
+          <div
+            class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white md:h-[48px] md:w-[48px] lg:h-[66px] lg:w-[66px]"
+          >
+            <a href="https://nosk.org.np/" target="_blank"
+              ><img
+                src="../assets/socialmedia/website.svg"
+                alt="websites"
+                class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"
+            /></a>
+          </div>
+        </div>
+        <div class="w-full">
+          <ul class="flex flex-wrap items-center justify-center gap-2 md:gap-4">
+            <li>
+              <a
+                href="/index.html"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/index.html#about-sfd-section"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="/pages/schedule.html"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >Schedule</a
+              >
+            </li>
+            <li>
+              <a
+                href="/pages/ourteam.html"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="/pages/faqs.html"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >FAQs</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:nosk@ncit.edu.np"
+                class="text-sm font-semibold text-white hover:text-red-600 md:text-base lg:text-xl"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex h-auto w-full items-center justify-center bg-black py-4"
+    >
+      <p class="text-center text-xs text-white md:text-base">
+        Copyright© Software Freedom Day 2024 x Nepal Open Source Club
+      </p>
+    </section>
+  </body>
+
+  <script src="../js/navbar.js"></script>
+  <script src="../js/footer.js"></script>
+</html>
