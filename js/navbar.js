@@ -2,7 +2,7 @@ const pathName = window.location.pathname;
 let splittedPath = pathName.split("/");
 const currentPage = splittedPath[splittedPath.length - 1].replace(".html", "");
 
-const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-row fixed top-0 lg:static w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
+const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-row fixed top-0 lg:relative w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
     <a href="/"><img class="h-11 md:h-[4.75rem] lg:w-auto lg:hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="nav-list"
@@ -19,7 +19,7 @@ const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-r
             </div>
             <!-- Dropdown menu -->
             <div id="about-menu"
-                class="hidden lg:absolute *:text-black lg:group-hover/about:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
+                class="hidden lg:absolute *:text-black lg:group-hover/about:block lg:bg-white text-base z-50 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
                         <span onclick="${currentPage == "" ? "scrollNav('about-sfd-section')" : "jumpToPage('about-sfd-section')"}" class="lg:text-sm hover:cursor-pointer hover:bg-gray-100 block px-8 lg:px-4 py-2">About
@@ -57,7 +57,7 @@ const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-r
             </div>
             <!-- Dropdown menu -->
             <div id="activities-menu"
-                class="hidden lg:absolute *:text-black lg:group-hover/activities:block lg:bg-white text-base z-10 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
+                class="hidden lg:absolute *:text-black lg:group-hover/activities:block lg:bg-white text-base z-50 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
                 <ul class="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
                         <a target="_blank" href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
