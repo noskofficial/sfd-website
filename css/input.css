@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 @layer components {
   .bg-grid {
     background-color: #f6f6ff;

@@ -108,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //For Hamburger menu
   const hamMenu = document.getElementById("hamMenu");
   const navList = document.getElementById("nav-list");
+  navList.classList.add("hidden");
   hamMenu.addEventListener("click", () => {
     let srcNow = hamMenu.getAttribute("src");
     if (srcNow == "/assets/navbar/hamMenu.svg") {
@@ -115,6 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       hamMenu.setAttribute("src", "/assets/navbar/hamMenu.svg");
     }
+    navList.classList.toggle("hidden");
     navList.classList.toggle("right-0");
     navList.classList.toggle("-right-full");
   });
@@ -126,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const activitiesButton = document.getElementById("activities");
   const activitiesMenu = document.getElementById("activities-menu");
   const activitiesDrop = document.getElementById("activities-drop");
+
   aboutButton.addEventListener("click", () => {
     aboutMenu.classList.toggle("hidden");
     aboutDrop.classList.toggle("-rotate-180");
@@ -137,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //For NavItem highlighting
   const navChildren = document.querySelector("#nav-list").children;
-  for (navChild of navChildren) {
+  for (const navChild of navChildren) {
     if (currentPage == "") return;
     if (
       currentPage.includes(navChild.id) ||
