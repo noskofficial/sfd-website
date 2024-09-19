@@ -1,86 +1,86 @@
 [
-    {
+  {
     "title": "Gold Sponsor",
     "name": "Nepal College of Information Technology",
     "image": "/assets/sponsors/NCIT.jpg",
     "link": "https://ncit.edu.np/"
-    },
-    {
+  },
+  {
     "title": "Silver Sponsor",
     "name": "rEngine",
     "image": "/assets/sponsors/rengine.png",
     "link": "https://rengine.wiki/"
-    },
-    {
+  },
+  {
     "title": "Bronze Sponsor",
     "name": "Leapfrog",
     "image": "/assets/sponsors/LeapFrog1.png",
     "link": "https://www.lftechnology.com/"
-    },
-    {
+  },
+  {
     "title": "Supporting Partner",
     "name": "Mero Job (Career Partner)",
     "image": "/assets/sponsors/Mero Job.jpg",
     "link": "https://merojob.com/"
-    },
-    {
+  },
+  {
     "title": "Supporting Partner",
     "name": "Libre Office",
     "image": "/assets/sponsors/LibreOffice.png",
     "link": "https://www.libreoffice.org/"
-    },
-    {
+  },
+  {
     "title": "Supporting Partner",
     "name": "GitHub Campus Expert",
     "image": "/assets/sponsors/Red Flag.png",
     "link": "https://githubcampus.expert/"
-    },
-    {
+  },
+  {
     "title": "Co-Organizing Partner",
     "name": "Birendra Open Source Club",
     "image": "/assets/sponsors/Birendra Open Source Club.jpg",
     "link": "https://www.facebook.com/birendraopensourceclub/"
-    },
-    {
+  },
+  {
     "title": "Co-Organizing Partner",
     "name": "Innovative Computer Engineering Club",
     "image": "/assets/sponsors/ICEC.jpg",
     "link": "https://ices.edu.np/"
-    },
-    {
+  },
+  {
     "title": "Co-Organizing Partner",
     "name": "Trichandra Research Group",
     "image": "/assets/sponsors/TriChandra Research Group.jpg",
     "link": "https://www.facebook.com/TriChandraResearchGroup/"
-    },
-    {
+  },
+  {
     "title": "Other Partner",
     "name": "Rotaract Club of Balaju",
     "image": "/assets/sponsors/Rotaract Club Of Balaju.png",
     "link": "https://www.instagram.com/rotaractbalajuofficial/"
-    },
-    {
+  },
+  {
     "title": "Other Partner",
     "name": "Rotaract Club of Dillibazar-Kathmandu",
     "image": "/assets/sponsors/Logo_Club_And_Serving_Mankind.png",
     "link": "https://www.instagram.com/rotaractdillibazar_ktm/"
-    },
-    {
+  },
+  {
     "title": "Other Partner",
     "name": "Rotaract Club of Gyaneshwor, CiST",
     "image": "/assets/sponsors/RAC_Gyaneswor_CiST, Logo.png",
     "link": "https://www.instagram.com/racgyanesworcist/"
-    },
-    {
+  },
+  {
     "title": "Other Partner",
     "name": "Rotaract Club of Patan West",
     "image": "/assets/sponsors/patan_west-1.png",
     "link": "https://www.instagram.com/rotaractclubofpatanwest/"
-    },
-    {
+  },
+  {
     "title": "Volunteering Partner",
     "name": "Nepal Tek Community",
     "image": "/assets/sponsors/NTC logo.png",
     "link": "https://tekcommunity.ncit.edu.np/"
-    }
+  }
 ]

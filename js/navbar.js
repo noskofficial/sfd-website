@@ -2,7 +2,8 @@ const pathName = window.location.pathname;
 let splittedPath = pathName.split("/");
 const currentPage = splittedPath[splittedPath.length - 1].replace(".html", "");
 
-const navCode = `<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-row fixed top-0 lg:relative w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
+const navCode = `
+<nav class="flex z-50 drop-shadow-lg lg:drop-shadow-none flex-row fixed top-0 lg:relative w-full p-8 lg:p-0 bg-[#f6f6ff] lg:bg-transparent lg:mb-4 items-center h-14 justify-between lg:px-[7.5%] xl:px-[10%] lg:mt-7 md:h-[4.75rem]">
     <a href="/"><img class="h-11 md:h-[4.75rem] lg:w-auto lg:hover:cursor-pointer" src="../assets/shared/nosk_sfd.svg"
             alt="Logo for NOSK-SFD"></a>
     <div id="nav-list"

@@ -1,156 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Exhibition Info</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/shared/nosk_vertical.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/output.css" />
+    <style>
+      #intro {
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Exhibition Info</title>
-  <link rel="shortcut icon" href="/assets/shared/nosk_vertical.svg" type="image/x-icon">
-  <link rel="stylesheet" href="/css/output.css">
-  <style>
-    #intro {
-      padding: 2rem 0;
-      text-align: center;
-      position: relative;
-    }
+      #intro h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
 
-    #intro h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-      position: relative;
-    }
+      #intro .lines-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-    #intro .lines-container {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+      #intro .line {
+        position: absolute;
+        height: 4px;
+        transition: width 0.3s;
+      }
 
-    #intro .line {
-      position: absolute;
-      height: 4px;
-      transition: width 0.3s;
-    }
+      #intro .line.first {
+        background-color: #ffcd29;
+        width: 180px;
+        top: 0;
+      }
 
-    #intro .line.first {
-      background-color: #FFCD29;
-      width: 180px;
-      top: 0;
-    }
+      #intro .line.middle {
+        background-color: #208820;
+        width: 220px;
+        top: 8px;
+      }
 
-    #intro .line.middle {
-      background-color: #208820;
-      width: 220px;
-      top: 8px;
-    }
+      #intro .line.last {
+        background-color: #e4554e;
+        width: 180px;
+        top: 16px;
+      }
 
-    #intro .line.last {
-      background-color: #E4554E;
-      width: 180px;
-      top: 16px;
-    }
+      /* Animation for the FAQ Dropdown */
+      .faq-item {
+        transition: border-color 0.3s ease-in-out;
+      }
 
-    /* Animation for the FAQ Dropdown */
-    .faq-item {
-      transition: border-color 0.3s ease-in-out;
-    }
-
-    .faq-item:hover {
+      .faq-item:hover {
         cursor: pointer;
-      border-color: #059669;
-    }
+        border-color: #059669;
+      }
 
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-in-out;
-    }
-  </style>
-</head>
+      .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+      }
+    </style>
+  </head>
 
-<body class="bg-grid font-bahnschrift max-w-screen max-h-screen" id="body">
-
-  <!-- Project Exhibition Header -->
-  <section id="intro" class="py-10">
-    <div class="text-center">
-      <h1 class="text-4xl font-bold">Project Exhibition Info</h1>
-      <div class="lines-container">
-        <span class="line first"></span>
-        <span class="line middle"></span>
-        <span class="line last"></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Info Section -->
-  <div class="max-w-3xl mx-auto p-6">
-
-    <!-- FAQ Item 1 -->
-    <div class="faq-item">
-      <!-- Question Section -->
-      <button class="faq-question">
-        <span class="text-xl font-bold text-gray-700">Who can participate?</span>
-        <span class="text-gray-900 text-3xl font-medium">+</span>
-      </button>
-
-      <!-- Answer Section -->
-      <div class="faq-answer">
-        Anyone can participate, regardless of the year they are studying in. However, the project must be open source.
-      </div>
-    </div>
-
-    <!-- FAQ Item 2 -->
-    <div class="faq-item border">
-      <!-- Question Section -->
-      <button class="faq-question">
-        <span class="text-xl font-bold text-gray-700">When is the event?</span>
-        <span class="text-gray-900 text-3xl font-medium">+</span>
-      </button>
-
-      <!-- Answer Section -->
-      <div class="faq-answer">
-        The project exhibition is scheduled for September 21, 2024.
-      </div>
-    </div>
-
-    <!-- FAQ Item 3 -->
-    <div class="faq-item border">
-      <!-- Question Section -->
-      <button class="faq-question">
-        <span class="text-xl font-bold text-gray-700">Will companies attend the event?</span>
-        <span class="text-gray-900 text-3xl font-medium">+</span>
-      </button>
-
-      <!-- Answer Section -->
-      <div class="faq-answer">
-        Yes, companies will be attending the event, and they might even offer funding for outstanding projects.
-      </div>
-    </div>
-
-    <!-- FAQ Item 4 -->
-    <div class="faq-item">
-      <!-- Question Section -->
-      <button class="faq-question">
-        <span class="text-xl font-bold text-gray-700">Is it free to join?</span>
-        <span class="text-gray-900 text-3xl font-medium">+</span>
-      </button>
-
-      <!-- Answer Section -->
-      <div class="faq-answer">
-        Yes, participation is completely free! However, donations are welcome if you’re interested in contributing.
-      </div>
-    </div>
-  </div>
-
-
-  <div class="max-w-6xl mx-auto p-8">
-
-    <!-- Terms and Conditions Header -->
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
+    <!-- Project Exhibition Header -->
     <section id="intro" class="py-10">
       <div class="text-center">
-        <h1 class="text-4xl font-bold">Terms and Conditions</h1>
+        <h1 class="text-4xl font-bold">Project Exhibition Info</h1>
         <div class="lines-container">
           <span class="line first"></span>
           <span class="line middle"></span>
@@ -159,69 +86,181 @@
       </div>
     </section>
 
-    <!-- Introductory paragraph -->
-    <p class="text-lg text-gray-700 my-4">
-      By participating in this exhibition, you agree to a few important terms that ensure the event runs smoothly for
-      everyone involved. These conditions not only govern the submission and evaluation process but also establish
-      a code of fairness and transparency. Please read them carefully before joining the event.
-    </p>
+    <!-- Info Section -->
+    <div class="mx-auto max-w-3xl p-6">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <!-- Question Section -->
+        <button class="faq-question">
+          <span class="text-xl font-bold text-gray-700"
+            >Who can participate?</span
+          >
+          <span class="text-3xl font-medium text-gray-900">+</span>
+        </button>
 
-    <!-- Terms and Conditions Section -->
-    <ul class="list-none space-y-2">
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Participants must submit open-source projects in compliance with recognized open-source licenses.</p>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Every open-source project will receive public acknowledgment and exhibition rights.</p>
-      </li>
+        <!-- Answer Section -->
+        <div class="faq-answer">
+          Anyone can participate, regardless of the year they are studying in.
+          However, the project must be open source.
+        </div>
+      </div>
 
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Participants or teams may exhibit an unlimited number of projects.</p>
-      </li>
+      <!-- FAQ Item 2 -->
+      <div class="faq-item border">
+        <!-- Question Section -->
+        <button class="faq-question">
+          <span class="text-xl font-bold text-gray-700"
+            >When is the event?</span
+          >
+          <span class="text-3xl font-medium text-gray-900">+</span>
+        </button>
 
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Proprietary software is strictly prohibited from promotion at the event.</p>
-      </li>
+        <!-- Answer Section -->
+        <div class="faq-answer">
+          The project exhibition is scheduled for September 21, 2024.
+        </div>
+      </div>
 
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Cloned applications without significant original or community contributions are ineligible for appreciation awards.</p>
-      </li>
-  
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">The organizing committee reserves the right to modify event details at any time.</p>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">NOSK is not responsible for any damage or loss of personal property during the event.</p>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">NOSK is not responsible for the outcome of any third-party funding discussions.</p>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-600 mr-3">✔</span>
-        <p class="text-lg text-gray-700">Participants grant NOSK the right to use event photos and videos for promotional purposes.</p>
-      </li>
-    </ul>
+      <!-- FAQ Item 3 -->
+      <div class="faq-item border">
+        <!-- Question Section -->
+        <button class="faq-question">
+          <span class="text-xl font-bold text-gray-700"
+            >Will companies attend the event?</span
+          >
+          <span class="text-3xl font-medium text-gray-900">+</span>
+        </button>
 
-    <!-- Contact Info for Questions -->
-    <p class="text-lg text-gray-700 mt-6">
-      For any questions or concerns, please reach out to the organizing committee at
-      <a href="mailto:nosk@ncit.edu.np" class="text-blue-600 underline">nosk@ncit.edu.np</a>.
-    </p>
+        <!-- Answer Section -->
+        <div class="faq-answer">
+          Yes, companies will be attending the event, and they might even offer
+          funding for outstanding projects.
+        </div>
+      </div>
 
-  </div>
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <!-- Question Section -->
+        <button class="faq-question">
+          <span class="text-xl font-bold text-gray-700"
+            >Is it free to join?</span
+          >
+          <span class="text-3xl font-medium text-gray-900">+</span>
+        </button>
 
-  <footer></footer>
-  <script defer src="../js/faqs.js"></script>
-  <script src="../js/navbar.js"></script>
-  <script src="../js/footer.js"></script>
-</body>
+        <!-- Answer Section -->
+        <div class="faq-answer">
+          Yes, participation is completely free! However, donations are welcome
+          if you’re interested in contributing.
+        </div>
+      </div>
+    </div>
 
+    <div class="mx-auto max-w-6xl p-8">
+      <!-- Terms and Conditions Header -->
+      <section id="intro" class="py-10">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold">Terms and Conditions</h1>
+          <div class="lines-container">
+            <span class="line first"></span>
+            <span class="line middle"></span>
+            <span class="line last"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introductory paragraph -->
+      <p class="my-4 text-lg text-gray-700">
+        By participating in this exhibition, you agree to a few important terms
+        that ensure the event runs smoothly for everyone involved. These
+        conditions not only govern the submission and evaluation process but
+        also establish a code of fairness and transparency. Please read them
+        carefully before joining the event.
+      </p>
+
+      <!-- Terms and Conditions Section -->
+      <ul class="list-none space-y-2">
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Participants must submit open-source projects in compliance with
+            recognized open-source licenses.
+          </p>
+        </li>
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Every open-source project will receive public acknowledgment and
+            exhibition rights.
+          </p>
+        </li>
+
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Participants or teams may exhibit an unlimited number of projects.
+          </p>
+        </li>
+
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Proprietary software is strictly prohibited from promotion at the
+            event.
+          </p>
+        </li>
+
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Cloned applications without significant original or community
+            contributions are ineligible for appreciation awards.
+          </p>
+        </li>
+
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            The organizing committee reserves the right to modify event details
+            at any time.
+          </p>
+        </li>
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            NOSK is not responsible for any damage or loss of personal property
+            during the event.
+          </p>
+        </li>
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            NOSK is not responsible for the outcome of any third-party funding
+            discussions.
+          </p>
+        </li>
+        <li class="flex items-start">
+          <span class="mr-3 text-green-600">✔</span>
+          <p class="text-lg text-gray-700">
+            Participants grant NOSK the right to use event photos and videos for
+            promotional purposes.
+          </p>
+        </li>
+      </ul>
+
+      <!-- Contact Info for Questions -->
+      <p class="mt-6 text-lg text-gray-700">
+        For any questions or concerns, please reach out to the organizing
+        committee at
+        <a href="mailto:nosk@ncit.edu.np" class="text-blue-600 underline"
+          >nosk@ncit.edu.np</a
+        >.
+      </p>
+    </div>
+
+    <footer></footer>
+    <script defer src="../js/faqs.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/footer.js"></script>
+  </body>
 </html>

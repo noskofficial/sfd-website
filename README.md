@@ -10,7 +10,6 @@ npm install
 
 npm run dev
 
-
 # Before submitting PR remember to minify CSS
 
 npm run prod
