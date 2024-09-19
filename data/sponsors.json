@@ -7,27 +7,27 @@
   },
   {
     "title": "Silver Sponsor",
-    "name": "rEngine",
-    "image": "/assets/sponsors/rengine.png",
-    "link": "https://rengine.wiki/"
+    "name": "Kantipur Coffee",
+    "image": "/assets/sponsors/Kantipur.png",
+    "link": ""
   },
   {
-    "title": "Bronze Sponsor",
+    "title": "Silver Sponsor",
     "name": "Leapfrog",
     "image": "/assets/sponsors/LeapFrog1.png",
     "link": "https://www.lftechnology.com/"
   },
   {
-    "title": "Supporting Partner",
-    "name": "Mero Job (Career Partner)",
-    "image": "/assets/sponsors/Mero Job.jpg",
-    "link": "https://merojob.com/"
+    "title": "Silver Sponsor",
+    "name": "rEngine",
+    "image": "/assets/sponsors/rengine.png",
+    "link": "https://rengine.wiki/"
   },
   {
     "title": "Supporting Partner",
-    "name": "Libre Office",
-    "image": "/assets/sponsors/LibreOffice.png",
-    "link": "https://www.libreoffice.org/"
+    "name": "Buns & Roses <h1 class='text-center font-bold'>Bakery Partner</h1>",
+    "image": "/assets/sponsors/Buns&Roses.png",
+    "link": "https://www.facebook.com/profile.php?id=61556209796994"
   },
   {
     "title": "Supporting Partner",
@@ -35,6 +35,26 @@
     "image": "/assets/sponsors/Red Flag.png",
     "link": "https://githubcampus.expert/"
   },
+  {
+    "title": "Supporting Partner",
+    "name": "Libre Office",
+    "image": "/assets/sponsors/LibreOffice.png",
+    "link": "https://www.libreoffice.org/"
+  },
+
+  {
+    "title": "Supporting Partner",
+    "name": "Mero Job <h1 class='text-center font-bold'>Career Partner</h1>",
+    "image": "/assets/sponsors/Mero Job.jpg",
+    "link": "https://merojob.com/"
+  },
+  {
+    "title": "Supporting Partner",
+    "name": "Mudita Store <h1 class='text-center font-bold'>Giveaway Partner</h1>",
+    "image": "/assets/sponsors/mudita.svg",
+    "link": "https://mudita.com.np/"
+  },
+
   {
     "title": "Co-Organizing Partner",
     "name": "Birendra Open Source Club",
@@ -53,6 +73,31 @@
     "image": "/assets/sponsors/TriChandra Research Group.jpg",
     "link": "https://www.facebook.com/TriChandraResearchGroup/"
   },
+  {
+    "title": "Community partner",
+    "name": "Engineers Vlogs",
+    "image": "/assets/sponsors/EVlogo.png",
+    "link": ""
+  },
+  {
+    "title": "Community partner",
+    "name": "Everday Karma",
+    "image": "/assets/sponsors/everydaykarma.jpg",
+    "link": "https://www.facebook.com/groups/everydaykarma/"
+  },
+  {
+    "title": "Community partner",
+    "name": "DEV community nepal",
+    "image": "/assets/sponsors/DEV community nepal.jpg",
+    "link": "https://www.facebook.com/DevCommunityNepal/"
+  },
+  {
+    "title": "Community partner",
+    "name": "OSAC ASCOL",
+    "image": "/assets/sponsors/OSAC.png",
+    "link": ""
+  },
+
   {
     "title": "Other Partner",
     "name": "Rotaract Club of Balaju",
