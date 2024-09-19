@@ -48,4 +48,4 @@ async function partnersLoader() {
   });
 }
 
-partnersLoader()
+partnersLoader();

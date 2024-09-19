@@ -1771,6 +1771,11 @@ video {
   transition-duration: 150ms;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Bahnschrift";
 
