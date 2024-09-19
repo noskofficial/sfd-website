@@ -41,7 +41,7 @@ async function partnersLoader() {
           </a>
         </div>
         <div class="sponsor-detail">
-          <p class="text-center">${name}</p>
+          <p class="text-center text-lg">${name}</p>
         </div>`;
     // Append the card to the section
     cardContainer.appendChild(card);
