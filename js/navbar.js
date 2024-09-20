@@ -81,6 +81,7 @@ const navCode = `
             </div>
         </span>
         <span id="faqs" class="lg:hover:border-b-2"><a href="/pages/faqs.html">FAQs</a></span>
+        <span id="codeofconduct" class="lg:hover:border-b-2"><a href="/pages/codeofconduct.html">Code of Conduct</a></span>
         <span id="contact" class="lg:hover:border-b-2"><a href="mailto:nosk@ncit.edu.np" target="_blank">Contact Us</a></span>
     </div>
     <img id="hamMenu" src="/assets/navbar/hamMenu.svg" class="lg:hidden h-8 md:h-14 hover:cursor-pointer"></img>

@@ -31,6 +31,7 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
         <li><a href="/pages/schedule.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Schedule</a></li>
         <li><a href="/pages/ourteam.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Team</a></li>
         <li><a href="/pages/faqs.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">FAQs</a></li>
+        <li><a href="/pages/codeofconduct.html" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Code of Conduct</a></li>
         <li><a href="mailto:nosk@ncit.edu.np" class="text-white font-semibold text-sm md:text-base lg:text-xl hover:text-red-600">Contact</a></li>
       </ul>
     </div>
