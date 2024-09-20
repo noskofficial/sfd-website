@@ -1,7 +1,7 @@
 [
   {
     "time": "09:00 - 09:30",
-    "title": "Check-In",
+    "title": "Check-In & Registrations",
     "speaker": {
       "name": "NOSK Team",
       "title": "Welcoming and Preparation",
@@ -55,6 +55,28 @@
     "link": "https://example.com/capture-the-flag"
   },
   {
+    "time": "11:00 - 12:00",
+    "title": "Cybersecurity Insights",
+    "speaker": {
+      "name": "Er. Kumar Pudasaini",
+      "title": "Global Cybersecurity Community Forum",
+      "image": "https://via.placeholder.com/50"
+    },
+    "date": "Talk 1",
+    "link": "https://example.com/capture-the-flag"
+  },
+  {
+    "time": "11:00 - 12:00",
+    "title": "NOSKODE 5.0",
+    "speaker": {
+      "name": "NOSKODE Host",
+      "title": "NOSK Contributer",
+      "image": "https://via.placeholder.com/50"
+    },
+    "date": "Competition",
+    "link": "https://example.com/capture-the-flag"
+  },
+  {
     "time": "11:00 - 14:00",
     "title": "Linux Distro & Open Source Projects Demo",
     "speaker": {
@@ -64,17 +86,6 @@
     },
     "date": "Demo",
     "link": "https://example.com/distro-demo"
-  },
-  {
-    "time": "11:00 - 12:00",
-    "title": "NOSKODE 5.0",
-    "speaker": {
-      "name": "Bishal Poudel, Abhilekh Gautam",
-      "title": "NOSKODE Host, NOSK Contributors",
-      "image": "https://via.placeholder.com/50"
-    },
-    "date": "Competition",
-    "link": "https://example.com/noskode"
   },
   {
     "time": "12:00 - 12:30",
@@ -111,31 +122,20 @@
   },
   {
     "time": "14:00 - 14:30",
-    "title": "Pioneering Perspectives",
+    "title": "Open Source Journey",
     "speaker": {
       "name": "Er. Bikalpa Dhakal",
       "title": "Software Engineer, Canonical",
       "image": "https://via.placeholder.com/50"
     },
-    "date": "Talk 1",
+    "date": "Talk 2",
     "link": "https://example.com/pioneering-perspectives"
   },
   {
-    "time": "14:30 - 15:00",
-    "title": "Innovation Spotlight",
-    "speaker": {
-      "name": "Speaker 3",
-      "title": "Open Source Contributor",
-      "image": "https://via.placeholder.com/50"
-    },
-    "date": "Talk 2",
-    "link": "https://example.com/innovation-spotlight"
-  },
-  {
-    "time": "15:00 - 15:15",
+    "time": "14:30 - 14:45",
     "title": "Giveaway Results",
     "speaker": {
-      "name": "Event Host",
+      "name": "Mudita Store",
       "title": "Win Headphones, Pendrives, and Mousepads",
       "image": "https://via.placeholder.com/50"
     },
@@ -143,10 +143,21 @@
     "link": "https://example.com/giveaway-results"
   },
   {
+    "time": "14:45 - 15:15",
+    "title": "Open Source & SigNoz",
+    "speaker": {
+      "name": "Er. Prashant Sahi",
+      "title": "Maintainer, SigNoz",
+      "image": "https://via.placeholder.com/50"
+    },
+    "date": "Talk 3",
+    "link": "https://example.com/innovation-spotlight"
+  },
+  {
     "time": "15:15 - 16:00",
     "title": "Awarding and Certification Ceremony",
     "speaker": {
-      "name": "Certificates and Token Distribution Team",
+      "name": "Certificates and Token Distribution",
       "title": "Sponsors, Community Partners, and Enthusiasts",
       "image": "https://via.placeholder.com/50"
     },
@@ -155,7 +166,7 @@
   },
   {
     "time": "16:00 - 16:45",
-    "title": "Open Source and ChitChats / Open Floor Discussion",
+    "title": "Open Floor Discussion",
     "speaker": {
       "name": "Community Leaders",
       "title": "Open Floor Moderators",
@@ -169,7 +180,7 @@
     "title": "Photo Shoot",
     "speaker": {
       "name": "All Participants",
-      "title": "Capture Your Memories",
+      "title": "Break Time",
       "image": "https://via.placeholder.com/50"
     },
     "date": "Photos",
