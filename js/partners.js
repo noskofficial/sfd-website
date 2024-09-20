@@ -15,9 +15,16 @@ async function partnersLoader() {
       titlesMap[title] = document.createElement("div");
       titlesMap[title].classList.add("sponsor-section", "my-8");
       titlesMap[title].innerHTML = `
-          <div class="sponsor-title text-center">
-            <h1 class="text-4xl font-bold">${title}</h1>
+      <section id="intro" class="py-10">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold">${title}</h1>
+          <div class="lines-container">
+            <span class="line first"></span>
+            <span class="line middle"></span>
+            <span class="line last"></span>
           </div>
+        </div>
+      </section>
           <div class="flex flex-col items-center py-6 justify-center flex-wrap sm:flex-row sm:items-stretch sm:justify-center gap-6"></div>
         `;
       sponsorContainer.appendChild(titlesMap[title]);
@@ -41,7 +48,7 @@ async function partnersLoader() {
           </a>
         </div>
         <div class="sponsor-detail">
-          <p class="text-center text-lg">${name}</p>
+          <p class="text-center font-bold text-lg">${name}</p>
         </div>`;
     // Append the card to the section
     cardContainer.appendChild(card);
