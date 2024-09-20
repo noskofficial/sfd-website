@@ -93,9 +93,15 @@
   },
   {
     "title": "Community partner",
+    "name": "GNOME Nepal",
+    "image": "/assets/sponsors/GNOME Nepal.png",
+    "link": "https://www.facebook.com/profile.php?id=61560797123131"
+  },
+  {
+    "title": "Community partner",
     "name": "OSAC ASCOL",
     "image": "/assets/sponsors/OSAC.png",
-    "link": ""
+    "link": "https://osac.org.np/"
   },
 
   {

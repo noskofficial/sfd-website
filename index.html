@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="In 2024, NOSK is returning with a grand edition of Software Freedom Day. This year's event promises to be the largest yet, where developers and enthusiasts can showcase their love for open source.">
-  <meta name="keywords"
-    content="SFD, software, freedom, day, software freedom day, nosk, open source, open, source, contribute, github, community, club, klub, nepal">
-      <meta
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="In 2024, NOSK is returning with a grand edition of Software Freedom Day. This year's event promises to be the largest yet, where developers and enthusiasts can showcase their love for open source."
+    />
+    <meta
+      name="keywords"
+      content="SFD, software, freedom, day, software freedom day, nosk, open source, open, source, contribute, github, community, club, klub, nepal"
+    />
+    <meta
       name="keywords"
       content="NOSK, SFD, open source, cybersecurity, conference, technology"
     />
@@ -30,384 +33,573 @@
       href="/assets/shared/nosk_vertical.svg"
       type="image/x-icon"
     />
-    <link rel="shortcut icon" href="/assets/shared/nosk_vertical.svg" type="image/x-icon">
-  <link rel="stylesheet" href="../css/output.css" />
-  <title>NOSK SFD 2024</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-  </style>
-</head>
+    <link
+      rel="shortcut icon"
+      href="/assets/shared/nosk_vertical.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/output.css" />
+    <title>NOSK SFD 2024</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
 
-<body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
-  <section id="hero"
-    class="flex w-full items-center justify-center px-8 lg:px-[7.5%] xl:px-[10%] h-[calc(100dvh-5.5rem)] md:h-[calc(100dvh-6.75rem)]">
-    <div id="holder"
-      class="flex flex-col-reverse lg:flex-row justify-center gap-10 lg:justify-between h-full max-w-[100vw] w-full lg:*:w-[45%]">
-      <div class="flex flex-col justify-center">
-        <div class="mb-2 text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
-          <p class="flex flex-col text-center lg:text-start gap-2 lg:gap-6 ">
-            <span>
-              <span class="text-black">Celebrate </span>
-              <span class="text-[#FFC700]"> Software </span>
-              <span class="text-[#FFC700]">Freedom Day</span>
-              <span class="text-[#E4554E]">2024</span> with
-              <span class="text-[#208820]">Nepal Open Source Klub</span>
-            </span>
-            <span class="text-sm md:text-xl font-semibold text-[#E4554E]">"A celebration of innovation and open
-              collaboration!"</span>
-          </p>
-        </div>
-        <div class="my-5 justify-center lg:justify-start flex items-center text-xl font-bold">
-          <button
-            onclick="scrollNav('about-sfd-section')"
-            class="mr-2 h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#FFDD50] text-center hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent transition-all text-sm sm:text-base lg:text-xl font-bold leading-4 text-black"
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
+    <section
+      id="hero"
+      class="flex h-[calc(100dvh-5.5rem)] w-full items-center justify-center px-8 md:h-[calc(100dvh-6.75rem)] lg:px-[7.5%] xl:px-[10%]"
+    >
+      <div
+        id="holder"
+        class="flex h-full w-full max-w-[100vw] flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between lg:*:w-[45%]"
+      >
+        <div class="flex flex-col justify-center">
+          <div
+            class="mb-2 text-2xl font-bold sm:text-3xl md:text-4xl xl:text-5xl"
           >
-          Learn More
-          </button>
-          <a
-            class=" h-12 w-40 md:h-[3.75rem] md:w-[13.75rem] rounded-[1.71rem] bg-[#208820] text-center hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black transition-all text-sm sm:text-base lg:text-xl font-bold leading-4 text-white flex justify-center items-center"
-            target="_blank"
-            href="https://forms.gle/dLoKZifnSpCnUgPdA"
-            >
-            Register Here
-          </a>
-        </div>
-        <div class="mt-2 flex justify-center md:gap-2 lg:justify-start h-14 lg:h-16 xl:h-20 max-w-[100vw] w-full">
-          <img src="../assets/shared/sfd_horizontal.svg" alt="SFD Horizontal" class="h-14 lg:h-16 xl:h-20 max-w-full" />
-          <img src="../assets/shared/nosk_logo.svg" alt="Nosk Logo" class="h-14 lg:h-16 xl:h-20 max-w-full" />
-        </div>
-      </div>
-      <div class="flex justify-center items-center">
-        <img src="../assets/hero/intro.svg" alt="Candle Ceremony NOSK"
-          class="max-w-full h-40 md:h-72 xl:w-[40vw] lg:min-h-96 object-cover" />
-      </div>
-    </div>
-  </section>
-
-  <button id="scroll-to-top" class="hidden fixed bottom-9 right-6 md:right-12 z-50 bg-[#208820] rounded p-3"
-    onclick="goToTop()"><img src="/assets//hero/arrow.svg" alt="Top"></button>
-
-  <section
-    class="flex h-[460px] overflow-hidden w-full content-center items-center justify-around px-1 sm:px-8 lg:px-[7.5%] xl:px-[10%]">
-    <img src="/assets/timer/timer_bg.svg" alt="Timer Background"
-      class="absolute left-0 h-96 lg:h-fit object-cover object-left lg:object-cover w-full">
-    <div class="flex flex-col w-fit gap-3 justify-center text-xs sm:text-sm md:text-base xl:text-xl  text-white z-10">
-      <span class="text-sm sm:text-base md:text-xl xl:text-2xl font-bold">Be a Part of The Celebration<br />Mark your
-        Calenders<br /></span>
-      <div>
-        <span>Event Date: <span class="font-extralight">21st September, 2024</span><br /></span>
-        <span>Venue:
-          <span class="font-extralight">Nepal College of Information Technology</span><br /></span>
-        <span>Location: <span class="font-extralight">Balkumari, Lalitpur</span><br /></span>
-        <span>Time: <span class="font-extralight">10:00 AM</span></span>
-      </div>
-    </div>
-    <div id="timer"
-      class="grid md:grid-cols-4 w-fit grid-cols-2 gap-y-4  items-center justify-center text-white max-w-[100vw] *:relative md:*:mr-4 *:mr-2 *:grid md:*:h-24 *:h-16 *:w-16 md:*:w-24 *:grid-rows-3 *:rounded-xl md:*:border-4 *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift">
-        <div class="">
-          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
-          </div>
-          <div
-            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
-            id="days">
-            0
-          </div>
-          <div class="w-full text-center text-xs md:text-base font-light">Days</div>
-        </div>
-        <div class="">
-          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
-          </div>
-          <div
-            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
-            id="hours">
-            0
-          </div>
-          <div class="w-full text-center text-xs md:text-base font-light">Hours</div>
-        </div>
-        <div class="">
-          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
-          </div>
-          <div
-            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
-            id="minutes">
-            0
-          </div>
-          <div class="w-full text-center text-xs md:text-base font-light">Minutes</div>
-        </div>
-        <div class="">
-          <div class="absolute -top-2 md:-top-3 md:left-5 left-3 md:h-5 h-3 md:w-3 w-2 rounded-md border bg-[#D9D9D9]">
-          </div>
-          <div
-            class="row-span-2 w-full text-center md:text-6xl sm:text-4xl text-2xl font-bold flex justify-center"
-            id="seconds">
-            0
-          </div>
-          <div class="w-full text-center text-xs md:text-base font-light">Seconds</div>
-        </div>
-    </div>
-  </section>
-
-  <section id="about-sfd-section"
-    class="flex flex-col-reverse lg:flex-row min-h-screen w-full items-center justify-center lg:justify-between gap-8 lg:gap-0 px-8 lg:px-[7.5%] xl:px-[10%]">
-
-    <div class="flex w-full lg:w-[52%] justify-center flex-col gap-4 lg:gap-6 xl:gap-8 items-center lg:items-start">
-      <div class="flex items-center justify-between w-full flex-1 flex-col lg:flex-row">
-        <div class="flex items-center lg:justify-start justify-center w-full text-center lg:text-left">
-          <p class="font-bold">
-              <span class="text-3xl lg:text-[45px] xl:text-[64px] sm:text-5xl md:leading-8">About The Event</span><br>
-              <span class="lg:text-[25px] xl:text-4xl text-[#FFC700]  text-2xl sm:text-[33px]">Software Freedom Day
-                <span class="text-[#E4554E]">2024</span>
-              </span><br>
-              <span
-                class="text-[#E4554E] font-semibold  xl:text-[18px] lg:text-[14px] md:text-base sm:text-base text-xs">"A
-                celebration of innovation and open collaboration!"
+            <p class="flex flex-col gap-2 text-center lg:gap-6 lg:text-start">
+              <span>
+                <span class="text-black">Celebrate </span>
+                <span class="text-[#FFC700]"> Software </span>
+                <span class="text-[#FFC700]">Freedom Day</span>
+                <span class="text-[#E4554E]">2024</span> with
+                <span class="text-[#208820]">Nepal Open Source Klub</span>
               </span>
-          </p>
+              <span class="text-sm font-semibold text-[#E4554E] md:text-xl"
+                >"A celebration of innovation and open collaboration!"</span
+              >
+            </p>
+          </div>
+          <div
+            class="my-5 flex items-center justify-center text-xl font-bold lg:justify-start"
+          >
+            <button
+              onclick="scrollNav('about-sfd-section')"
+              class="mr-2 h-12 w-40 rounded-[1.71rem] bg-[#FFDD50] text-center text-sm font-bold leading-4 text-black transition-all hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+            >
+              Learn More
+            </button>
+            <a
+              class="flex h-12 w-40 items-center justify-center rounded-[1.71rem] bg-[#208820] text-center text-sm font-bold leading-4 text-white transition-all hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
+              target="_blank"
+              href="https://forms.gle/dLoKZifnSpCnUgPdA"
+            >
+              Register Here
+            </a>
+          </div>
+          <div
+            class="mt-2 flex h-14 w-full max-w-[100vw] justify-center md:gap-2 lg:h-16 lg:justify-start xl:h-20"
+          >
+            <img
+              src="../assets/shared/sfd_horizontal.svg"
+              alt="SFD Horizontal"
+              class="h-14 max-w-full lg:h-16 xl:h-20"
+            />
+            <img
+              src="../assets/shared/nosk_logo.svg"
+              alt="Nosk Logo"
+              class="h-14 max-w-full lg:h-16 xl:h-20"
+            />
+          </div>
         </div>
-        <div class="hidden lg:flex items-center w-fit lg:justify-center xl:justify-start">
-          <span class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#FFCD29]"></span>
-          <span class="mr-1 inline-block h-[8.5rem] w-2 border-r-4 border-solid border-[#208820]"></span>
-          <span class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#E4554E]"></span>
+        <div class="flex items-center justify-center">
+          <img
+            src="../assets/hero/intro.svg"
+            alt="Candle Ceremony NOSK"
+            class="h-40 max-w-full object-cover md:h-72 lg:min-h-96 xl:w-[40vw]"
+          />
         </div>
       </div>
-      <div class="text-left">
-        <span class="font-light text-sm lg:text-base">Software Freedom Day (SFD) is an annual global celebration
-          dedicated to promoting the benefits and principles of Free and Open Source Software (FOSS). SFD is celebrated
-          on the third Saturday of September each year and is marked by events, workshops, and conferences held by FOSS
-          communities, tech enthusiasts, and organizations across the world.
-          <br><br>
-          In Nepal, the celebration of SFD has been actively hosted and organized by the Nepal Open Source Klub (NOSK)
-          for over 20 years. NOSK has been at the forefront of promoting free software.
-          <br><br>
-          In 2024, NOSK is returning with an even grander edition of Software Freedom Day. This year's event promises to
-          be the largest yet, where developers and enthusiasts can showcase their love for open source.</span>
+    </section>
+
+    <button
+      id="scroll-to-top"
+      class="fixed bottom-9 right-6 z-50 hidden rounded bg-[#208820] p-3 md:right-12"
+      onclick="goToTop()"
+    >
+      <img src="/assets//hero/arrow.svg" alt="Top" />
+    </button>
+
+    <section
+      class="flex h-[460px] w-full content-center items-center justify-around overflow-hidden px-1 sm:px-8 lg:px-[7.5%] xl:px-[10%]"
+    >
+      <img
+        src="/assets/timer/timer_bg.svg"
+        alt="Timer Background"
+        class="absolute left-0 h-96 w-full object-cover object-left lg:h-fit lg:object-cover"
+      />
+      <div
+        class="z-10 flex w-fit flex-col justify-center gap-3 text-xs text-white sm:text-sm md:text-base xl:text-xl"
+      >
+        <span class="text-sm font-bold sm:text-base md:text-xl xl:text-2xl"
+          >Be a Part of The Celebration<br />Mark your Calenders<br
+        /></span>
+        <div>
+          <span
+            >Event Date:
+            <span class="font-extralight">21st September, 2024</span><br
+          /></span>
+          <span
+            >Venue:
+            <span class="font-extralight"
+              >Nepal College of Information Technology</span
+            ><br
+          /></span>
+          <span
+            >Location: <span class="font-extralight">Balkumari, Lalitpur</span
+            ><br
+          /></span>
+          <span>Time: <span class="font-extralight">10:00 AM</span></span>
+        </div>
       </div>
-      <div>
-        <a
-          class="transition w-full px-4 h-12 FFDD50 text-center bg-[#FFDD50] hover:bg-transparent hover:border-solid hover:border-2 hover:border-[#FFDD50] shadow-lg text-black text-base font-bold flex justify-center items-center min-w-20"
-          href="https://forms.gle/dLoKZifnSpCnUgPdA"
-          target="_blank"
+      <div
+        id="timer"
+        class="grid w-fit max-w-[100vw] grid-cols-2 items-center justify-center gap-y-4 text-white *:relative *:mr-2 *:grid *:h-16 *:w-16 *:grid-rows-3 *:rounded-xl *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift md:grid-cols-4 md:*:mr-4 md:*:h-24 md:*:w-24 md:*:border-4"
+      >
+        <div class="">
+          <div
+            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+          ></div>
+          <div
+            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+            id="days"
+          >
+            0
+          </div>
+          <div class="w-full text-center text-xs font-light md:text-base">
+            Days
+          </div>
+        </div>
+        <div class="">
+          <div
+            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+          ></div>
+          <div
+            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+            id="hours"
+          >
+            0
+          </div>
+          <div class="w-full text-center text-xs font-light md:text-base">
+            Hours
+          </div>
+        </div>
+        <div class="">
+          <div
+            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+          ></div>
+          <div
+            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+            id="minutes"
+          >
+            0
+          </div>
+          <div class="w-full text-center text-xs font-light md:text-base">
+            Minutes
+          </div>
+        </div>
+        <div class="">
+          <div
+            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+          ></div>
+          <div
+            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+            id="seconds"
+          >
+            0
+          </div>
+          <div class="w-full text-center text-xs font-light md:text-base">
+            Seconds
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="about-sfd-section"
+      class="flex min-h-screen w-full flex-col-reverse items-center justify-center gap-8 px-8 lg:flex-row lg:justify-between lg:gap-0 lg:px-[7.5%] xl:px-[10%]"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-center gap-4 lg:w-[52%] lg:items-start lg:gap-6 xl:gap-8"
+      >
+        <div
+          class="flex w-full flex-1 flex-col items-center justify-between lg:flex-row"
         >
+          <div
+            class="flex w-full items-center justify-center text-center lg:justify-start lg:text-left"
+          >
+            <p class="font-bold">
+              <span
+                class="text-3xl sm:text-5xl md:leading-8 lg:text-[45px] xl:text-[64px]"
+                >About The Event</span
+              ><br />
+              <span
+                class="text-2xl text-[#FFC700] sm:text-[33px] lg:text-[25px] xl:text-4xl"
+                >Software Freedom Day
+                <span class="text-[#E4554E]">2024</span> </span
+              ><br />
+              <span
+                class="text-xs font-semibold text-[#E4554E] sm:text-base md:text-base lg:text-[14px] xl:text-[18px]"
+                >"A celebration of innovation and open collaboration!"
+              </span>
+            </p>
+          </div>
+          <div
+            class="hidden w-fit items-center lg:flex lg:justify-center xl:justify-start"
+          >
+            <span
+              class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#FFCD29]"
+            ></span>
+            <span
+              class="mr-1 inline-block h-[8.5rem] w-2 border-r-4 border-solid border-[#208820]"
+            ></span>
+            <span
+              class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#E4554E]"
+            ></span>
+          </div>
+        </div>
+        <div class="text-left">
+          <span class="text-sm font-light lg:text-base"
+            >Software Freedom Day (SFD) is an annual global celebration
+            dedicated to promoting the benefits and principles of Free and Open
+            Source Software (FOSS). SFD is celebrated on the third Saturday of
+            September each year and is marked by events, workshops, and
+            conferences held by FOSS communities, tech enthusiasts, and
+            organizations across the world. <br /><br />
+            In Nepal, the celebration of SFD has been actively hosted and
+            organized by the Nepal Open Source Klub (NOSK) for over 20 years.
+            NOSK has been at the forefront of promoting free software.
+            <br /><br />
+            In 2024, NOSK is returning with an even grander edition of Software
+            Freedom Day. This year's event promises to be the largest yet, where
+            developers and enthusiasts can showcase their love for open
+            source.</span
+          >
+        </div>
+        <div>
+          <a
+            class="FFDD50 flex h-12 w-full min-w-20 items-center justify-center bg-[#FFDD50] px-4 text-center text-base font-bold text-black shadow-lg transition hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent"
+            href="https://forms.gle/dLoKZifnSpCnUgPdA"
+            target="_blank"
+          >
             REGISTER NOW
           </a>
+        </div>
       </div>
-    </div>
 
-    <div class="flex w-full lg:w-[48%] justify-end flex-col items-center">
-      <img src="../assets/shared/nosk_vertical.svg" alt="Nosk Vertical Logo"
-        class="w-[20rem] h-[17rem] lg:h-[25rem] lg:w-[32rem] " />
-    </div>
+      <div class="flex w-full flex-col items-center justify-end lg:w-[48%]">
+        <img
+          src="../assets/shared/nosk_vertical.svg"
+          alt="Nosk Vertical Logo"
+          class="h-[17rem] w-[20rem] lg:h-[25rem] lg:w-[32rem]"
+        />
+      </div>
+    </section>
 
-  </section>
-
-
-  <section class="bg-project-bg w-full h-[26rem] bg-cover flex items-center justify-center z-0 opacity-90 mt-8">
-    <div class="w-full h-3/5 flex flex-col gap-6 items-center justify-center opacity-100 z-10">
-      <p class="font-bold text-[23px] sm:text-[39px] md:text-[45px] lg:text-[56px] xl:text-[64px]"><span
-          class="text-white">Got</span><span class="text-[#E4554E]"> Open
-          Source</span><span class="text-white"> Project?</span><span class="text-[#6ABE52]"> We Got you!</span></p>
-      <p class="font-bold text-[18px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[44px] text-white">Present
-        them at <span class="text-[#FFDD50]">Software Freedom
-          Day</span> 2024</p>
-      <div class="flex gap-6">
-        <a
-          class="flex justify-center items-center hover:text-white sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#FFDD50] text-black sm:text-xl text-sm rounded-[27.5px] hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent "
-          href="pages/aboutsfd.html"
-          target="_blank"
+    <section
+      class="z-0 mt-8 flex h-[26rem] w-full items-center justify-center bg-project-bg bg-cover opacity-90"
+    >
+      <div
+        class="z-10 flex h-3/5 w-full flex-col items-center justify-center gap-6 opacity-100"
+      >
+        <p
+          class="text-[23px] font-bold sm:text-[39px] md:text-[45px] lg:text-[56px] xl:text-[64px]"
+        >
+          <span class="text-white">Got</span
+          ><span class="text-[#E4554E]"> Open Source</span
+          ><span class="text-white"> Project?</span
+          ><span class="text-[#6ABE52]"> We Got you!</span>
+        </p>
+        <p
+          class="text-[18px] font-bold text-white sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[44px]"
+        >
+          Present them at
+          <span class="text-[#FFDD50]">Software Freedom Day</span> 2024
+        </p>
+        <div class="flex gap-6">
+          <a
+            class="flex h-[37px] w-[145px] items-center justify-center rounded-[27.5px] bg-[#FFDD50] text-sm text-black hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent hover:text-white sm:h-[60px] sm:w-[168px] sm:text-xl lg:w-[220px]"
+            href="pages/aboutsfd.html"
+            target="_blank"
           >
             LEARN MORE
-          </>
-        <a
-          class="flex justify-center items-center sm:w-[168px] lg:w-[220px] h-[37px] w-[145px] sm:h-[60px] bg-[#208820] rounded-[27.5px] hover:border-2 text-sm hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white text-[17px] sm:text-xl text-white"
-          href="https://forms.gle/ZmT2eDPqyLoLj5Sd6" target="_blank"
-        >
-        REGISTER NOW
-        </a>
+          </a>
+          <a
+            class="flex h-[37px] w-[145px] items-center justify-center rounded-[27.5px] bg-[#208820] text-[17px] text-sm text-white hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white sm:h-[60px] sm:w-[168px] sm:text-xl lg:w-[220px]"
+            href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
+            target="_blank"
+          >
+            REGISTER NOW
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section
+      id="about-nosk-section"
+      class="mt-8 flex h-auto w-full flex-col items-center justify-between gap-8 px-8 lg:flex-row lg:px-[7.5%] xl:px-[10%]"
+    >
+      <div class="flex w-full flex-col items-center justify-center lg:w-[48%]">
+        <img
+          src="../assets/shared/nosk_logo.svg"
+          alt="Nosk Vertical Logo"
+          class="md:h[15rem] h-[13rem] w-[20rem] lg:h-[37rem] lg:w-[32rem]"
+        />
+      </div>
 
-  <section id="about-nosk-section"
-    class="flex flex-col lg:flex-row h-auto w-full items-center justify-between mt-8 px-8 lg:px-[7.5%] xl:px-[10%] gap-8">
-    <div class="flex w-full lg:w-[48%] justify-center items-center flex-col">
-      <img src="../assets/shared/nosk_logo.svg" alt="Nosk Vertical Logo"
-        class="h-[13rem] w-[20rem] lg:h-[37rem] lg:w-[32rem] md:h[15rem] " />
-    </div>
-
-    <div class="flex w-full lg:w-[52%] justify-center flex-col items-center lg:items-start">
-      <div class="flex items-end justify-between w-full flex-col gap-8 lg:flex-row">
-        <div class="flex items-end h-full lg:justify-start justify-center w-full lg:w-4/5 text-center lg:text-left">
-          <div class="flex flex-col gap-2">
-            <div class="font-bold flex-col">
-              <span class="text-3xl lg:text-[33px] xl:text-[45px] ">About The Organizers</span>
-              <br>
-              <span class="lg:text-[22px] text-[#009042] text-2xl sm:text-[33px]">Nepal Open Source Klub -
-                NOSK</span><br>
-              <span
-                class="text-[#413BA9] font-semibold xl:text-[21px] lg:text-[14px] md:text-base sm:text-base text-xs lg:leading-9">"Opening
-                Minds Through Open Source"</span>
+      <div
+        class="flex w-full flex-col items-center justify-center lg:w-[52%] lg:items-start"
+      >
+        <div
+          class="flex w-full flex-col items-end justify-between gap-8 lg:flex-row"
+        >
+          <div
+            class="flex h-full w-full items-end justify-center text-center lg:w-4/5 lg:justify-start lg:text-left"
+          >
+            <div class="flex flex-col gap-2">
+              <div class="flex-col font-bold">
+                <span class="text-3xl lg:text-[33px] xl:text-[45px]"
+                  >About The Organizers</span
+                >
+                <br />
+                <span
+                  class="text-2xl text-[#009042] sm:text-[33px] lg:text-[22px]"
+                  >Nepal Open Source Klub - NOSK</span
+                ><br />
+                <span
+                  class="text-xs font-semibold text-[#413BA9] sm:text-base md:text-base lg:text-[14px] lg:leading-9 xl:text-[21px]"
+                  >"Opening Minds Through Open Source"</span
+                >
+              </div>
             </div>
           </div>
+          <div
+            class="hidden w-1/5 items-center lg:flex lg:justify-center xl:justify-start"
+          >
+            <span
+              class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#FFCD29]"
+            ></span>
+            <span
+              class="mr-1 inline-block h-[8.5rem] w-2 border-r-4 border-solid border-[#208820]"
+            ></span>
+            <span
+              class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#E4554E]"
+            ></span>
+          </div>
         </div>
-        <div class="hidden lg:flex items-center w-1/5 lg:justify-center xl:justify-start">
-          <span class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#FFCD29]"></span>
-          <span class="mr-1 inline-block h-[8.5rem] w-2 border-r-4 border-solid border-[#208820]"></span>
-          <span class="mr-1 inline-block h-[7rem] w-2 border-r-4 border-solid border-[#E4554E]"></span>
+
+        <div class="text-left">
+          <span class="text-sm font-light lg:text-base"
+            ><br />NOSK - Nepal Open Source Klub is a group of like-minded
+            people who work to raise awareness and adoption of FOSS (Free and
+            Open Source Software) in Nepal. We at the club aim to educate and
+            train people of different domains of technology by organizing
+            different events and sessions regularly. <br /><br />
+            NOSK was founded by Nitesh Rijal, a great admirer and promoter of
+            FOSS, on 28th February 2008, formerly as the NCIT Open Source Klub.
+            <br /><br />
+            NOSK is open to everyone who wants to be a part of it. Anyone can
+            contribute and educate people about technology and any technical
+            topic that supports FOSS through NOSK.
+          </span>
+        </div>
+
+        <div class="mt-8">
+          <a
+            class="FFDD50 flex h-12 w-36 items-center justify-center bg-[#208820] text-center text-base font-bold text-white shadow-lg hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black group-hover:text-black"
+            href="https://nosk.org.np/"
+            target="_blank"
+            class=""
+          >
+            LEARN MORE
+          </a>
         </div>
       </div>
+    </section>
 
-      <div class="text-left">
-        <span class="font-light text-sm lg:text-base"><br>NOSK - Nepal Open Source Klub is a group of like-minded people
-          who work to raise awareness and adoption of FOSS (Free and Open Source Software) in Nepal. We at the club aim
-          to educate and train people of different domains of technology by organizing different events and sessions
-          regularly.
-          <br><br>
-          NOSK was founded by Nitesh Rijal, a great admirer and promoter of FOSS, on 28th February 2008, formerly as the
-          NCIT Open Source Klub.
-          <br><br>
-          NOSK is open to everyone who wants to be a part of it. Anyone can contribute and educate people about
-          technology and any technical topic that supports FOSS through NOSK.
-        </span>
+    <section
+      class="mx-auto mt-8 flex h-auto w-full items-center justify-around bg-yellow-400 py-6"
+    >
+      <div
+        class="flex items-center justify-center border-r border-black px-2 text-center sm:px-6"
+      >
+        <p
+          class="pr-[4px] text-[26px] font-bold sm:text-[33px] md:p-[10px] md:text-[39px] lg:p-4 lg:text-[3.8rem] xl:text-7xl"
+        >
+          +20
+        </p>
+        <p
+          class="flex justify-start text-left text-[8px] font-normal leading-[0.5rem] sm:text-[10px] sm:leading-4 md:text-[11.5px] lg:text-base xl:text-xl"
+        >
+          Years of Advocating for Software Freedom
+        </p>
       </div>
 
-      <div class="mt-8">
+      <div
+        class="flex items-center justify-center border-r border-black px-2 text-center sm:px-6"
+      >
+        <p
+          class="pr-[4px] text-[26px] font-bold sm:text-[33px] md:p-[10px] md:text-[39px] lg:p-4 lg:text-[3.8rem] xl:text-7xl"
+        >
+          +2100
+        </p>
+        <p
+          class="text-left text-[8px] font-normal leading-[0.5rem] sm:text-[10px] sm:leading-4 md:text-[11.5px] lg:text-base xl:text-xl"
+        >
+          Open Source Enthusiasts Reached
+        </p>
+      </div>
+
+      <div class="flex items-center justify-center px-2 text-center sm:px-6">
+        <p
+          class="pr-[4px] text-[26px] font-bold sm:text-[33px] md:p-[10px] md:text-[39px] lg:p-4 lg:text-[3.8rem] xl:text-7xl"
+        >
+          +500
+        </p>
+        <p
+          class="text-left text-[8px] font-normal leading-[0.5rem] sm:text-[10px] sm:leading-4 md:text-[11.5px] lg:text-base xl:text-xl"
+        >
+          Events Conducted
+        </p>
+      </div>
+    </section>
+
+    <section class="mt-8 min-h-dvh w-full px-8 lg:px-[7.5%] xl:px-[10%]">
+      <div>
+        <div class="w-full text-center text-3xl font-bold sm:text-4xl">
+          Event Activities
+        </div>
+        <div class="mr-4 flex flex-col items-center justify-center">
+          <span
+            class="ml-1 inline-block h-2 w-28 border-b-4 border-solid border-[#FFCD29] sm:w-40"
+          ></span>
+          <span
+            class="ml-1 inline-block h-2 w-36 border-b-4 border-solid border-[#208820] sm:w-48"
+          ></span>
+          <span
+            class="ml-1 inline-block h-2 w-28 border-b-4 border-solid border-[#E4554E] sm:w-40"
+          ></span>
+        </div>
+      </div>
+      <div id="event-container" class="mt-8 h-full w-full">
+        <div
+          id="unclickables"
+          class="grid grid-cols-1 place-items-center gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3"
+        ></div>
+        <div
+          id="clickables"
+          class="grid grid-cols-1 place-items-center gap-4 pt-5 lg:grid-cols-2"
+        ></div>
+      </div>
+    </section>
+
+    <section
+      class="mt-8 flex h-[11.25rem] w-full flex-col items-center justify-center bg-[#009042]"
+    >
+      <p class="md:6xl text-3xl font-bold text-white sm:text-5xl lg:text-7xl">
+        Learn - Enjoy - Discover
+      </p>
+    </section>
+    <section
+      id="sponsors-section"
+      class="mt-8 min-h-fit w-full px-8 lg:px-[7.5%] xl:px-[10%]"
+    >
+      <div>
+        <div class="w-full text-center text-3xl font-bold sm:text-4xl">
+          Sponsors and Partners
+        </div>
+        <div class="mr-4 flex flex-col items-center justify-center">
+          <span
+            class="ml-1 inline-block h-2 w-28 border-b-4 border-solid border-[#FFCD29] sm:w-40"
+          ></span>
+          <span
+            class="ml-1 inline-block h-2 w-36 border-b-4 border-solid border-[#208820] sm:w-48"
+          ></span>
+          <span
+            class="ml-1 inline-block h-2 w-28 border-b-4 border-solid border-[#E4554E] sm:w-40"
+          ></span>
+        </div>
+      </div>
+      <div id="sponsor-container"></div>
+      <div class="flex w-full items-center justify-center">
         <a
-          class="flex justify-center items-center w-36 h-12 FFDD50 text-center bg-[#208820] hover:bg-transparent hover:text-black hover:border-solid hover:border-2 hover:border-[#208820] shadow-lg text-white text-base font-bold group-hover:text-black"
-          href="https://nosk.org.np/"
-          target="_blank"
-          class="">
-          LEARN MORE
-        </a>
+          class="flex h-10 w-4/5 items-center justify-center rounded-3xl text-base font-bold text-white transition-all hover:bg-transparent sm:w-2/5 lg:w-1/5"
+          href="/pages/sponsors.html"
+          style="
+            background-color: rgb(228, 85, 78);
+            border: 1px solid rgb(228, 85, 78);
+            color: white;
+          "
+          onmouseover="hoverEffect(this)"
+          onmouseout="resetEffect(this)"
+          >Learn More</a
+        >
       </div>
-    </div>
-
-  </section>
-
-  <section class="flex h-auto justify-around items-center bg-yellow-400 py-6 w-full mt-8 mx-auto ">
-
-
-    <div class="text-center border-r border-black sm:px-6 px-2 flex items-center justify-center">
-      <p
-        class="md:text-[39px] lg:text-[3.8rem] font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">
-        +20</p>
-      <p
-        class="lg:text-base font-normal flex justify-start text-left md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">
-        Years of Advocating for Software Freedom</p>
-    </div>
-
-    <div class="text-center border-r border-black sm:px-6  px-2 flex items-center justify-center">
-      <p
-        class="md:text-[39px] lg:text-[3.8rem]  font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">
-        +2100</p>
-      <p
-        class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px]">
-        Open Source Enthusiasts Reached</p>
-    </div>
-
-    <div class="text-center sm:px-6  flex items-center px-2  justify-center">
-      <p
-        class="md:text-[39px] lg:text-[3.8rem]   font-bold lg:p-4 md:p-[10px] sm:text-[33px] pr-[4px] xl:text-7xl text-[26px]">
-        +500</p>
-      <p
-        class="lg:text-base  font-normal text-left  md:text-[11.5px] sm:text-[10px] xl:text-xl sm:leading-4 leading-[0.5rem] text-[8px] ">
-        Events Conducted</p>
-    </div>
-  </section>
-
-  <section class="mt-8 min-h-dvh w-full px-8 lg:px-[7.5%] xl:px-[10%]">
-    <div>
-      <div class="w-full text-center text-3xl sm:text-4xl font-bold">Event Activities</div>
-      <div class="mr-4 flex flex-col items-center justify-center">
-        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#FFCD29]"></span>
-        <span class="ml-1 inline-block w-36 sm:w-48 h-2 border-b-4 border-solid border-[#208820]"></span>
-        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#E4554E]"></span>
-      </div>
-    </div>
-    <div id="event-container" class="w-full h-full mt-8">
-      <div id="unclickables" class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5"></div>
-      <div id="clickables" class="grid place-items-center grid-cols-1 lg:grid-cols-2 gap-4 pt-5"></div>
-    </div>
-  </section>
-
-  <section class="mt-8 flex h-[11.25rem] w-full flex-col items-center justify-center bg-[#009042]">
-    <p class=" text-3xl sm:text-5xl md:6xl lg:text-7xl font-bold text-white">Learn - Enjoy - Discover</p>
-  </section>
-  <section id="sponsors-section" class="mt-8 min-h-fit w-full px-8 lg:px-[7.5%] xl:px-[10%]">
-    <div>
-      <div class="w-full text-center text-3xl sm:text-4xl font-bold">Sponsors and Partners</div>
-      <div class="mr-4 flex flex-col items-center justify-center">
-        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#FFCD29]"></span>
-        <span class="ml-1 inline-block w-36 sm:w-48 h-2 border-b-4 border-solid border-[#208820]"></span>
-        <span class="ml-1 inline-block w-28 sm:w-40 h-2 border-b-4 border-solid border-[#E4554E]"></span>
-      </div>
-    </div>
-    <div id="sponsor-container">
-
-    </div>
-    <div class="w-full flex justify-center items-center">
-      <a class="text-base w-4/5 sm:w-2/5 lg:w-1/5 h-10 rounded-3xl font-bold text-white items-center flex justify-center transition-all hover:bg-transparent" href="/pages/sponsors.html" style="background-color: rgb(228, 85, 78); border: 1px solid rgb(228, 85, 78); color: white;" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)">Learn More</a>
-    </div>
-  </section>
-  <!-- Footer Section (from js/footer.js) -->
-  <footer></footer>
-  <script src="/js/navbar.js"></script>
-  <script src="/js/activities.js"></script>
-  <script src="/js/sponsors.js"></script>
-  <script src="/js/footer.js"></script>
-  <script>
-    //For Scroll to Top
-    function goToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// Toggle scroll to top button visibility
-window.onscroll = function () {
-  const scrollToTopButton = document.getElementById("scroll-to-top");
-  
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-    scrollToTopButton.style.display = "block";
-  } else {
-    scrollToTopButton.style.display = "none";
-  }
-};
-
-    document.addEventListener("DOMContentLoaded", () => {
-      const sfdDate = new Date("2024-09-21T10:00:00");
-      const daysElem = document.getElementById("days");
-      const hoursElem = document.getElementById("hours");
-      const minutesElem = document.getElementById("minutes");
-      const secondsElem = document.getElementById("seconds");
-      function pad(num) {
-        return num.toString().padStart(2, '0');
+    </section>
+    <!-- Footer Section (from js/footer.js) -->
+    <footer></footer>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/activities.js"></script>
+    <script src="/js/sponsors.js"></script>
+    <script src="/js/footer.js"></script>
+    <script>
+      //For Scroll to Top
+      function goToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
-      function updateTimer() {
-        const currDate = new Date();
-        let diff = sfdDate - currDate;
-        if (diff < 0) {
-          daysElem.innerText = "00";
-          hoursElem.innerText = "00";
-          minutesElem.innerText = "00";
-          secondsElem.innerText = "00";
-          clearInterval(inter); // Stop the interval when the countdown is finished
-          return;
+
+      // Toggle scroll to top button visibility
+      window.onscroll = function () {
+        const scrollToTopButton = document.getElementById("scroll-to-top");
+
+        if (
+          document.body.scrollTop > 1000 ||
+          document.documentElement.scrollTop > 1000
+        ) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
         }
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        daysElem.innerText = pad(days);
-        hoursElem.innerText = pad(hours);
-        minutesElem.innerText = pad(minutes);
-        secondsElem.innerText = pad(seconds);
-      }
-      const inter = setInterval(updateTimer, 1000);
-    });
-  </script>
-</body>
+      };
 
+      document.addEventListener("DOMContentLoaded", () => {
+        const sfdDate = new Date("2024-09-21T10:00:00");
+        const daysElem = document.getElementById("days");
+        const hoursElem = document.getElementById("hours");
+        const minutesElem = document.getElementById("minutes");
+        const secondsElem = document.getElementById("seconds");
+        function pad(num) {
+          return num.toString().padStart(2, "0");
+        }
+        function updateTimer() {
+          const currDate = new Date();
+          let diff = sfdDate - currDate;
+          if (diff < 0) {
+            daysElem.innerText = "00";
+            hoursElem.innerText = "00";
+            minutesElem.innerText = "00";
+            secondsElem.innerText = "00";
+            clearInterval(inter); // Stop the interval when the countdown is finished
+            return;
+          }
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor(
+            (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+          );
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+          daysElem.innerText = pad(days);
+          hoursElem.innerText = pad(hours);
+          minutesElem.innerText = pad(minutes);
+          secondsElem.innerText = pad(seconds);
+        }
+        const inter = setInterval(updateTimer, 1000);
+      });
+    </script>
+  </body>
 </html>

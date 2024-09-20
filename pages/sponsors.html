@@ -10,6 +10,54 @@
     />
     <title>Sponsors</title>
     <link rel="stylesheet" href="/css/output.css" />
+    <style>
+      #intro {
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
+
+      #intro h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      #intro .lines-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #intro .line {
+        position: absolute;
+        height: 4px;
+        transition: width 0.3s;
+      }
+
+      #intro .line.first {
+        background-color: #ffcd29;
+        width: 180px;
+        top: 0;
+      }
+
+      #intro .line.middle {
+        background-color: #208820;
+        width: 220px;
+        top: 8px;
+      }
+
+      #intro .line.last {
+        background-color: #e4554e;
+        width: 180px;
+        top: 16px;
+      }
+      .sponsor-card {
+        transition: all 200ms ease-out;
+      }
+    </style>
   </head>
   <body id="body" class="bg-grid max-w-screen max-h-screen font-bahnschrift">
     <div id="sponsor-container" class="mx-auto px-12"></div>
