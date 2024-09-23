@@ -11,9 +11,12 @@ module.exports = {
         bahnschrift: ["Bahnschrift", "sans-serif"],
       },
       backgroundImage: {
-        "hero-pattern": "url('../assets/timer/timer_bg.svg')",
-        "project-bg": "url('../assets/projectReg/project_bg.svg')",
-        "celeb-banner": "url('../assets/celebrationbg/celeb_banner.svg')",
+        "hero-pattern":
+          "url('https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/timer/timer_bg.svg')",
+        "project-bg":
+          "url('https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/projectReg/project_bg.svg')",
+        "celeb-banner":
+          "url('https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/celebrationbg/celeb_banner.svg')",
       },
       padding: {
         "20px": "20px",

@@ -3,7 +3,7 @@
     {
       "title": "Keynote Speakers",
       "description": "Participants will gain insights from renowned keynote speakers, sharing their expertise and experiences in the open-source world. These talks will inspire and ignite discussions on the future of technology.",
-      "image": "/assets/activities/keynote.svg",
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/keynote.svg",
       "button": {
         "title": "SEE OUR SPEAKERS",
         "link": ""
@@ -12,7 +12,7 @@
     {
       "title": "Capture The Flag",
       "description": "Capture The Flag (CTF) is a thrilling cybersecurity competition where participants engage in solving complex security challenges to capture digital 'flags'. These challenges simulate real-world cyber threats and vulnerabilities, testing participants' skills.",
-      "image": "/assets/activities/ctf.svg",
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/ctf.svg",
       "button": {
         "title": "REGISTER NOW",
         "link": "https://forms.gle/Yvt6B7EGniR47ukB9"
@@ -21,7 +21,7 @@
     {
       "title": "NOSKODE 5.0",
       "description": "Noskode 5.0 is the problem-solving coding competition, where participants will tackle real-world challenges through innovative coding solutions. It's a platform for coders to showcase their skills and creativity in an exciting, competitive environment.",
-      "image": "/assets/shared/nosk_logo.svg",
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/shared/nosk_logo.svg",
       "button": {
         "title": "REGISTER NOW",
         "link": "https://forms.gle/ahaZGnoJhXT5jU3q8"
@@ -30,7 +30,7 @@
     {
       "title": "Open Source Project Exhibition",
       "description": "The Open Source Project Exhibition will showcase innovative projects from developers and enthusiasts in the open-source community. Participants will get the chance to present their work, exchange ideas, and inspire others with their contributions to open-source technology.",
-      "image": "/assets/activities/exhibition.svg",
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/exhibition.svg",
       "button": {
         "title": "REGISTER NOW",
         "link": "https://forms.gle/ZmT2eDPqyLoLj5Sd6"
@@ -41,47 +41,47 @@
     {
       "title": "Introduction to Open Source",
       "description": "SFD will introduce participants to the world of Open Source, where software is shared freely for modification and collaboration. Attendees will explore how this community-driven model fuels innovation and transparency in tech.",
-      "image": "/assets/activities/open_source.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/open_source.svg"
     },
     {
       "title": "Linux Distro Demos",
       "description": "Participants will experience live demos of popular Linux distributions, showcasing their versatility and performance. These hands-on sessions will help attendees explore different distros and discover the best fit for their needs.",
-      "image": "/assets/activities/linux.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/linux.svg"
     },
     {
       "title": "Games and Enjoyment",
       "description": "SFD will offer fun-filled gaming sessions, blending entertainment with tech learning. Participants can unwind and enjoy interactive games while engaging with the open-source community.",
-      "image": "/assets/activities/games.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/games.svg"
     },
     {
       "title": "Candle Light Celebration",
       "description": "SFD will conclude with a symbolic candlelight celebration, marking the unity and shared vision of the open-source community. This moment of reflection celebrates the collaborative spirit of open-source development.",
-      "image": "/assets/activities/candle_light.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/candle_light.svg"
     },
     {
       "title": "Interactive Q&A Sessions",
       "description": "Participants will have the opportunity to engage in interactive Q&A sessions with industry experts. These sessions encourage open dialogue and provide clarity on various aspects of open-source technologies.",
-      "image": "/assets/activities/qna.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/qna.svg"
     },
     {
       "title": "Open Floor Discussions",
       "description": "SFD will feature open floor discussions, allowing participants to share their thoughts, ideas, and questions. This collaborative space fosters diverse perspectives and drives deeper conversations within the community.",
-      "image": "/assets/activities/open_floor.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/open_floor.svg"
     },
     {
       "title": "Exciting Stalls and Booths",
       "description": "Exciting Stalls and Booths provide a vibrant platform for attendees to explore a wide range of interactive exhibits and demonstrations. It's an ideal space for networking, learning and ideas in tech, open source, and beyond.",
-      "image": "/assets/activities/booths.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/booths.svg"
     },
     {
       "title": "Cake Cutting",
       "description": "The cake cutting ceremony will bring everyone together to celebrate the success and milestones of Software Freedom Day. It's a joyous occasion to honor the community's achievements and future goals.",
-      "image": "/assets/activities/cake.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/cake.svg"
     },
     {
       "title": "Breakout/Discussion Rooms",
       "description": "Participants can join breakout rooms for focused discussions on specific open-source topics. These smaller, interactive sessions provide an opportunity for deeper engagement and collaborative problem-solving.",
-      "image": "/assets/activities/breakout.svg"
+      "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/activities/breakout.svg"
     }
   ]
 }
