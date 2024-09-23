@@ -8,19 +8,19 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
   <div class="w-full md:w-1/2 flex items-center justify-center flex-col gap-8">
     <div class="w-full flex flex-wrap items-center justify-center gap-4 md:gap-8">
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="https://www.instagram.com/officialnosk/" target="_blank"><img src="../assets/socialmedia/instagram.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.instagram.com/officialnosk/" target="_blank"><img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/socialmedia/instagram.svg" alt="instagram" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="https://twitter.com/OfficialNosk" target="_blank"><img src="../assets/socialmedia/x.svg" alt="twitter" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://twitter.com/OfficialNosk" target="_blank"><img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/socialmedia/x.svg" alt="twitter" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="https://www.linkedin.com/company/officialnosk/" target="_blank"><img src="../assets/socialmedia/linkedin.svg" alt="linkedin" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.linkedin.com/company/officialnosk/" target="_blank"><img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/socialmedia/linkedin.svg" alt="linkedin" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="https://www.facebook.com/nosklub" target="_blank"><img src="../assets/socialmedia/facebook.svg" alt="facebook" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://www.facebook.com/nosklub" target="_blank"><img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/socialmedia/facebook.svg" alt="facebook" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
       <div class="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:h-[66px] lg:w-[66px] bg-white flex items-center justify-center rounded-full">
-        <a href="https://nosk.org.np/" target="_blank"><img src="../assets/socialmedia/website.svg" alt="websites" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
+        <a href="https://nosk.org.np/" target="_blank"><img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/socialmedia/website.svg" alt="websites" class="h-[35px] w-[35px] md:h-[42px] md:w-[42px] lg:h-[50px] lg:w-[50px]"></a>
       </div>
 
     </div>
