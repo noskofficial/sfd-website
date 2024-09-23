@@ -1,62 +1,62 @@
 [
   {
-    "image": "../assets/gallery/opening.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/opening.JPG",
     "description": "Opening Ceremony"
   },
   {
-    "image": "../assets/gallery/opening2.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/opening2.JPG",
     "description": "Group Photo"
   },
   {
-    "image": "../assets/gallery/eventregistration.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/eventregistration.JPG",
     "description": "Event Registration"
   },
   {
-    "image": "../assets/gallery/speaker1.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/speaker1.JPG",
     "description": "Speaker Session"
   },
   {
-    "image": "../assets/gallery/speaker2.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/speaker2.JPG",
     "description": "Speaker Session"
   },
   {
-    "image": "../assets/gallery/speaker3.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/speaker3.JPG",
     "description": "Speaker Session"
   },
   {
-    "image": "../assets/gallery/token1.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/token1.JPG",
     "description": "Token Of Love Distribution"
   },
   {
-    "image": "../assets/gallery/token2.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/token2.JPG",
     "description": "Token Of Love Distribution"
   },
   {
-    "image": "../assets/gallery/token3.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/token3.JPG",
     "description": "Token Of Love Distribution"
   },
   {
-    "image": "../assets/gallery/projectdemo.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/projectdemo.JPG",
     "description": "Project Demonstration"
   },
   {
-    "image": "../assets/gallery/distrodemo.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/distrodemo.JPG",
     "description": "Distro Demonstration"
   },
   {
-    "image": "../assets/gallery/noskcode.JPG",
-    "description": "NOSKCODE Glimpse"
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/noskcode.JPG",
+    "description": "NOSKODE Glimpse"
   },
   {
-    "image": "../assets/gallery/eventshoot1.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/eventshoot1.JPG",
     "description": "Event Memories"
   },
   {
-    "image": "../assets/gallery/eventshoot2.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/eventshoot2.JPG",
     "description": "Event Memories"
   },
   {
-    "image": "../assets/gallery/eventshoot3.JPG",
+    "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/gallery/eventshoot3.JPG",
     "description": "Closing Ceremony"
   }
 ]
