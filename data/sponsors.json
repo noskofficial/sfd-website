@@ -7,6 +7,12 @@
   },
   {
     "title": "Silver Sponsor",
+    "name": "Broadway Infosys",
+    "image": "/assets/sponsors/Broadway.svg",
+    "link": "https://broadwayinfosys.com/"
+  },
+  {
+    "title": "Silver Sponsor",
     "name": "Kantipur Coffee",
     "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/sponsors/Kantipur.png",
     "link": ""
@@ -18,7 +24,7 @@
     "link": "https://www.lftechnology.com/"
   },
   {
-    "title": "Silver Sponsor",
+    "title": "Bronze Sponsor",
     "name": "rEngine",
     "image": "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/sponsors/rengine.png",
     "link": "https://rengine.wiki/"

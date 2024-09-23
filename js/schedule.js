@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let eventHTML = `
                 <div class="relative p-4 my-6 card ${index % 2 === 0 ? "md:col-start-1 md:col-end-7 md:mr-auto" : "md:col-start-7 md:col-end-13 md:ml-auto"}">
                     <p class="text-blue-400 text-sm mb-2">${event.time}</p>
-                    <h3 class="text-lg font-semibold lg:text-xl">${event.title}</h3>
+                    <h3 class="text-xl font-semibold lg:text-2xl">${event.title}</h3>
                     <div class="flex items-center mt-4">
                        <!-- <img src="${event.speaker.image}" alt="${event.speaker.name}" class="w-12 h-12 rounded-full mr-4"> -->
                         <div>
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p class="text-gray-400 text-sm">${event.speaker.title}</p>
                         </div>
                     </div>
-                    <span class="absolute text-sm text-[#DAA520] -top-5 left-2 whitespace-nowrap">${event.date}</span>
+                    <span class="absolute text-sm font-bold text-[#DAA520] -top-5 left-2 whitespace-nowrap">${event.date}</span>
                 </div>
             `;
 
