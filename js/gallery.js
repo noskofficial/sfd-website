@@ -1,5 +1,7 @@
 // Fetch the gallery data from the JSON file and insert it into the HTML
-fetch("../gallery.json") // Adjusted path to gallery.json
+fetch(
+  "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/gallery.json",
+) // Adjusted path to gallery.json
   .then((response) => response.json())
   .then((data) => {
     const galleryContainer = document.getElementById("gallery");

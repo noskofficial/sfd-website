@@ -1,5 +1,7 @@
 async function partnersLoader() {
-  const res = await fetch("/data/sponsors.json");
+  const res = await fetch(
+    "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/sponsors.json",
+  );
   const sponsorsData = await res.json();
 
   const sponsorContainer = document.getElementById("sponsor-container");

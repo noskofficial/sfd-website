@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   let ucCard = "";
   let cCard = "";
   try {
-    const res = await fetch("/data/activities.json");
+    const res = await fetch(
+      "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/activities.json",
+    );
     const data = await res.json();
     data.unclickable.forEach((activity) => {
       ucCard += unclickGen(activity);
