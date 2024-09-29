@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
   let spCards = "";
 
-  const res = await fetch("/data/sponsors.json");
+  const res = await fetch(
+    "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/sponsors.json",
+  );
   const unfilteredData = await res.json();
   const data = unfilteredData.filter((data) => data.title.includes("Sponsor"));
   const sponsorCount = data.length;

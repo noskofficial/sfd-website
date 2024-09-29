@@ -39,7 +39,9 @@ function createCard(member) {
 // Gets elemnt by id (members-container) and insert inside the tag...
 async function fetchCards() {
   try {
-    const response = await fetch("../data/members.json");
+    const response = await fetch(
+      "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/members.json",
+    );
     const members = await response.json();
 
     const container = document.getElementById("members-container");

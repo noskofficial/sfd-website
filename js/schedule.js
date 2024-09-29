@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../data/schedule.json")
+  fetch(
+    "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/schedule.json",
+  )
     .then((response) => response.json())
     .then((data) => {
       const scheduleSection = document.getElementById("schedule");
