@@ -1,3 +1,5 @@
+const basePartnersURL = "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024"
+
 async function partnersLoader() {
   const res = await fetch(
     "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/sponsors.json",
@@ -43,7 +45,7 @@ async function partnersLoader() {
         <div class="sponsor-image max-w-full max-h-full min-h-36 my-auto flex items-center justify-center">
           <a href="${link}">
             <img
-              src="${image}"
+              src="${basePartnersURL+image}"
               alt="${name}"
               class="max-w-full max-h-full  min-w-48 object-cover"
             />

@@ -1,3 +1,5 @@
+const baseGalleryURL = "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024"
+
 // Fetch the gallery data from the JSON file and insert it into the HTML
 fetch(
   "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/data/gallery.json",
@@ -16,7 +18,7 @@ fetch(
       );
 
       galleryItem.innerHTML = `
-                <img class="w-full h-64 object-cover" src="${item.image}" alt="${item.description}">
+                <img class="w-full h-64 object-cover" src="${baseGalleryURL+item.image}" alt="${item.description}">
                 <div class="p-4">
                     <p class="font-semibold text-lg mb-2">${item.description}</p>
                 </div>

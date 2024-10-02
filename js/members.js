@@ -1,9 +1,10 @@
+const baseMembersURL = "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024"
 // Function to create cards
 function createCard(member) {
   return `
     <div id="members-card" class="relative w-72 rounded-3xl shadow-lg overflow-hidden">
                 <!-- Background Image -->
-                <img id="profile" src="${member.image}" alt="${member.name}" class="w-full rounded-3xl h-96 object-cover border-8 border-white">
+                <img id="profile" src="${baseMembersURL+member.image}" alt="${member.name}" class="w-full rounded-3xl h-96 object-cover border-8 border-white">
                 
                 <!-- Overlay with text -->
                 <div class="absolute text-center bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
