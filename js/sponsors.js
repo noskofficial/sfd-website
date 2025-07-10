@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const sponsorCount = data.length;
   data.forEach((sponsor) => {
     spCards += `<a target="_blank" href="${sponsor.link}" class="w-full h-full has-tooltip min-h-48 bg-white drop-shadow-lg hover:drop-shadow-2xl border-[0.2px] border-[#787676] p-8 flex justify-center items-center rounded-lg ">
-            <abbr title="${sponsor.name}"><img src="${baseSponsorsURL+sponsor.image}" alt="${sponsor.name}" class="max-w-full max-h-full object-contain"></abbr>
+            <abbr title="${sponsor.name}"><img src="${baseSponsorsURL+sponsor.image}" alt="${sponsor.name}" class="w-40 h-28 object-contain hover:scale-105 transition-transform duration-300"></abbr>
         </a>`;
   });
 
