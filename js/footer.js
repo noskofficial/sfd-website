@@ -40,7 +40,7 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
 
 <section class="h-auto w-full bg-black flex items-center justify-center py-4">
   <p class="text-white text-center text-xs md:text-base">
-    Copyright© Software Freedom Day 2025 x Nepal Open Source Club
+    Copyright© Software Freedom Day 2025 x Nepal Open Source Klub
   </p>
 </section> `;
 
