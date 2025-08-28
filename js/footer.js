@@ -1,8 +1,11 @@
-const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-center bg-celeb-banner bg-no-repeat">
+const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-center bg-celeb-banner bg-no-repeat bg-cover bg-center">
   <p class="text-center text-3xl md:text-5xl font-bold text-white px-4">
     CELEBRATE THE FREEDOM OF COLLABORATION
   </p>
 </section>
+
+
+
 
 <section class="w-full bg-[#111111] flex items-center justify-center mt-8 py-8 px-4 md:px-0">
   <div class="w-full md:w-1/2 flex items-center justify-center flex-col gap-8">
