@@ -1,8 +1,10 @@
-const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-center bg-celeb-banner bg-no-repeat">
+const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-center bg-celeb-banner bg-no-repeat bg-cover bg-center overflow-hidden">
   <p class="text-center text-3xl md:text-5xl font-bold text-white px-4">
     CELEBRATE THE FREEDOM OF COLLABORATION
   </p>
 </section>
+
+
 
 <section class="w-full bg-[#111111] flex items-center justify-center mt-8 py-8 px-4 md:px-0">
   <div class="w-full md:w-1/2 flex items-center justify-center flex-col gap-8">
@@ -40,7 +42,7 @@ const footerCode = `<section class="mt-7 flex h-80 w-full items-center justify-c
 
 <section class="h-auto w-full bg-black flex items-center justify-center py-4">
   <p class="text-white text-center text-xs md:text-base">
-    Copyright© Software Freedom Day 2025 x Nepal Open Source Klub
+    Copyright &copy; Software Freedom Day 2025 x Nepal Open Source Klub
   </p>
 </section> `;
 

@@ -44,6 +44,7 @@
       href="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/shared/nosk_vertical.svg"
       type="image/x-icon"
     />
+    <!-- <link rel="stylesheet" href="./css/output.css" /> -->
     <link rel="stylesheet" href="../css/output.css" />
     <title>NOSK SFD 2025</title>
     <style>
@@ -109,7 +110,7 @@
             <img
               src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/assets/shared/nosk_logo.svg"
               alt="Nosk Logo"
-              class="h-14 max-w-full lg:h-16 xl:h-20"
+              class="h-32 w-auto max-w-full object-contain"
             />
           </div>
         </div>
@@ -135,99 +136,100 @@
     </button>
 
     <section
-      class="flex h-[460px] w-full content-center items-center justify-around overflow-hidden px-1 sm:px-8 lg:px-[7.5%] xl:px-[10%]"
-    >
-      <img
-        src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/timer/timer_bg.svg"
-        alt="Timer Background"
-        class="absolute left-0 h-96 w-full object-cover object-left lg:h-fit lg:object-cover"
-      />
+  class="relative flex h-[460px] w-full items-center justify-around px-4 sm:px-8 lg:px-[7.5%] xl:px-[10%] bg-cover bg-center bg-no-repeat"
+  style="background-image: url('https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/timer/timer_bg.svg');"
+>
+  
+  <div class="absolute inset-0 bg-black/40"></div>
+
+
+  <div
+    class="relative z-10 flex w-fit flex-col justify-center gap-3 text-xs text-white sm:text-sm md:text-base xl:text-xl"
+  >
+    <span class="text-sm font-bold sm:text-base md:text-xl xl:text-2xl">
+      Be a Part of The Celebration<br />Mark your Calenders
+    </span>
+    <div>
+      <span>
+        Event Date:
+        <span class="font-extralight">20th September, 2025</span><br />
+      </span>
+      <span>
+        Venue:
+        <span class="font-extralight">
+          Nepal College of Information Technology
+        </span><br />
+      </span>
+      <span>
+        Location: <span class="font-extralight">Balkumari, Lalitpur</span><br />
+      </span>
+      <span>Time: <span class="font-extralight">10:00 AM</span></span>
+    </div>
+  </div>
+
+ 
+  <div
+    id="timer"
+    class="relative z-10 grid w-fit max-w-[100vw] grid-cols-2 items-center justify-center gap-y-4 text-white *:relative *:mr-2 *:grid *:h-16 *:w-16 *:grid-rows-3 *:rounded-xl *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift md:grid-cols-4 md:*:mr-4 md:*:h-24 md:*:w-24 md:*:border-4"
+  >
+    <div>
       <div
-        class="z-10 flex w-fit flex-col justify-center gap-3 text-xs text-white sm:text-sm md:text-base xl:text-xl"
-      >
-        <span class="text-sm font-bold sm:text-base md:text-xl xl:text-2xl"
-          >Be a Part of The Celebration<br />Mark your Calenders<br
-        /></span>
-        <div>
-          <span
-            >Event Date:
-            <span class="font-extralight">20th September, 2025</span><br
-          /></span>
-          <span
-            >Venue:
-            <span class="font-extralight"
-              >Nepal College of Information Technology</span
-            ><br
-          /></span>
-          <span
-            >Location: <span class="font-extralight">Balkumari, Lalitpur</span
-            ><br
-          /></span>
-          <span>Time: <span class="font-extralight">10:00 AM</span></span>
-        </div>
-      </div>
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
       <div
-        id="timer"
-        class="grid w-fit max-w-[100vw] grid-cols-2 items-center justify-center gap-y-4 text-white *:relative *:mr-2 *:grid *:h-16 *:w-16 *:grid-rows-3 *:rounded-xl *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift md:grid-cols-4 md:*:mr-4 md:*:h-24 md:*:w-24 md:*:border-4"
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="days"
       >
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="days"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Days
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="hours"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Hours
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="minutes"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Minutes
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="seconds"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Seconds
-          </div>
-        </div>
+        0
       </div>
-    </section>
+      <div class="w-full text-center text-xs font-light md:text-base">Days</div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="hours"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">Hours</div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="minutes"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">
+        Minutes
+      </div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="seconds"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">
+        Seconds
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- <section
       id="about-sfd-section"
