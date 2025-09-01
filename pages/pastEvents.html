@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previous Events</title>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/shared/nosk_vertical.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/output.css" />
+    <style>
+       .lines-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .line {
+      position: absolute;
+      height: 4px;
+      transition: width 0.3s;
+    }
+
+    .line.first {
+      background-color: #ffcd29;
+      width: 180px;
+      top: 0;
+    }
+
+    .line.middle {
+      background-color: #208820;
+      width: 220px;
+      top: 8px;
+    }
+
+    .line.last {
+      background-color: #e4554e;
+      width: 180px;
+      top: 16px;
+    }
+
+    </style>
+  </head>
+
+  <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
+    
+    <!-- Events + Sponsors -->
+    <div id="pastEvents" class="space-y-12 pb-12 mb-12"></div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer></footer>
+
+  <script src="../js/pastEvents.js" defer></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/footer.js"></script>
+</body>
+
+
+</html>
