@@ -1,7 +1,7 @@
 const baseURL =
   "https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024";
 
-fetch(`${baseURL}pastEvents.json`)
+fetch(`${baseURL}/pastEvents.json`)
   .then((response) => response.json())
   .then((data) => {
     const pastEventsContainer = document.getElementById("pastEvents");
