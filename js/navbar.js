@@ -39,6 +39,9 @@ const navCode = `
                     <li>
                         <a href="/pages/sponsors.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</a>
                     </li>
+                    <li>
+                        <a href="/pages/pastEvents.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Past Events</a>
+                    </li>
                 </ul>
             </div>
         </span>
