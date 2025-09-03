@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const unclickGen = (activity) => {
   return `<div class='bg-white rounded-2xl w-full p-5 pt-8 border-[0.2px] border-[#787676] transition-all drop-shadow-lg hover:drop-shadow-2xl cursor-default flex flex-col gap-4  items-center h-full ${activity.title == "Cake Cutting" ? " sm:hidden lg:flex " : ""}'>
-        <img src="${baseActivitiesURL+activity.image}" alt="${activity.title}" class="h-20 w-20">
+        <img src="${baseActivitiesURL+activity.image}" alt="${activity.title}" loading="lazy" class="h-20 w-20" >
         <div class="font-bold text-xl md:text-2xl text-center">${activity.title}</div>
         <div class="font-light text-sm md:text-base text-center">${activity.description}</div>
     </div>`;
@@ -36,7 +36,7 @@ const unclickGen = (activity) => {
 const clickGen = (activity, titleColor, buttonColor) => {
   return `<div class='bg-white rounded-2xl w-full p-5 flex flex-col gap-4 drop-shadow-lg transition-all hover:drop-shadow-2xl cursor-default border-[0.2px] border-[#787676] items-center h-full ${activity.title == "Cake Cutting" ? " sm:hidden lg:flex " : ""}'>
         <div class="flex w-full items-center">
-            <img src="${baseActivitiesURL+activity.image}" alt="${activity.title}" class="h-20 w-20">
+            <img src="${baseActivitiesURL+activity.image}" alt="${activity.title}"  loading="lazy" class="h-20 w-20">
             <div class="font-bold text-xl md:text-2xl flex-1 text-center" style="color: ${titleColor}">${activity.title}</div>
         </div>
         <div class="font-light text-sm md:text-base flex-1 text-center">${activity.description}</div>

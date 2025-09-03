@@ -47,6 +47,7 @@ async function partnersLoader() {
             <img
               src="${basePartnersURL+image}"
               alt="${name}"
+              loading="lazy"
               class="max-w-full max-h-full  min-w-48 object-cover"
             />
           </a>
