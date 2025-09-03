@@ -18,7 +18,7 @@ fetch(
       );
 
       galleryItem.innerHTML = `
-                <img class="w-full h-64 object-cover" src="${baseGalleryURL+item.image}" alt="${item.description}">
+                <img class="w-full h-64 object-cover" src="${baseGalleryURL+item.image}"  alt="${item.description} loading="lazy"">
                 <div class="p-4">
                     <p class="font-semibold text-lg mb-2">${item.description}</p>
                 </div>
