@@ -39,6 +39,9 @@ const navCode = `
                     <li>
                         <a href="/pages/sponsors.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Sponsors</a>
                     </li>
+                    <li>
+                        <a href="/pages/pastEvents.html" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Past Events</a>
+                    </li>
                 </ul>
             </div>
         </span>
@@ -57,22 +60,22 @@ const navCode = `
             </div>
             <!-- Dropdown menu -->
             <div id="activities-menu"
-                class="hidden lg:absolute *:text-black lg:group-hover/activities:block lg:bg-white text-base z-50 list-none divide-y divide-gray-100 lg:rounded lg:shadow w-full lg:w-44 font-normal">
-                <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                class="hidden lg:absolute *:text-black lg:group-hover/activities:block lg:bg-white text-base z-50 list-none divide-y divide-gray-100 lg:rounded-md lg:shadow-md w-full lg:w-44 font-normal">
+                <ul class="" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a target="_blank" href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
+                        <a target="_blank" href="https://forms.gle/VgiwmszrHx9LuE129"
                             class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Open Source Project Exhibition 
                         <img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                         
                     </li>
                     <li>
-                        <a target="_blank" href="https://forms.gle/ahaZGnoJhXT5jU3q8" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 5.0
+                        <a target="_blank" href="https://forms.gle/JUNRffPv2Sai8uq77" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">NOSKODE 6.0
                             <img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://forms.gle/Yvt6B7EGniR47ukB9" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag
+                        <a target="_blank" href="https://forms.gle/fxD5y5BCAhPU3UsT6" class="lg:text-sm hover:bg-gray-100 block px-8 lg:px-4 py-2">Capture The Flag
                             <img src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/navbar/externalLink.svg" class="inline object-contain w-4 h-4" alt="">
                         </a>
                     </li>

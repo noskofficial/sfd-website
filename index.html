@@ -22,7 +22,7 @@
     />
     <meta
       property="og:image"
-      content="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/shared/nosk_vertical.svg"
+      content="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/assets/shared/nosk_vertical.svg"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="NOSK SFD 2025" />
@@ -44,7 +44,10 @@
       href="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/shared/nosk_vertical.svg"
       type="image/x-icon"
     />
+
     <link rel="stylesheet" href="/css/output.css" />
+
+
     <title>NOSK SFD 2025</title>
     <style>
       * {
@@ -52,17 +55,35 @@
         padding: 0;
         box-sizing: border-box;
       }
+      #hero{
+        padding-top: 90px;
+        padding-bottom:85px;
+      }
+      @media (max-width: 640px) {
+        #hero {
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+      }
+/* Tablet view (641px to 1024px) */
+      @media (min-width: 641px) and (max-width: 1024px) {
+        #hero {
+          padding-top: 70px;
+          padding-bottom: 60px;
+        }
+      }
     </style>
   </head>
 
   <body class="bg-grid max-w-screen max-h-screen font-bahnschrift" id="body">
     <section
       id="hero"
-      class="flex h-[calc(100dvh-5.5rem)] w-full items-center justify-center px-8 md:h-[calc(100dvh-6.75rem)] lg:px-[7.5%] xl:px-[10%]"
+      class="flex h-[calc(100svh-5.5rem)] w-full items-center justify-center md:h-[calc(100svh-8.75rem)] px-8  lg:px-[7.5%] xl:px-[10%]"
+
     >
       <div
         id="holder"
-        class="flex h-full w-full max-w-[100vw] flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between lg:*:w-[45%]"
+        class="flex h-full w-full max-w-[100vw] flex-col-reverse justify-center gap-6 lg:flex-row lg:justify-between lg:*:w-[45%]"
       >
         <div class="flex flex-col justify-center">
           <div
@@ -93,7 +114,7 @@
             <a
               class="flex h-12 w-40 items-center justify-center rounded-[1.71rem] bg-[#208820] text-center text-sm font-bold leading-4 text-white transition-all hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-black sm:text-base md:h-[3.75rem] md:w-[13.75rem] lg:text-xl"
               target="_blank"
-              href="https://forms.gle/dLoKZifnSpCnUgPdA"
+              href="https://forms.gle/5T8YxybpGqWQURwL6"
             >
               Register Here
             </a>
@@ -104,12 +125,12 @@
             <img
               src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/assets/shared/sfd_horizontal.svg"
               alt="SFD Horizontal"
-              class="h-14 max-w-full lg:h-16 xl:h-32 xl:-mt-7"
+              class="h-full max-w-full lg:h-16 xl:h-32 xl:-mt-7"
             />
             <img
               src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/main/nosk-sfd-2024/assets/shared/nosk_logo.svg"
               alt="Nosk Logo"
-              class="h-14 max-w-full lg:h-16 xl:h-20"
+              class="h-full w-auto max-w-full object-contain"
             />
           </div>
         </div>
@@ -117,8 +138,8 @@
           <img
             src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/hero/intro.svg"
             alt="Candle Ceremony NOSK"
-            class="h-40 max-w-full object-cover md:h-72 lg:min-h-96 xl:w-[40vw]"
-          />
+            class="h-72 max-w-full object-cover md:h-72 lg:min-h-96 xl:w-[40vw]"
+            />
         </div>
       </div>
     </section>
@@ -135,99 +156,100 @@
     </button>
 
     <section
-      class="flex h-[460px] w-full content-center items-center justify-around overflow-hidden px-1 sm:px-8 lg:px-[7.5%] xl:px-[10%]"
-    >
-      <img
-        src="https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/timer/timer_bg.svg"
-        alt="Timer Background"
-        class="absolute left-0 h-96 w-full object-cover object-left lg:h-fit lg:object-cover"
-      />
+  class="relative flex h-[460px] w-full items-center justify-around px-4 sm:px-8 lg:px-[7.5%] xl:px-[10%] bg-cover bg-center bg-no-repeat"
+  style="background-image: url('https://raw.githubusercontent.com/noskofficial/sfd-resources/refs/heads/sfd-2024/nosk-sfd-2024/assets/timer/timer_bg.svg');"
+>
+  
+  <div class="absolute inset-0"></div>
+
+
+  <div
+    class="relative z-10 flex w-fit flex-col justify-center gap-3 text-xs text-white sm:text-sm md:text-base xl:text-xl"
+  >
+    <span class="text-sm font-bold sm:text-base md:text-xl xl:text-2xl">
+      Be a Part of The Celebration<br />Mark your Calenders
+    </span>
+    <div>
+      <span>
+        Event Date:
+        <span class="font-extralight">20th September, 2025</span><br />
+      </span>
+      <span>
+        Venue:
+        <span class="font-extralight">
+          Nepal College of Information Technology
+        </span><br />
+      </span>
+      <span>
+        Location: <span class="font-extralight">Balkumari, Lalitpur</span><br />
+      </span>
+      <span>Time: <span class="font-extralight">10:00 AM</span></span>
+    </div>
+  </div>
+
+ 
+  <div
+    id="timer"
+    class="relative z-10 grid w-fit max-w-[100vw] grid-cols-2 items-center justify-center gap-y-4 text-white *:relative *:mr-2 *:grid *:h-16 *:w-16 *:grid-rows-3 *:rounded-xl *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift md:grid-cols-4 md:*:mr-4 md:*:h-24 md:*:w-24 md:*:border-4"
+  >
+    <div>
       <div
-        class="z-10 flex w-fit flex-col justify-center gap-3 text-xs text-white sm:text-sm md:text-base xl:text-xl"
-      >
-        <span class="text-sm font-bold sm:text-base md:text-xl xl:text-2xl"
-          >Be a Part of The Celebration<br />Mark your Calenders<br
-        /></span>
-        <div>
-          <span
-            >Event Date:
-            <span class="font-extralight">20th September, 2025</span><br
-          /></span>
-          <span
-            >Venue:
-            <span class="font-extralight"
-              >Nepal College of Information Technology</span
-            ><br
-          /></span>
-          <span
-            >Location: <span class="font-extralight">Balkumari, Lalitpur</span
-            ><br
-          /></span>
-          <span>Time: <span class="font-extralight">10:00 AM</span></span>
-        </div>
-      </div>
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
       <div
-        id="timer"
-        class="grid w-fit max-w-[100vw] grid-cols-2 items-center justify-center gap-y-4 text-white *:relative *:mr-2 *:grid *:h-16 *:w-16 *:grid-rows-3 *:rounded-xl *:border-2 *:border-slate-600 *:p-2 *:font-bahnschrift md:grid-cols-4 md:*:mr-4 md:*:h-24 md:*:w-24 md:*:border-4"
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="days"
       >
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="days"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Days
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="hours"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Hours
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="minutes"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Minutes
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
-          ></div>
-          <div
-            class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
-            id="seconds"
-          >
-            0
-          </div>
-          <div class="w-full text-center text-xs font-light md:text-base">
-            Seconds
-          </div>
-        </div>
+        0
       </div>
-    </section>
+      <div class="w-full text-center text-xs font-light md:text-base">Days</div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="hours"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">Hours</div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="minutes"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">
+        Minutes
+      </div>
+    </div>
+
+    <div>
+      <div
+        class="absolute -top-2 left-3 h-3 w-2 rounded-md border bg-[#D9D9D9] md:-top-3 md:left-5 md:h-5 md:w-3"
+      ></div>
+      <div
+        class="row-span-2 flex w-full justify-center text-center text-2xl font-bold sm:text-4xl md:text-6xl"
+        id="seconds"
+      >
+        0
+      </div>
+      <div class="w-full text-center text-xs font-light md:text-base">
+        Seconds
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- <section
       id="about-sfd-section"
@@ -357,7 +379,7 @@
       <div>
         <a
           class="flex h-12 w-full min-w-20 items-center justify-center bg-[#FFDD50] px-4 text-center text-base font-bold text-black shadow-lg transition hover:border-2 hover:border-solid hover:border-[#FFDD50] hover:bg-transparent"
-          href="https://forms.gle/dLoKZifnSpCnUgPdA"
+          href="hhttps://forms.gle/5T8YxybpGqWQURwL6"
           target="_blank"
         >
           REGISTER NOW
@@ -406,7 +428,7 @@
           </a>
           <a
             class="flex h-[37px] w-[145px] items-center justify-center rounded-[27.5px] bg-[#208820] text-[17px] text-sm text-white hover:border-2 hover:border-solid hover:border-[#208820] hover:bg-transparent hover:text-white sm:h-[60px] sm:w-[168px] sm:text-xl lg:w-[220px]"
-            href="https://forms.gle/ZmT2eDPqyLoLj5Sd6"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf9lLbD_plQiQ9lh35NaXrvkEs7zDdoUh9N5z-HsHFpqv-UMA/viewform?usp=dialog"
             target="_blank"
           >
             REGISTER NOW
